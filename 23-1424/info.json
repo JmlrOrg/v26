@@ -1,0 +1,32 @@
+{
+    "abstract": "Representation learning on graphs is a fundamental problem that can be crucial in various tasks. Graph neural networks, the dominant approach for graph representation learning, are limited in their representation power. Therefore, it can be beneficial to explicitly extract and incorporate high-order topological and geometric information into these models. In this paper, we propose a principled approach to extract the rich connectivity information of graphs based on the theory of persistent homology. Our method utilizes the topological features to enhance the representation learning of graph neural networks and achieve state-of-the-art performance on various node classification and link prediction benchmarks. We also explore the option of end-to-end learning of the topological features, i.e., treating topological computation as a differentiable operator during learning. Our theoretical analysis and empirical study provide insights and potential guidelines for employing topological features in graph learning tasks.",
+    "authors": [
+        "Zuoyu Yan",
+        "Qi Zhao",
+        "Ze Ye",
+        "Tengfei Ma",
+        "Liangcai Gao",
+        "Zhi Tang",
+        "Yusu Wang",
+        "Chao Chen"
+    ],
+    "emails": [
+        "<zuy4001@med.cornell.edu>",
+        "<qiz032@ucsd.edu>",
+        "<ze.ye@stonybrook.edu>",
+        "<Tengfei.Ma@stonybrook.edu>",
+        "<glc@pku.edu.cn>",
+        "<tangzhi@pku.edu.cn>",
+        "<yusuwang@ucsd.edu>",
+        "<chao.chen.1@stonybrook.edu>"
+    ],
+    "id": "23-1424",
+    "issue": 5,
+    "pages": [
+        1,
+        36
+    ],
+    "title": "Enhancing Graph Representation Learning with Localized Topological Features",
+    "volume": 26,
+    "year": 2025
+}

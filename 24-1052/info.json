@@ -1,0 +1,20 @@
+{
+    "abstract": "In this paper, we take an axiomatic approach to defining a population hierarchical clustering for piecewise constant densities, and in a similar manner to Lebesgue integration, extend this definition to more general densities. When the density satisfies some mild conditions, e.g., when it has connected support, is continuous, and vanishes only at infinity, or when the connected components of the density satisfy these conditions, our axiomatic definition results in Hartigan's definition of cluster tree.",
+    "authors": [
+        "Ery Arias-Castro",
+        "Elizabeth Coda"
+    ],
+    "emails": [
+        "eariascastro@ucsd.edu",
+        "ecoda@ucsd.edu"
+    ],
+    "id": "24-1052",
+    "issue": 10,
+    "pages": [
+        1,
+        26
+    ],
+    "title": "An Axiomatic Definition of Hierarchical Clustering",
+    "volume": 26,
+    "year": 2025
+}

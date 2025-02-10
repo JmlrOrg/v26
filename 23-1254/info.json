@@ -1,0 +1,26 @@
+{
+    "abstract": "High-dimensional healthcare data, such as electronic health records (EHR) data and claims data, present two primary challenges due to the large number of variables and the need to consolidate data from multiple clinical sites. The third key challenge is the potential existence of heterogeneity in terms of covariate shift. In this paper, we propose a distributed learning algorithm accounting for covariate shift to estimate the average treatment effect (ATE) for high-dimensional data, named DisC2o-HD. Leveraging the surrogate likelihood method, our method calibrates the estimates of the propensity score and outcome models to approximately attain the desired covariate balancing property, while accounting for the covariate shift across multiple clinical sites. We show that our distributed covariate balancing propensity score estimator can approximate the pooled estimator, which is obtained by pooling the data from multiple sites together. The proposed estimator remains consistent if either the propensity score model or the outcome regression model is correctly specified. The semiparametric efficiency bound is achieved when both the propensity score and the outcome models are correctly specified. We conduct simulation studies to demonstrate the performance of the proposed algorithm; additionally, we conduct an empirical study to present the readiness of implementation and validity.",
+    "authors": [
+        "Jiayi Tong",
+        "Jie Hu",
+        "George Hripcsak",
+        "Yang Ning",
+        "Yong Chen"
+    ],
+    "emails": [
+        "jiayi.tong@pennmedicine.upenn.edu",
+        "jie.hu@pennmedicine.upenn.edu",
+        "gh13@cumc.columbia.edu",
+        "yn265@cornell.edu",
+        "ychen123@pennmedicine.upenn.edu"
+    ],
+    "id": "23-1254",
+    "issue": 3,
+    "pages": [
+        1,
+        50
+    ],
+    "title": "DisC2o-HD: Distributed causal inference with covariates shift for analyzing real-world high-dimensional data",
+    "volume": 26,
+    "year": 2025
+}

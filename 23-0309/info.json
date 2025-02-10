@@ -1,0 +1,26 @@
+{
+    "abstract": "When data are distributed across multiple sites or machines rather than centralized in one location, researchers face the challenge of extracting meaningful information without directly sharing individual data points. While there are many distributed methods for point estimation using sparse regression, few options are available for estimating uncertainties or conducting hypothesis tests based on the estimated sparsity. In this paper, we introduce a procedure for performing selective inference with distributed data. We consider a scenario where each local machine solves a lasso problem and communicates the selected predictors to a central machine. The central machine then aggregates these selected predictors to form a generalized linear model (GLM). Our goal is to provide valid inference for the selected GLM while reusing data that have been used in the model selection process. Our proposed procedure only requires low-dimensional summary statistics from local machines, thus keeping communication costs low and preserving the privacy of individual data sets. Furthermore, this procedure can be applied in scenarios where model selection is repeatedly conducted on randomly subsampled data sets, addressing the p-value lottery problem linked with model selection. We demonstrate the effectiveness of our approach through simulations and an analysis of a medical data set on ICU admissions.",
+    "authors": [
+        "Sifan Liu",
+        "Snigdha Panigrahi"
+    ],
+    "emails": [
+        "sfliu@stanford.edu",
+        "psnigdha@umich.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/snigdhagit/Distributed-Selectinf"
+        ]
+    ],
+    "id": "23-0309",
+    "issue": 12,
+    "pages": [
+        1,
+        44
+    ],
+    "title": "Selective Inference with Distributed Data",
+    "volume": 26,
+    "year": 2025
+}

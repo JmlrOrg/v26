@@ -1,0 +1,22 @@
+{
+    "abstract": "Bernstein's condition is a key assumption that guarantees fast rates in machine learning. For example, under this condition, the Gibbs posterior with prior $\\pi$ has an excess risk in $O(d_{\\pi}/n)$, as opposed to $O(\\sqrt{d_{\\pi}/n})$ in the general case, where $n$ denotes the number of observations and $d_{\\pi}$ is a complexity parameter which depends on the prior $\\pi$. In this paper, we examine the Gibbs posterior in the context of meta-learning, i.e., when learning the prior $\\pi$ from $T$ previous tasks. Our main result is that Bernstein's condition always holds at the meta level, regardless of its validity at the observation level. This implies that the additional cost to learn the Gibbs prior $\\pi$, which will reduce the term $d_\\pi$ across tasks, is in $O(1/T)$, instead of the expected $O(1/\\sqrt{T})$. We further illustrate how this result improves on the standard rates in three different settings: discrete priors, Gaussian priors and mixture of Gaussian priors.",
+    "authors": [
+        "Charles Riou",
+        "Pierre Alquier",
+        "Badr-Eddine Ch{{\\'e}}rief-Abdellatif"
+    ],
+    "emails": [
+        "charles@ms.k.u-tokyo.ac.jp",
+        "alquier@essec.edu",
+        "badr-eddine.cherief-abdellatif@cnrs.fr"
+    ],
+    "id": "23-025",
+    "issue": 2,
+    "pages": [
+        1,
+        60
+    ],
+    "title": "Bayes Meets Bernstein at the Meta Level: an Analysis of Fast Rates in Meta-Learning with PAC-Bayes",
+    "volume": 26,
+    "year": 2025
+}

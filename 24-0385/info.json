@@ -1,0 +1,36 @@
+{
+    "abstract": "Due to the high cost of communication, federated learning (FL) systems need to sample a subset of clients that are involved in each round of training. As a result, client sampling plays an important role in FL systems as it affects the convergence rate of optimization algorithms used to train machine learning models. Despite its importance, there is limited work on how to sample clients effectively. In this paper, we cast client sampling as an online learning task with bandit feedback, which we solve with an online stochastic mirror descent (OSMD) algorithm designed to minimize the sampling variance. We then theoretically show how our sampling method can improve the convergence speed of federated optimization algorithms over the widely used uniform sampling. Through both simulated and real data experiments, we empirically illustrate the advantages of the proposed client sampling algorithm over uniform sampling and existing online learning-based sampling strategies. The proposed adaptive sampling procedure is applicable beyond the FL problem studied here and can be used to improve the performance of stochastic optimization procedures such as stochastic gradient descent and stochastic coordinate descent.",
+    "authors": [
+        "Boxin Zhao",
+        "Lingxiao Wang",
+        "Ziqi Liu",
+        "Zhiqiang Zhang",
+        "Jun Zhou",
+        "Chaochao Chen",
+        "Mladen Kolar"
+    ],
+    "emails": [
+        "boxinz@uchicago.edu",
+        "lw324@njit.edu",
+        "ziqiliu@antfin.com",
+        "lingyao.zzq@antfin.com",
+        "jun.zhoujun@antfin.com",
+        "zjuccc@zju.edu.cn",
+        "mkolar@marshall.usc.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/boxinz17/FL-Client-Sampling"
+        ]
+    ],
+    "id": "24-0385",
+    "issue": 8,
+    "pages": [
+        1,
+        67
+    ],
+    "title": "Adaptive Client Sampling in Federated Learning via Online Learning with Bandit Feedback",
+    "volume": 26,
+    "year": 2025
+}

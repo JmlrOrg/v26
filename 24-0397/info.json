@@ -1,0 +1,26 @@
+{
+    "abstract": "In this work, we consider the bilevel optimization problem on Riemannian manifolds. We inspect the calculation of the hypergradient of such problems on general manifolds and thus enable the utilization of gradient-based algorithms to solve such problems. The calculation of the hypergradient requires utilizing the notion of Riemannian cross-derivative and we inspect the properties and the numerical calculations of Riemannian cross-derivatives. Algorithms in both deterministic and stochastic settings, named respectively RieBO and RieSBO, are proposed that include the existing Euclidean bilevel optimization algorithms as special cases. Numerical experiments on robust optimization on Riemannian manifolds are presented to show the applicability and efficiency of the proposed methods.",
+    "authors": [
+        "Jiaxiang Li",
+        "Shiqian Ma"
+    ],
+    "emails": [
+        "li003755@umn.edu",
+        "sqma@rice.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/JasonJiaxiangLi/Manifold_bilevel"
+        ]
+    ],
+    "id": "24-0397",
+    "issue": 18,
+    "pages": [
+        1,
+        44
+    ],
+    "title": "Riemannian Bilevel Optimization",
+    "volume": 26,
+    "year": 2025
+}

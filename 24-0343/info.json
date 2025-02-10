@@ -1,0 +1,28 @@
+{
+    "abstract": "Multiple supervised learning scenarios are composed by a sequence of classification tasks. For instance, multi-task learning and continual learning aim to learn a sequence of tasks that is either fixed or grows over time. Existing techniques for learning tasks that are in a sequence are tailored to specific scenarios, lacking adaptability to others. In addition, most of existing techniques consider situations in which the order of the tasks in the sequence is not relevant. However, it is common that tasks in a sequence are evolving in the sense that consecutive tasks often have a higher similarity. This paper presents a learning methodology that is applicable to multiple supervised learning scenarios and adapts to evolving tasks. Differently from existing techniques, we provide computable tight performance guarantees and analytically characterize the increase in the effective sample size. Experiments on benchmark datasets show the performance improvement of the proposed methodology in multiple scenarios and the reliability of the presented performance guarantees.",
+    "authors": [
+        "Ver{{\\'o}}nica {{\\'A}}lvarez",
+        "Santiago Mazuelas",
+        "Jose A. Lozano"
+    ],
+    "emails": [
+        "valvarez@bcamath.org",
+        "smazuelas@bcamath.org",
+        "jlozano@bcamath.org"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/MachineLearningBCAM/Supervised-learning-evolving-task-JMLR-2025"
+        ]
+    ],
+    "id": "24-0343",
+    "issue": 17,
+    "pages": [
+        1,
+        59
+    ],
+    "title": "Supervised Learning with Evolving Tasks and Performance Guarantees",
+    "volume": 26,
+    "year": 2025
+}

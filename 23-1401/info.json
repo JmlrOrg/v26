@@ -1,0 +1,20 @@
+{
+    "abstract": "Local differential privacy is a differential privacy paradigm in which individuals first apply a privacy mechanism to their data (often by adding noise) before transmitting the result to a curator. The noise for privacy results in additional bias and variance in their analyses. Thus it is of great importance for analysts to incorporate the privacy noise into valid inference. In this article, we develop methodologies to infer causal effects from locally privatized data under randomized experiments. First, we present frequentist estimators under various privacy scenarios with their variance estimators and plug-in confidence intervals. We show a na\\\"ive debiased estimator results in inferior mean-squared error (MSE) compared to minimax lower bounds. In contrast, we show that using a customized privacy mechanism, we can match the lower bound, giving minimax optimal inference. We also develop a Bayesian nonparametric methodology along with a blocked Gibbs sampling algorithm, which can be applied to any of our proposed privacy mechanisms, and which performs especially well in terms of MSE for tight privacy budgets. Finally, we present simulation studies to evaluate the performance of our proposed frequentist and Bayesian methodologies for various privacy budgets, resulting in useful suggestions for performing causal inference for privatized data.",
+    "authors": [
+        "Yuki Ohnishi",
+        "Jordan Awan"
+    ],
+    "emails": [
+        "yuki.ohnishi@yale.edu",
+        "jawan@purdue.edu"
+    ],
+    "id": "23-1401",
+    "issue": 14,
+    "pages": [
+        1,
+        40
+    ],
+    "title": "Locally Private Causal Inference for Randomized Experiments",
+    "volume": 26,
+    "year": 2025
+}

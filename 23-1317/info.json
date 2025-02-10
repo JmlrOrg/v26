@@ -1,0 +1,28 @@
+{
+    "abstract": "We develop a method to decompose causal effects on a social network into an indirect effect mediated by the network, and a direct effect independent of the social network. To handle the complexity of network structures, we assume that latent social groups act as causal mediators. We develop principal components network regression models to differentiate the social effect from the non-social effect. Fitting the regression models is as simple as principal components analysis followed by ordinary least squares estimation. We prove asymptotic theory for regression coefficients from this procedure and show that it is widely applicable, allowing for a variety of distributions on the regression errors and network edges. We carefully characterize the counterfactual assumptions necessary to use the regression models for causal inference, and show that current approaches to causal network regression may result in over-control bias. The method is very general, so that it is applicable to many types of structured data beyond social networks, such as text, areal data, psychometrics, images and omics.",
+    "authors": [
+        "Alex Hayes",
+        "Mark M. Fredrickson",
+        "Keith Levin"
+    ],
+    "emails": [
+        "alex.hayes@wisc.edu",
+        "mfredric@umich.edu",
+        "kdlevin@wisc.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/alexpghayes/network-mediation-replication"
+        ]
+    ],
+    "id": "23-1317",
+    "issue": 13,
+    "pages": [
+        1,
+        99
+    ],
+    "title": "Estimating Network-Mediated Causal Effects via Principal Components Network Regression",
+    "volume": 26,
+    "year": 2025
+}

@@ -1,0 +1,22 @@
+{
+    "abstract": "This work presents a comprehensive understanding of the estimation of a planted low-rank signal from a general spiked tensor model near the computational threshold. Relying on standard tools from the theory of large random matrices, we characterize the large-dimensional spectral behavior of the unfoldings of the data tensor and exhibit relevant signal-to-noise ratios governing the detectability of the principal directions of the signal. These results allow to accurately predict the reconstruction performance of truncated multilinear SVD (MLSVD) in the non-trivial regime. This is particularly important since it serves as an initialization of the higher-order orthogonal iteration (HOOI) scheme, whose convergence to the best low-multilinear-rank approximation depends entirely on its initialization. We give a sufficient condition for the convergence of HOOI and show that the number of iterations before convergence tends to $1$ in the large-dimensional limit.",
+    "authors": [
+        "Hugo Lebeau",
+        "Florent Chatelain",
+        "Romain Couillet"
+    ],
+    "emails": [
+        "hugo.lebeau@univ-grenoble-alpes.fr",
+        "florent.chatelain@grenoble-inp.fr",
+        "romain.couillet@univ-grenoble-alpes.fr"
+    ],
+    "id": "24-0193",
+    "issue": 7,
+    "pages": [
+        1,
+        64
+    ],
+    "title": "A Random Matrix Approach to Low-Multilinear-Rank Tensor Approximation",
+    "volume": 26,
+    "year": 2025
+}

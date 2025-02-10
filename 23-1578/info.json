@@ -1,0 +1,24 @@
+{
+    "abstract": "Nonparametric estimation of the mean and covariance functions is ubiquitous in functional data analysis and local linear smoothing techniques are most frequently used. Zhang and Wang (2016) explored different types of asymptotic properties of the estimation, which reveal interesting phase transition phenomena based on the relative order of the average sampling frequency per subject $T$ to the number of subjects $n$, partitioning the data into three categories: \u201csparse\u201d, \u201csemi-dense\u201d, and \u201cultra-dense\u201d. In an increasingly available high-dimensional scenario, where the number of functional variables $p$ is large in relation to $n$, we revisit this open problem from a non-asymptotic perspective by deriving comprehensive concentration inequalities for the local linear smoothers. Besides being of interest by themselves, our non-asymptotic results lead to elementwise maximum rates of $L_2$ convergence and uniform convergence serving as a fundamentally important tool for further convergence analysis when $p$ grows exponentially with $n$ and possibly $T$. With the presence of extra $\\log p$ terms to account for the high-dimensional effect, we then investigate the scaled phase transitions and the corresponding elementwise maximum rates from sparse to semi-dense to ultra-dense functional data in high dimensions. We also discuss a couple of applications of our theoretical results. Finally, numerical studies are carried out to confirm the established theoretical properties.",
+    "authors": [
+        "Shaojun Guo",
+        "Dong Li",
+        "Xinghao Qiao",
+        "Yizhu Wang"
+    ],
+    "emails": [
+        "sjguo@ruc.edu.cn",
+        "malidong@tsinghua.edu.cn",
+        "xinghaoq@hku.hk",
+        "wangyizh20@mails.tsinghua.edu.cn"
+    ],
+    "id": "23-1578",
+    "issue": 15,
+    "pages": [
+        1,
+        40
+    ],
+    "title": "From Sparse to Dense Functional Data in High Dimensions: Revisiting Phase Transitions from a Non-Asymptotic Perspective",
+    "volume": 26,
+    "year": 2025
+}

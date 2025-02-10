@@ -1,0 +1,24 @@
+{
+    "abstract": "This paper deals with uncertainty quantification and out-of-distribution detection in deep learning using Bayesian and ensemble methods. It proposes a practical solution to the lack of prediction diversity observed recently for standard approaches when used out-of-distribution (Ovadia et al., 2019; Liu et al., 2021). Considering that this issue is mainly related to a lack of weight diversity, we claim that standard methods sample in \"over-restricted\" regions of the weight space due to the use of \"over-regularization\" processes, such as weight decay and zero-mean centered Gaussian priors. We propose to solve the problem by adopting the maximum entropy principle for the weight distribution, with the underlying idea to maximize the weight diversity. Under this paradigm, the epistemic uncertainty is described by the weight distribution of maximal entropy that produces neural networks \"consistent\" with the training observations. Considering stochastic neural networks, a practical optimization is derived to build such a distribution, defined as a trade-off between the average empirical risk and the weight distribution entropy. We provide both theoretical and numerical results to assess the efficiency of the approach. In particular, the proposed algorithm appears in the top three best methods in all configurations of an extensive out-of-distribution detection benchmark including more than thirty competitors.",
+    "authors": [
+        "Antoine de Mathelin",
+        "Fran{\\c{c}}ois Deheeger",
+        "Mathilde Mougeot",
+        "Nicolas Vayatis"
+    ],
+    "emails": [
+        "antoine.de_mathelin@ens-paris-saclay.fr",
+        "francois.deheeger@michelin.com",
+        "mathilde.mougeot@ens-paris-saclay.fr",
+        "nicolas.vayatis@ens-paris-saclay.fr"
+    ],
+    "id": "23-1359",
+    "issue": 4,
+    "pages": [
+        1,
+        68
+    ],
+    "title": "Deep Out-of-Distribution Uncertainty Quantification via Weight Entropy Maximization",
+    "volume": 26,
+    "year": 2025
+}

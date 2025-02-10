@@ -1,0 +1,22 @@
+{
+    "abstract": "We provide a unified analysis of two-timescale gradient descent ascent (TTGDA) for solving structured nonconvex minimax optimization problems in the form of $\\min_x \\max_{y \\in Y} f(x, y)$, where the objective function $f(x, y)$ is nonconvex in $x$ and concave in $y$, and the constraint set $Y \\subseteq \\mathbb{R}^n$ is convex and bounded. In the convex-concave setting, the single-timescale gradient descent ascent (GDA) algorithm is widely used in applications and has been shown to have strong convergence guarantees. In more general settings, however, it can fail to converge. Our contribution is to design TTGDA algorithms that are effective beyond the convex-concave setting, efficiently finding a stationary point of the function $\\Phi(\\cdot) := \\max_{y \\in Y} f(\\cdot, y)$. We also establish theoretical bounds on the complexity of solving both smooth and nonsmooth nonconvex-concave minimax optimization problems. To the best of our knowledge, this is the first systematic analysis of TTGDA for nonconvex minimax optimization, shedding light on its superior performance in training generative adversarial networks (GANs) and in other real-world application problems.",
+    "authors": [
+        "Tianyi Lin",
+        "Chi Jin",
+        "Michael I. Jordan"
+    ],
+    "emails": [
+        "tl3335@columbia.edu",
+        "chij@princeton.edu",
+        "jordan@cs.berkeley.edu"
+    ],
+    "id": "22-0863",
+    "issue": 11,
+    "pages": [
+        1,
+        45
+    ],
+    "title": "Two-Timescale Gradient Descent Ascent Algorithms for Nonconvex Minimax Optimization",
+    "volume": 26,
+    "year": 2025
+}

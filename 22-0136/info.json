@@ -1,0 +1,26 @@
+{
+    "abstract": "Bilevel optimization is one of the fundamental problems in machine learning and optimization. Recent theoretical developments in bilevel optimization focus on finding the first-order stationary points for nonconvex-strongly-convex cases. In this paper, we analyze algorithms that can escape saddle points in nonconvex-strongly-convex bilevel optimization. Specifically, we show that the perturbed approximate implicit differentiation (AID) with a warm start strategy finds an $\\epsilon$-approximate local minimum of bilevel optimization in $\\tilde{O}(\\epsilon^{-2})$ iterations with high probability. Moreover, we propose an inexact NEgative-curvature-Originated-from-Noise Algorithm (iNEON), an algorithm that can escape saddle point and find local minimum of stochastic bilevel optimization. As a by-product, we provide the first nonasymptotic analysis of perturbed multi-step gradient descent ascent (GDmax) algorithm that converges to local minimax point for minimax problems.",
+    "authors": [
+        "Minhui Huang",
+        "Xuxing Chen",
+        "Kaiyi Ji",
+        "Shiqian Ma",
+        "Lifeng Lai"
+    ],
+    "emails": [
+        "mhhuang@ucdavis.edu",
+        "xuxchen@ucdavis.edu",
+        "kaiyiji@buffalo.edu",
+        "sqma@rice.edu",
+        "lflai@ucdavis.edu"
+    ],
+    "id": "22-0136",
+    "issue": 1,
+    "pages": [
+        1,
+        61
+    ],
+    "title": "Efficiently Escaping Saddle Points in Bilevel Optimization",
+    "volume": 26,
+    "year": 2025
+}
