@@ -1,0 +1,28 @@
+{
+    "abstract": "Pearl\u2019s do calculus is a complete axiomatic approach to learn the identifiable causal effects from observational data. When such an effect is not identifiable, it is necessary to perform a collection of often costly interventions in the system to learn the causal effect. In this work, we consider the problem of designing a collection of interventions with the minimum cost to identify the desired effect. First, we prove that this problem is NP-complete and subsequently propose an algorithm that can either find the optimal solution or a logarithmic-factor approximation of it. This is done by establishing a connection between our problem and the minimum hitting set problem. Additionally, we propose several polynomial time heuristic algorithms to tackle the computational complexity of the problem. Although these algorithms could potentially stumble on sub-optimal solutions, our simulations show that they achieve small regrets on random graphs.",
+    "authors": [
+        "Sina Akbari",
+        "Jalal Etesami",
+        "Negar Kiyavash"
+    ],
+    "emails": [
+        "sina.akbari@epfl.ch",
+        "j.etesami@tum.de",
+        "negar.kiyavash@epfl.ch"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/SinaAkbarii/min_cost_intervention"
+        ]
+    ],
+    "id": "22-1516",
+    "issue": 28,
+    "pages": [
+        1,
+        56
+    ],
+    "title": "Optimal Experiment Design for Causal Effect Identification",
+    "volume": 26,
+    "year": 2025
+}

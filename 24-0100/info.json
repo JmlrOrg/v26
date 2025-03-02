@@ -1,0 +1,22 @@
+{
+    "abstract": "Stochastic approximation is a class of algorithms that update a vector iteratively, incrementally, and stochastically, including, e.g., stochastic gradient descent and temporal difference learning. One fundamental challenge in analyzing a stochastic approximation algorithm is to establish its stability, i.e., to show that the stochastic vector iterates are bounded almost surely. In this paper, we extend the celebrated Borkar-Meyn theorem for stability from the Martingale difference noise setting to the Markovian noise setting, which greatly improves its applicability in reinforcement learning, especially in those off-policy reinforcement learning algorithms with linear function approximation and eligibility traces. Central to our analysis is the diminishing asymptotic rate of change of a few functions, which is implied by both a form of the strong law of large numbers and a form of the law of the iterated logarithm.",
+    "authors": [
+        "Shuze Daniel Liu",
+        "Shuhang Chen",
+        "Shangtong Zhang"
+    ],
+    "emails": [
+        "shuzeliu@virginia.edu",
+        "shuhang@scaledfoundations.ai",
+        "shangtong@virginia.edu"
+    ],
+    "id": "24-0100",
+    "issue": 24,
+    "pages": [
+        1,
+        76
+    ],
+    "title": "The ODE Method for Stochastic Approximation and Reinforcement Learning with Markovian Noise",
+    "volume": 26,
+    "year": 2025
+}

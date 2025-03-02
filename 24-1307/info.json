@@ -1,0 +1,30 @@
+{
+    "abstract": "Robustness to malicious attacks is of paramount importance for distributed learning. Existing works usually consider the classical Byzantine attacks model, which assumes that some workers can send arbitrarily malicious messages to the server and disturb the aggregation steps of the distributed learning process. To defend against such worst-case Byzantine attacks, various robust aggregators have been proposed. They are proven to be effective and much superior to the often-used mean aggregator. In this paper, however, we demonstrate that the robust aggregators are too conservative for a class of weak but practical malicious attacks, known as label poisoning attacks, where the sample labels of some workers are poisoned. Surprisingly, we are able to show that the mean aggregator is more robust than the state-of-the-art robust aggregators in theory, given that the distributed data are sufficiently heterogeneous. In fact, the learning error of the mean aggregator is proven to be order-optimal in this case. Experimental results corroborate our theoretical findings, showing the superiority of the mean aggregator under label poisoning attacks.",
+    "authors": [
+        "Jie Peng",
+        "Weiyu Li",
+        "Stefan Vlaski",
+        "Qing Ling"
+    ],
+    "emails": [
+        "pengj95@mail2.sysu.edu.cn",
+        "weiyuli@g.harvard.edu",
+        "s.vlaski@imperial.ac.uk",
+        "lingqing556@mail.sysu.edu.cn"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/pengj97/LPA"
+        ]
+    ],
+    "id": "24-1307",
+    "issue": 27,
+    "pages": [
+        1,
+        51
+    ],
+    "title": "Mean Aggregator is More Robust than Robust Aggregators under Label Poisoning Attacks on Distributed Heterogeneous Data",
+    "volume": 26,
+    "year": 2025
+}

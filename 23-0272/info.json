@@ -1,0 +1,32 @@
+{
+    "abstract": "We consider the problem of causal discovery from longitudinal observational data. We develop a novel framework that simultaneously discovers the time-lagged causality and the possibly cyclic instantaneous causality. Under common causal discovery assumptions, combined with additional instrumental information typically available in longitudinal data, we prove the proposed model is generally identifiable. To the best of our knowledge, this is the first causal identification theory for directed graphs with general cyclic patterns that achieves unique causal identifiability. Structural learning is carried out in a fully Bayesian fashion. Through extensive simulations and an application to the Women's Interagency HIV Study, we demonstrate the identifiability, utility, and superiority of the proposed model against state-of-the-art alternative methods.",
+    "authors": [
+        "Wei Jin",
+        "Yang Ni",
+        "Amanda B. Spence",
+        "Leah H. Rubin",
+        "Yanxun Xu"
+    ],
+    "emails": [
+        "wjin@jhu.edu",
+        "yni@stat.tamu.edu",
+        "abs132@georgetown.edu",
+        "lrubin@jhu.edu",
+        "yanxun.xu@jhu.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/bluejw/BayesDCG"
+        ]
+    ],
+    "id": "23-0272",
+    "issue": 22,
+    "pages": [
+        1,
+        62
+    ],
+    "title": "Directed Cyclic Graphs for Simultaneous Discovery of Time-Lagged and Instantaneous Causality from Longitudinal Data Using Instrumental Variables",
+    "volume": 26,
+    "year": 2025
+}

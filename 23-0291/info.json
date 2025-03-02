@@ -1,0 +1,30 @@
+{
+    "abstract": "Gaussian processes are pervasive in functional data analysis, machine learning, and spatial statistics for modeling complex dependencies. Scientific data are often heterogeneous in their inputs and contain multiple known discrete groups of samples; thus, it is desirable to leverage the similarity among groups while accounting for heterogeneity across groups. We propose multi-group Gaussian processes (MGGPs) defined over $\\mathbb{R}^p\\times \\mathscr{C}$, where $\\mathscr{C}$ is a finite set representing the group label, by developing general classes of valid (positive definite) covariance functions on such domains. MGGPs are able to accurately recover relationships between the groups and efficiently share strength across samples from all groups during inference, while capturing distinct group-specific behaviors in the conditional posterior distributions. We demonstrate inference in MGGPs through simulation experiments, and we apply our proposed MGGP regression framework to gene expression data to illustrate the behavior and enhanced inferential capabilities of multi-group Gaussian processes by jointly modeling continuous and categorical variables.",
+    "authors": [
+        "Didong Li",
+        "Andrew Jones",
+        "Sudipto Banerjee",
+        "Barbara E. Engelhardt"
+    ],
+    "emails": [
+        "didongli@unc.edu",
+        "ajones788@gmail.com",
+        "sudipto@ucla.edu",
+        "bengelhardt@stanford.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/andrewcharlesjones/multi-group-GP"
+        ]
+    ],
+    "id": "23-0291",
+    "issue": 30,
+    "pages": [
+        1,
+        34
+    ],
+    "title": "Bayesian Multi-Group Gaussian Process Models for Heterogeneous Group-Structured Data",
+    "volume": 26,
+    "year": 2025
+}

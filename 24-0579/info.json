@@ -1,0 +1,22 @@
+{
+    "abstract": "In this paper, we consider federated Q-learning, which aims to learn an optimal Q-function by periodically aggregating local Q-estimates trained on local data alone. Focusing on infinite-horizon tabular Markov decision processes, we provide sample complexity guarantees for both the synchronous and asynchronous variants of federated Q-learning, which exhibit a linear speedup with respect to the number of agents and near-optimal dependencies on other salient problem parameters. In the asynchronous setting, existing analyses of federated Q-learning, which adopt an equally weighted averaging of local Q-estimates, require that every agent covers the entire state-action space. In contrast, our improved sample complexity scales inverse proportionally to the minimum entry of the average stationary state-action occupancy distribution of all agents, thus only requiring the agents to collectively cover the entire state-action space, unveiling the blessing of heterogeneity. However, its sample complexity still suffers when the local trajectories are highly heterogeneous. In response, we propose a novel federated Q-learning algorithm with importance averaging, giving larger weights to more frequently visited state-action pairs, which achieves a robust linear speedup as if all trajectories are centrally processed, regardless of the heterogeneity of local behavior policies.",
+    "authors": [
+        "Jiin Woo",
+        "Gauri Joshi",
+        "Yuejie Chi"
+    ],
+    "emails": [
+        "jiinw@andrew.cmu.edu",
+        "gaurij@andrew.cmu.edu",
+        "yuejiec@andrew.cmu.edu"
+    ],
+    "id": "24-0579",
+    "issue": 26,
+    "pages": [
+        1,
+        85
+    ],
+    "title": "The Blessing of Heterogeneity in Federated Q-Learning: Linear Speedup and Beyond",
+    "volume": 26,
+    "year": 2025
+}

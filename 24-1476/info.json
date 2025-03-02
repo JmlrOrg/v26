@@ -1,0 +1,45 @@
+{
+    "abstract": "gsplat is an open-source library designed for training and developing Gaussian Splatting methods. It features a front-end with Python bindings compatible with the PyTorch library and a back-end with highly optimized CUDA kernels. gsplat offers numerous features that enhance the optimization of Gaussian Splatting models, which include optimization improvements for speed, memory, and convergence times. Experimental results demonstrate that gsplat achieves up to 10% less training time and 4x less memory than the original implementation. Utilized in several research projects, gsplat is actively maintained on GitHub. Source code is available at https://github.com/nerfstudio-project/gsplat under Apache License 2.0. We welcome contributions from the open-source community.",
+    "authors": [
+        "Vickie Ye",
+        "Ruilong Li",
+        "Justin Kerr",
+        "Matias Turkulainen",
+        "Brent Yi",
+        "Zhuoyang Pan",
+        "Otto Seiskari",
+        "Jianbo Ye",
+        "Jeffrey Hu",
+        "Matthew Tancik",
+        "Angjoo Kanazawa"
+    ],
+    "emails": [
+        "vye@berkeley.edu",
+        "ruilongli@berkeley.edu",
+        "justin_kerr@berkeley.edu",
+        "matias.turkulainen@aalto.fi",
+        "brentyi@berkeley.edu",
+        "panzhy@shanghaitech.edu.cn",
+        "otto.seiskari@spectacularai.com",
+        "ianboye.ai@gmail.com",
+        "hujh14@gmail.com",
+        "matt@lumalabs.ai",
+        "kanazawa@eecs.berkeley.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/nerfstudio-project/gsplat/"
+        ]
+    ],
+    "id": "24-1476",
+    "issue": 34,
+    "pages": [
+        1,
+        17
+    ],
+    "special_issue": "MLOSS",
+    "title": "gsplat: An Open-Source Library for Gaussian Splatting",
+    "volume": 26,
+    "year": 2025
+}

@@ -1,0 +1,24 @@
+{
+    "abstract": "The acceleration of gradient-based optimization methods is a subject of significant practical and theoretical importance, particularly within machine learning applications. While much attention has been directed towards optimizing within Euclidean space, the need to optimize over spaces of probability measures in machine learning motivates the exploration of accelerated gradient methods in this context, too. To this end, we introduce a Hamiltonian-flow approach analogous to momentum-based approaches in Euclidean space. We demonstrate that, in the continuous-time setting, algorithms based on this approach can achieve convergence rates of arbitrarily high order. We complement our findings with numerical examples.",
+    "authors": [
+        "Shi Chen",
+        "Qin Li",
+        "Oliver Tse",
+        "Stephen J. Wright"
+    ],
+    "emails": [
+        "schen636@mit.edu",
+        "qinli@math.wisc.edu",
+        "o.t.c.tse@tue.nl",
+        "swright@cs.wisc.edu"
+    ],
+    "id": "23-1288",
+    "issue": 31,
+    "pages": [
+        1,
+        40
+    ],
+    "title": "Accelerating optimization over the space of probability measures",
+    "volume": 26,
+    "year": 2025
+}
