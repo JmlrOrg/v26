@@ -1,0 +1,26 @@
+{
+    "abstract": "Modern deep learning systems require huge data sets to achieve impressive performance, but there is little guidance on how much or what kind of data to collect. Over-collecting data incurs unnecessary present costs, while under-collecting may incur future costs and delay workflows. We propose a new paradigm to model the data collection workflow as a formal optimal data collection problem that allows designers to specify performance targets, collection costs, a time horizon, and penalties for failing to meet the targets. This formulation generalizes to tasks with multiple data sources, such as labeled and unlabeled data used in semi-supervised learning, and can be easily modified to customized analyses such as how to introduce data from new classes to an existing model. To solve our problem, we develop Learn-Optimize-Collect (LOC), which minimizes expected future collection costs. Finally, we numerically compare our framework to the conventional baseline of estimating data requirements by extrapolating from neural scaling laws. We significantly reduce the risks of failing to meet desired performance targets on several classification, segmentation, and detection tasks, while maintaining low total collection costs.",
+    "authors": [
+        "Rafid Mahmood",
+        "James Lucas",
+        "Jose M. Alvarez",
+        "Sanja Fidler",
+        "Marc T. Law"
+    ],
+    "emails": [
+        "rmahmood@nvidia.com",
+        "Lucasj94@hotmail.co.uk",
+        "alvarezlopezjosem@gmail.com",
+        "fidler@cs.toronto.edu",
+        "law@cs.toronto.edu"
+    ],
+    "id": "23-0292",
+    "issue": 38,
+    "pages": [
+        1,
+        52
+    ],
+    "title": "Optimizing Data Collection for Machine Learning",
+    "volume": 26,
+    "year": 2025
+}

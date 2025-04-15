@@ -1,0 +1,41 @@
+{
+    "abstract": "In this paper, we present Ontolearn---a framework for learning OWL class expressions over large knowledge graphs.\r\nOntolearn contains efficient implementations of recent state-of-the-art symbolic and neuro-symbolic class expression learners including EvoLearner and DRILL.\r\nA learned OWL class expression can be used to classify instances in the knowledge graph.\r\nFurthermore, Ontolearn integrates a verbalization module based on an LLM to translate complex OWL class expressions into natural language sentences.\r\nBy mapping OWL class expressions into respective SPARQL queries, Ontolearn can be easily used to operate over a remote triplestore.\r\nThe source code of Ontolearn is available at https://github.com/dice-group/Ontolearn.",
+    "authors": [
+        "Caglar Demir",
+        "Alkid Baci",
+        "N'Dah Jean Kouagou",
+        "Leonie Nora Sieger",
+        "Stefan Heindorf",
+        "Simon Bin",
+        "Lukas Bl{{\\\"u}}baum",
+        "Alexander Bigerl",
+        "Axel-Cyrille Ngonga Ngomo"
+    ],
+    "emails": [
+        "caglar.demir@upb.de",
+        "alkid@campus.uni-paderborn.de",
+        "ndah.jean.kouagou@upb.de",
+        "leonie.sieger@upb.de",
+        "heindorf@upb.de",
+        "sbin@informatik.uni-leipzig.de",
+        "lukasbl@campus.uni-paderborn.de",
+        "alexander.bigerl@upb.de",
+        "axel.ngonga@upb.de"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/dice-group/Ontolearn"
+        ]
+    ],
+    "id": "24-1113",
+    "issue": 63,
+    "pages": [
+        1,
+        6
+    ],
+    "special_issue": "MLOSS",
+    "title": "Ontolearn---A Framework for Large-scale OWL Class Expression Learning in Python",
+    "volume": 26,
+    "year": 2025
+}

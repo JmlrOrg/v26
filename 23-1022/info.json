@@ -1,0 +1,24 @@
+{
+    "abstract": "In this work, we investigate the dynamics of stochastic gradient descent (SGD) when training a single-neuron autoencoder with linear or ReLU activation on orthogonal data. We show that for this non-convex problem, randomly initialized SGD with a constant step size successfully finds a global minimum for any batch size choice. However, the particular global minimum found depends upon the batch size. In the full-batch setting, we show that the solution is dense (i.e., not sparse) and is highly aligned with its initialized direction, showing that relatively little feature learning occurs. On the other hand, for any batch size strictly smaller than the number of samples, SGD finds a global minimum that is sparse and nearly orthogonal to its initialization, showing that the randomness of stochastic gradients induces a qualitatively different type of \"feature selection\" in this setting. Moreover, if we measure the sharpness of the minimum by the trace of the Hessian, the minima found with full-batch gradient descent are flatter than those found with strictly smaller batch sizes, in contrast to previous works which suggest that large batches lead to sharper minima. To prove convergence of SGD with a constant step size, we introduce a powerful tool from the theory of non-homogeneous random walks which may be of independent interest.",
+    "authors": [
+        "Nikhil Ghosh",
+        "Spencer Frei",
+        "Wooseok Ha",
+        "Bin Yu"
+    ],
+    "emails": [
+        "nikhil_ghosh@berkeley.edu",
+        "sfrei@google.com",
+        "haywse@kaist.ac.kr",
+        "binyu@stat.berkeley.edu"
+    ],
+    "id": "23-1022",
+    "issue": 49,
+    "pages": [
+        1,
+        61
+    ],
+    "title": "The Effect of SGD Batch Size on Autoencoder Learning: Sparsity, Sharpness, and Feature Learning",
+    "volume": 26,
+    "year": 2025
+}

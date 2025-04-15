@@ -1,0 +1,28 @@
+{
+    "abstract": "Bayesian networks (BNs) are a powerful tool for knowledge representation and reasoning, especially for complex systems.  A critical task in the applications of BNs is conditional inference or inference in the presence of selection bias. However, post-conditioning, the conditional distribution family of a BN can become complex for analysis, and the corresponding induced subgraph may not accurately encode the  conditional independencies  for the remaining variables. In this work, we first investigate the conditions under which a BN remains closed under conditioning, meaning that the induced subgraph is consistent with the structural information of conditional distributions. Conversely, when a BN is not closed, we aim to construct a new directed acyclic graph (DAG) as a minimal $\\mathcal{I}$-map for the conditional model by incorporating directed edges into the original induced graph. We present an equivalent characterization of this minimal $\\mathcal{I}$-map and develop an efficient algorithm for its identification.  The proposed framework improves the efficiency of conditional inference of a BN.  Additionally, the DAG minimal $\\mathcal{I}$-map offers graphical criteria for the safe integration of knowledge from diverse sources (subpopulations/conditional distributions), facilitating correct parameter estimation. Both theoretical analysis and simulation studies demonstrate that using a DAG minimal $\\mathcal{I}$-map for conditional inference is more effective than traditional methods based on the joint distribution of the original BN.",
+    "authors": [
+        "Xiangdong Xie",
+        "Jiahua Guo",
+        "Yi Sun"
+    ],
+    "emails": [
+        "xiexd569@nenu.edu.cn",
+        "jhguo@btbu.edu.cn",
+        "brian@xju.edu.cn"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/xiexd569/BNs_under_Conditioning"
+        ]
+    ],
+    "id": "23-0002",
+    "issue": 47,
+    "pages": [
+        1,
+        62
+    ],
+    "title": "DAGs as Minimal I-maps for the Induced Models of Causal Bayesian Networks under Conditioning",
+    "volume": 26,
+    "year": 2025
+}

@@ -1,0 +1,22 @@
+{
+    "abstract": "Stochastic gradient methods for minimizing nonconvex composite objective functions typically rely on the Lipschitz smoothness of the differentiable part, but this assumption fails in many important problem classes like quadratic inverse problems and neural network training, leading to instability of the algorithms in both theory and practice. To address this, we propose a family of stochastic Bregman proximal gradient (SBPG) methods that only require smooth adaptivity. SBPG replaces the quadratic approximation in SGD with a Bregman proximity measure, offering a better approximation model that handles non-Lipschitz gradients in nonconvex objectives. We establish the convergence properties of vanilla SBPG and show it achieves optimal sample complexity in the nonconvex setting. Experimental results on quadratic inverse problems demonstrate SBPG's robustness in terms of stepsize selection and sensitivity to the initial point. Furthermore, we introduce a momentum-based variant, MSBPG, which enhances convergence by relaxing the mini-batch size requirement while preserving the optimal oracle complexity. We apply MSBPG to the training of deep neural networks, utilizing a polynomial kernel function to ensure smooth adaptivity of the loss function. Experimental results on benchmark datasets confirm the effectiveness and robustness of MSBPG in training neural networks. Given its negligible additional computational cost compared to SGD in large-scale optimization, MSBPG shows promise as a universal open-source optimizer for future applications.",
+    "authors": [
+        "Kuangyu Ding",
+        "Jingyang Li",
+        "Kim-Chuan Toh"
+    ],
+    "emails": [
+        "kuangyud@u.nus.edu",
+        "li_jingyang@u.nus.edu",
+        "mattohkc@nus.edu.sg"
+    ],
+    "id": "23-0657",
+    "issue": 39,
+    "pages": [
+        1,
+        44
+    ],
+    "title": "Nonconvex Stochastic Bregman Proximal Gradient Method with Application to Deep Learning",
+    "volume": 26,
+    "year": 2025
+}

@@ -1,0 +1,39 @@
+{
+    "abstract": "Amid the ongoing advancements in Federated Learning (FL), a machine learning paradigm that allows collaborative learning with data privacy protection, personalized FL (pFL) has gained significant prominence as a research direction within the FL domain. Whereas traditional FL (tFL) focuses on jointly learning a global model, pFL aims to balance each client's global and personalized goals in FL settings. To foster the pFL research community, we started and built PFLlib, a comprehensive pFL library with an integrated benchmark platform. In PFLlib, we implemented 37 state-of-the-art FL algorithms (8 tFL algorithms and 29 pFL algorithms) and provided various evaluation environments with three statistically heterogeneous scenarios and 24 datasets. At present, PFLlib has gained more than 1600 stars and 300 forks on GitHub.",
+    "authors": [
+        "Jianqing Zhang",
+        "Yang Liu",
+        "Yang Hua",
+        "Hao Wang",
+        "Tao Song",
+        "Zhengui Xue",
+        "Ruhui Ma",
+        "Jian Cao"
+    ],
+    "emails": [
+        "tsingz@sjtu.edu.cn",
+        "liuy03@air.tsinghua.edu.cn",
+        "y.hua@qub.ac.uk",
+        "hwang9@stevens.edu",
+        "songt333@sjtu.edu.cn",
+        "zhenguixue@sjtu.edu.cn",
+        "ruhuima@sjtu.edu.cn",
+        "cao-jian@sjtu.edu.cn"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/TsingZ0/PFLlib"
+        ]
+    ],
+    "id": "23-1634",
+    "issue": 50,
+    "pages": [
+        1,
+        10
+    ],
+    "special_issue": "MLOSS",
+    "title": "PFLlib: A Beginner-Friendly and Comprehensive Personalized Federated Learning Library and Benchmark",
+    "volume": 26,
+    "year": 2025
+}

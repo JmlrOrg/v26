@@ -1,0 +1,28 @@
+{
+    "abstract": "A notable challenge of leveraging Electronic Health Records (EHR) for treatment effect assessment is the lack of precise information on important clinical variables, including the treatment received and the response. Both treatment information and response cannot be accurately captured by readily available EHR features in many studies and require labor-intensive manual chart review to precisely annotate, which limits the number of available gold standard labels on these key variables. We considered average treatment effect (ATE) estimation when 1) exact treatment and outcome variables are only observed together in a small labeled subset and 2) noisy surrogates of treatment and outcome, such as relevant prescription and diagnosis codes, along with potential confounders are observed for all subjects. We derived the efficient influence function for ATE and used it to construct a semi-supervised multiple machine learning (SMMAL) estimator. We justified that our SMMAL ATE estimator is semi-parametric efficient with B-spline regression under low-dimensional smooth models. We developed the adaptive sparsity/model doubly robust estimation under high-dimensional logistic propensity score and outcome regression models. Results from simulation studies demonstrated the validity of our SMMAL method and its superiority over supervised and unsupervised benchmarks. We applied SMMAL to the assessment of targeted therapies for metastatic colorectal cancer in comparison to chemotherapy.",
+    "authors": [
+        "Jue Hou",
+        "Rajarshi Mukherjee",
+        "Tianxi Cai"
+    ],
+    "emails": [
+        "hou00123@umn.edu",
+        "ram521@mail.harvard.edu",
+        "tcai@hsph.harvard.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/hjmarquis/SMMAL"
+        ]
+    ],
+    "id": "23-1587",
+    "issue": 40,
+    "pages": [
+        1,
+        77
+    ],
+    "title": "Efficient and Robust Semi-supervised Estimation of Average Treatment Effect with Partially Annotated Treatment and Response",
+    "volume": 26,
+    "year": 2025
+}

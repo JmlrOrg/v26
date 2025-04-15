@@ -1,0 +1,26 @@
+{
+    "abstract": "A common observation in data-driven applications is that high-dimensional data have a low intrinsic dimension, at least locally. In this work, we consider the problem of point estimation for manifold-valued data. Namely, given a finite set of noisy samples of $\\mathcal{M}$, a $d$ dimensional submanifold of $\\mathbb{R}^D$, and a point $r$ near the manifold we aim to project $r$ onto the manifold. Assuming that the data was sampled uniformly from a tubular neighborhood of a $k$-times smooth boundaryless and compact manifold, we present an algorithm that takes $r$ from this neighborhood and outputs $\\hat p_n\\in \\mathbb{R}^D$, and $\\widehat{T_{\\hat p_n}\\mathcal{M}}$ an element in the Grassmannian $Gr(d, D)$. We prove that as the number of samples $n\\to\\infty$, the point $\\hat p_n$ converges to $\\mathbf{p}\\in \\mathcal{M}$, the projection of $r$ onto $\\mathcal{M}$, and $\\widehat{T_{\\hat p_n}\\mathcal{M}}$ converges to $T_{\\mathbf{p}}\\mathcal{M}$ (the tangent space at that point) with high probability. Furthermore, we show that $\\hat p_n$ approaches the manifold with an asymptotic rate of $n^{-\\frac{k}{2k + d}}$, and that $\\hat p_n, \\widehat{T_{\\hat p_n}\\mathcal{M}}$ approach $\\mathbf{p}$ and $T_{\\mathbf{p}}\\mathcal{M}$ correspondingly with asymptotic rates of $n^{-\\frac{k-1}{2k + d}}$. %While we These rates coincide with the optimal rates for the estimation of function derivatives.",
+    "authors": [
+        "Yariv Aizenbud",
+        "Barak Sober"
+    ],
+    "emails": [
+        "aizeny@tauex.tau.ac.il",
+        "barak.sober@mail.huji.ac.il"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/aizeny/manapprox"
+        ]
+    ],
+    "id": "25-0183",
+    "issue": 64,
+    "pages": [
+        1,
+        89
+    ],
+    "title": "Estimation of Local Geometric Structure on Manifolds from Noisy Data",
+    "volume": 26,
+    "year": 2025
+}

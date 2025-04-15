@@ -1,0 +1,20 @@
+{
+    "abstract": "Sparse regression models are increasingly prevalent due to their ease of interpretability and superior out-of-sample performance. However, the exact model of sparse regression with an $\\ell_0$-constraint restricting the support of the estimators is a challenging (\\NP-hard) non-convex optimization problem. In this paper, we derive new strong convex relaxations for sparse regression. These relaxations are based on the convex-hull formulations for rank-one quadratic terms with indicator variables. The new relaxations can be formulated as semidefinite optimization problems in an extended space and are stronger and more general than the state-of-the-art formulations, including the perspective reformulation and formulations with the reverse Huber penalty and the minimax concave penalty functions. Furthermore, the proposed rank-one strengthening can be interpreted as a non-separable, non-convex, unbiased sparsity-inducing regularizer, which dynamically adjusts its penalty according to the shape of the error function without inducing bias for the sparse solutions. In our computational experiments with benchmark datasets, the proposed conic formulations are solved within seconds and result in near-optimal solutions (with 0.4\\% optimality gap on average) for non-convex $\\ell_0$-problems. Moreover, the resulting estimators also outperform alternative convex approaches, such as lasso and elastic net regression, from a statistical perspective, achieving high prediction accuracy and good interpretability.",
+    "authors": [
+        "Alper Atamturk",
+        "Andres Gomez"
+    ],
+    "emails": [
+        "atamturk@berkeley.edu",
+        "gomezand@usc.edu"
+    ],
+    "id": "19-159",
+    "issue": 35,
+    "pages": [
+        1,
+        50
+    ],
+    "title": "Rank-one Convexification for Sparse Regression",
+    "volume": 26,
+    "year": 2025
+}

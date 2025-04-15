@@ -1,0 +1,30 @@
+{
+    "abstract": "We propose kernel-based hypothesis tests for the challenging composite testing problem, where we are interested in whether the data comes from any distribution in some parametric family. Our tests make use of minimum distance estimators based on kernel-based distances such as the maximum mean discrepancy. As our main result, we show that we are able to estimate the parameter and conduct our test on the same data (without data splitting), while maintaining a correct test level. We also prove that the popular wild bootstrap will lead to an overly conservative test, and show that the parametric bootstrap is consistent and can lead to significantly improved performance in practice. Our approach is illustrated on a range of problems, including testing for goodness-of-fit of a non-parametric density model, and an intractable generative model of a biological cellular network.",
+    "authors": [
+        "Oscar Key",
+        "Arthur Gretton",
+        "Fran{\\c{c}}ois-Xavier Briol",
+        "Tamara Fernandez"
+    ],
+    "emails": [
+        "oscar.key.20@ucl.ac.uk",
+        "arthur.gretton@gmail.com",
+        "f.briol@ucl.ac.uk",
+        "tamara.fernandez@uai.cl"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/oscarkey/composite-tests"
+        ]
+    ],
+    "id": "24-0276",
+    "issue": 51,
+    "pages": [
+        1,
+        60
+    ],
+    "title": "Composite Goodness-of-fit Tests with Kernels",
+    "volume": 26,
+    "year": 2025
+}

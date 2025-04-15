@@ -1,0 +1,20 @@
+{
+    "abstract": "Various methods in statistical learning build on kernels considered in reproducing kernel Hilbert spaces. In applications, the kernel is often selected based on characteristics of the problem and the data. This kernel is then employed to infer response variables at points, where no explanatory data were observed. The data considered here are located in compact sets in higher dimensions and the paper addresses approximations of the kernel itself. The new approach considers Taylor series approximations of radial kernel functions. For the Gauss kernel on the unit cube, the paper establishes an upper bound of the associated eigenfunctions, which grows only polynomially with respect to the index. The novel approach substantiates smaller regularization parameters than considered in the literature, overall leading to better approximations. This improvement confirms low rank approximation methods such as the Nystr\u00f6m method.",
+    "authors": [
+        "Paul Dommel",
+        "Alois Pichler"
+    ],
+    "emails": [
+        "paul.dommel@math.tu-chemnitz.de",
+        "alois.pichler@math.tu-chemnitz.de"
+    ],
+    "id": "24-0270",
+    "issue": 41,
+    "pages": [
+        1,
+        30
+    ],
+    "title": "On the Approximation of Kernel functions",
+    "volume": 26,
+    "year": 2025
+}

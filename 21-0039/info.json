@@ -1,0 +1,20 @@
+{
+    "abstract": "In the field of non-Euclidean statistical analysis, a trend has emerged in recent times, of attempts to recover a low dimensional structure, namely a manifold, underlying the high dimensional data. Recovering the manifold requires the noise to be of a certain concentration and prevailing methods address this requirement by constructing an approximated manifold that is based on the tangent space estimation at each sample point. Although theoretical convergence for these methods is guaranteed, the samples are either noiseless or the noise is bounded. However, if the noise is unbounded, as is commonplace, the tangent space estimation at the noisy samples will be blurred \u2013 an undesirable outcome since fitting a manifold from the blurred tangent space might be more greatly compromised in terms of its accuracy. In this paper, we introduce a new manifold-fitting method, whereby the output manifold is constructed by directly estimating the tangent spaces at the projected points on the latent manifold, rather than at the sample points, thus reducing the error caused by the noise. Assuming the noise is unbounded, our new method has a high probability of achieving theoretical convergence, in terms of the upper bound of the distance between the estimated and latent manifold. The smoothness of the estimated manifold is also evaluated by bounding the supremum of twice difference above. Numerical simulations are conducted as part of this new method to help validate our theoretical findings and demonstrate the advantages of our method over other relevant manifold fitting methods. Finally, our method is applied to real data examples.",
+    "authors": [
+        "Zhigang Yao",
+        "Yuqing Xia"
+    ],
+    "emails": [
+        "zhigang.yao@nus.edu.sg",
+        "yuqing.xia@zufe.edu.cn"
+    ],
+    "id": "21-0039",
+    "issue": 45,
+    "pages": [
+        1,
+        55
+    ],
+    "title": "Manifold Fitting under Unbounded Noise",
+    "volume": 26,
+    "year": 2025
+}

@@ -1,0 +1,26 @@
+{
+    "abstract": "The expected improvement (EI) is one of the most popular acquisition functions for Bayesian optimization (BO) and has demonstrated good empirical performances in many applications for the minimization of simple regret. However, under the evaluation metric of cumulative regret, the performance of EI may not be competitive, and its existing theoretical regret upper bound still has room for improvement. To adapt the EI for better performance under cumulative regret, we introduce a novel quantity called the evaluation cost which is compared against the acquisition function, and with this, develop the expected improvement-cost (EIC) algorithm. In each iteration of EIC, a new point with the largest acquisition function value is sampled, only if that value exceeds its evaluation cost. If none meets this criteria, the current best point is resampled. This evaluation cost quantifies the potential downside of sampling a point, which is important under the cumulative regret metric as the objective function value in every iteration affects the performance measure. We establish in theory a high-probability regret upper bound of EIC based on the maximum information gain, which is tighter than the bound of existing EI-based algorithms. It is also comparable to the regret bound of other popular BO algorithms such as Thompson sampling (GP-TS) and upper confidence bound (GP-UCB). We further perform experiments to illustrate the improvement of EIC over several popular BO algorithms.",
+    "authors": [
+        "Shouri Hu",
+        "Haowei Wang",
+        "Zhongxiang Dai",
+        "Bryan Kian Hsiang Low",
+        "Szu Hui Ng"
+    ],
+    "emails": [
+        "hushouri@uestc.edu.cn",
+        "haowei_wang@u.nus.edu",
+        "daizhongxiang@cuhk.edu.cn",
+        "lowkh@comp.nus.edu.sg",
+        "isensh@nus.edu.sg"
+    ],
+    "id": "22-0523",
+    "issue": 46,
+    "pages": [
+        1,
+        33
+    ],
+    "title": "Adjusted Expected Improvement for Cumulative Regret Minimization in Noisy Bayesian Optimization",
+    "volume": 26,
+    "year": 2025
+}

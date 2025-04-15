@@ -1,0 +1,26 @@
+{
+    "abstract": "Extremal graphical models encode the conditional independence structure of multivariate extremes and provide a powerful tool for quantifying the risk of rare events. Prior work on learning these graphs from data has focused on the setting where all relevant variables are observed. For the popular class of Husler-Reiss models, we propose the eglatent method, a tractable convex program for learning extremal graphical models in the presence of latent variables. Our approach decomposes the Husler-Reiss precision matrix into a sparse component encoding the graphical structure among the observed variables after conditioning on the latent variables, and a low-rank component encoding the effect of a few latent variables on the observed variables. We provide finite-sample guarantees of eglatent and show that it consistently recovers the conditional graph as well as the number of latent variables. We highlight the improved performances of our approach on synthetic and real data.",
+    "authors": [
+        "Sebastian Engelke",
+        "Armeen Taeb"
+    ],
+    "emails": [
+        "sebastian.engelke@unige.ch",
+        "ataeb@uw.ed"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/sebastian-engelke/extremal_latent_learning"
+        ]
+    ],
+    "id": "24-0472",
+    "issue": 42,
+    "pages": [
+        1,
+        68
+    ],
+    "title": "Extremal graphical modeling with latent variables via convex optimization",
+    "volume": 26,
+    "year": 2025
+}

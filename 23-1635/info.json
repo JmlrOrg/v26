@@ -1,0 +1,24 @@
+{
+    "abstract": "Machine learning methods often assume that input features are available at no cost. However, in domains like healthcare, where acquiring features could be expensive or harmful, it is necessary to balance a feature's acquisition cost against its predictive value. The task of training an AI agent to decide which features to acquire is called active feature acquisition (AFA). By deploying an AFA agent, we effectively alter the acquisition strategy and trigger a distribution shift. To safely deploy AFA agents under this distribution shift, we present the problem of active feature acquisition performance evaluation (AFAPE). We examine AFAPE under i) a no direct effect (NDE) assumption, stating that acquisitions do not affect the underlying feature values; and ii) a no unobserved confounding (NUC) assumption, stating that retrospective feature acquisition decisions were only based on observed features. We show that one can apply missing data methods under the NDE assumption and offline reinforcement learning under the NUC assumption. When NUC and NDE hold, we propose a novel semi-offline reinforcement learning framework. This framework requires a weaker positivity assumption and introduces three new estimators: A direct method (DM), an inverse probability weighting (IPW), and a double reinforcement learning (DRL) estimator.",
+    "authors": [
+        "Henrik von Kleist",
+        "Alireza Zamanian",
+        "Ilya Shpitser",
+        "Narges Ahmidi"
+    ],
+    "emails": [
+        "henrik.vonkleist@helmholtz-munich.de",
+        "alireza.zamanian@iks.fraunhofer.de",
+        "ishpits1@jhu.edu",
+        "narges.ahmidi@helmholtz-munich.de"
+    ],
+    "id": "23-1635",
+    "issue": 60,
+    "pages": [
+        1,
+        84
+    ],
+    "title": "Evaluation of Active Feature Acquisition Methods for Time-varying Feature Settings",
+    "volume": 26,
+    "year": 2025
+}

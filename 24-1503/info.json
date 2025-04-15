@@ -1,0 +1,26 @@
+{
+    "abstract": "Self-play (SP) is a popular multi-agent reinforcement learning framework for competitive games. Despite the empirical success, the theoretical properties of SP are limited to two-player settings. For team competitive games where two teams of cooperative agents compete with each other, we show a counter-example where SP cannot converge to a global Nash equilibrium (NE) with high probability. Policy-Space Response Oracles (PSRO) is an alternative framework that finds NEs by iteratively learning the best response (BR) to previous policies. PSRO can be directly extended to team competitive games with unchanged convergence properties by learning team BRs, but its repeated training from scratch makes it hard to scale to complex games. In this work, we propose Generalized Fictitious Cross-Play (GFXP), a novel algorithm that inherits benefits from both frameworks. GFXP simultaneously trains an SP-based main policy and a counter population. The main policy is trained by fictitious self-play and cross-play against the counter population, while the counter policies are trained as the BRs to the main policy's checkpoints. We evaluate GFXP in matrix games and gridworld domains where GFXP achieves the lowest exploitabilities. We further conduct experiments in a challenging football game where GFXP defeats SOTA models with over 94% win rate.",
+    "authors": [
+        "Zelai Xu",
+        "Chao Yu",
+        "Yancheng Liang",
+        "Yi Wu",
+        "Yu Wang"
+    ],
+    "emails": [
+        "zelai.eecs@gmail.com",
+        "yuchao@mail.tsinghua.edu.cn",
+        "yancheng@cs.washington.edu",
+        "jxwuyi@gmail.com",
+        "yu-wang@tsinghua.edu.cn"
+    ],
+    "id": "24-1503",
+    "issue": 44,
+    "pages": [
+        1,
+        30
+    ],
+    "title": "Learning Global Nash Equilibrium in Team Competitive Games with Generalized Fictitious Cross-Play",
+    "volume": 26,
+    "year": 2025
+}

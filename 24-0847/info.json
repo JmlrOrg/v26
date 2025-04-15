@@ -1,0 +1,18 @@
+{
+    "abstract": "Unambiguous identification of the rewards driving behaviours of entities operating in complex open-ended real-world environments is difficult, in part because goals and associated behaviours emerge endogenously and are dynamically updated as environments change. Reproducing such dynamics in models would be useful in many domains, particularly where fixed reward functions limit the adaptive capabilities of agents. Simulation experiments described here assess a candidate algorithm for the dynamic updating of the reward function, RULE: Reward Updating through Learning and Expectation. The approach is tested in a simplified ecosystem-like setting where experiments challenge entities' survival, calling for significant behavioural change. The population of entities successfully demonstrate the abandonment of an initially rewarded but ultimately detrimental behaviour, amplification of beneficial behaviour, and appropriate responses to novel items added to their environment. These adjustments happen through endogenous modification of the entities' reward function, during continuous learning, without external intervention.",
+    "authors": [
+        "Richard M. Bailey"
+    ],
+    "emails": [
+        "richard.bailey@ouce.ox.ac.uk"
+    ],
+    "id": "24-0847",
+    "issue": 62,
+    "pages": [
+        1,
+        51
+    ],
+    "title": "Continuously evolving rewards in an open-ended environment",
+    "volume": 26,
+    "year": 2025
+}

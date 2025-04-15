@@ -1,0 +1,28 @@
+{
+    "abstract": "An individualized treatment regime (ITR) is a decision rule that assigns treatments based on patients' characteristics. The value function of an ITR is the expected outcome in a counterfactual world had this ITR been implemented. Recently, there has been increasing interest in combining heterogeneous data sources, such as leveraging the complementary features of randomized controlled trial (RCT) data and a large observational study (OS). Usually, a covariate shift exists between the source and target population, rendering the source-optimal ITR not optimal for the target population. We present an efficient and robust transfer learning framework for estimating the optimal ITR with right-censored survival data that generalizes well to the target population. The value function accommodates a broad class of functionals of survival distributions, including survival probabilities and restrictive mean survival times (RMSTs). We propose a doubly robust estimator of the value function, and the optimal ITR is learned by maximizing the value function within a pre-specified class of ITRs. We establish the cubic rate of convergence for the estimated parameter indexing the optimal ITR, and show that the proposed optimal value estimator is consistent and asymptotically normal even with flexible machine learning methods for nuisance parameter estimation. We evaluate the empirical performance of the proposed method by simulation studies and a real data application of sodium bicarbonate therapy for patients with severe metabolic acidaemia in the intensive care unit (ICU), combining a RCT and an observational study with heterogeneity.",
+    "authors": [
+        "Pan Zhao",
+        "Julie Josse",
+        "Shu Yang"
+    ],
+    "emails": [
+        "pz298@cam.ac.uk",
+        "julie.josse@inria.fr",
+        "syang24@ncsu.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/panzhaooo/transfer-learning-survival-ITR"
+        ]
+    ],
+    "id": "23-0335",
+    "issue": 48,
+    "pages": [
+        1,
+        54
+    ],
+    "title": "Efficient and Robust Transfer Learning of Optimal Individualized Treatment Regimes with Right-Censored Survival Data",
+    "volume": 26,
+    "year": 2025
+}

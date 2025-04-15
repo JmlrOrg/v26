@@ -1,0 +1,28 @@
+{
+    "abstract": "Recent work has focused on the potential and pitfalls of causal identification in observational studies with multiple simultaneous treatments. Building on previous work, we show that even if the conditional distribution of unmeasured confounders given treatments were known exactly, the causal effects would not in general be identifiable, although they may be partially identified.  Given these results, we propose a sensitivity analysis method for characterizing the effects of potential unmeasured confounding, tailored to the multiple treatment setting, that can be used to characterize a range of causal effects that are compatible with the observed data. Our method is based on a copula factorization of the joint distribution of outcomes, treatments, and confounders, and can be layered on top of arbitrary observed data models. We propose a practical implementation of this approach making use of the Gaussian copula, and establish conditions under which causal effects can be bounded. We also describe approaches for reasoning about effects, including calibrating sensitivity parameters, quantifying robustness of effect estimates, and selecting models that are most consistent with prior hypotheses.",
+    "authors": [
+        "Jiajing Zheng",
+        "Alexander D'Amour",
+        "Alexander Franks"
+    ],
+    "emails": [
+        "carolinez6850@gmail.com",
+        "alexdamour@google.com",
+        "amfranks@ucsb.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/JiajingZ/CopulaSensitivity"
+        ]
+    ],
+    "id": "22-0372",
+    "issue": 36,
+    "pages": [
+        1,
+        60
+    ],
+    "title": "Copula-based Sensitivity Analysis for Multi-Treatment Causal Inference with Unobserved Confounding",
+    "volume": 26,
+    "year": 2025
+}

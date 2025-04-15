@@ -1,0 +1,22 @@
+{
+    "abstract": "Score-based generative models are a recent class of deep generative models with state-of-the-art performance in many applications. In this paper, we establish convergence guarantees for a general class of score-based generative models in the 2-Wasserstein distance, assuming accurate score estimates and smooth log-concave data distribution. We specialize our results to several concrete score-based generative models with specific choices of forward processes modeled by stochastic differential equations, and obtain an upper bound on the iteration complexity for each model, which demonstrates the impacts of different choices of the forward processes. We also provide a lower bound when the data distribution is Gaussian. Numerically, we experiment with score-based generative models with different forward processes for unconditional image generation on CIFAR-10. We find that the experimental results are in good agreement with our theoretical predictions on the iteration complexity.",
+    "authors": [
+        "Xuefeng Gao",
+        "Hoang M. Nguyen",
+        "Lingjiong Zhu"
+    ],
+    "emails": [
+        "xfgao@se.cuhk.edu.hk",
+        "hmnguyen@fsu.edu",
+        "zhu@math.fsu.edu"
+    ],
+    "id": "24-0902",
+    "issue": 43,
+    "pages": [
+        1,
+        54
+    ],
+    "title": "Wasserstein Convergence Guarantees for a General Class of Score-Based Generative Models",
+    "volume": 26,
+    "year": 2025
+}

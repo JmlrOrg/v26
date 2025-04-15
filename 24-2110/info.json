@@ -1,0 +1,35 @@
+{
+    "abstract": "Although neural networks have shown impressive results in a multitude of application domains, the \"black box\" nature of deep learning and lack of confidence estimates have led to scepticism, especially in domains like medicine and physics where such estimates are critical. Research on uncertainty quantification (UQ) has helped elucidate the reliability of these models, but existing implementations of these UQ methods are sparse and difficult to reuse. To this end, we introduce Lightning UQ Box, a PyTorch-based Python library for deep learning-based UQ methods powered by PyTorch Lightning. Lightning UQ Box supports classification, regression, semantic segmentation, and pixelwise regression applications, and UQ methods from a variety of theoretical motivations. With this library, we provide an entry point for practitioners new to UQ, as well as easy-to-use components and tools for scalable deep learning applications.",
+    "authors": [
+        "Nils Lehmann",
+        "Nina Maria Gottschling",
+        "Jakob Gawlikowski",
+        "Adam J. Stewart",
+        "Stefan Depeweg",
+        "Eric Nalisnick"
+    ],
+    "emails": [
+        "n.lehmann@tum.de",
+        "nina-maria.gottschling@dlr.de",
+        "jakob.gawlikowski@dlr.de",
+        "adam.stewart@tum.de",
+        "stefan.depeweg@siemens.com",
+        "nalisnick@jhu.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/lightning-uq-box/lightning-uq-box"
+        ]
+    ],
+    "id": "24-2110",
+    "issue": 54,
+    "pages": [
+        1,
+        7
+    ],
+    "special_issue": "MLOSS",
+    "title": "Lightning UQ Box: Uncertainty Quantification for Neural Networks",
+    "volume": 26,
+    "year": 2025
+}

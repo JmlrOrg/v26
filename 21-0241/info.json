@@ -1,0 +1,28 @@
+{
+    "abstract": "Quantification represents the problem of estimating the distribution of class labels on unseen data. It also represents a growing research field in supervised machine learning, for which a large variety of different algorithms has been proposed in recent years. However, a comprehensive empirical comparison of quantification methods that supports algorithm selection is not available yet. In this work, we close this research gap by conducting a thorough empirical performance comparison of 24 different quantification methods on in total more than 40 datasets, considering binary as well as multiclass quantification settings. We observe that no single algorithm generally outperforms all competitors, but identify a group of methods that perform best in the binary setting, including the threshold selection-based median sweep and TSMax methods, the DyS framework including the HDy method, Forman's mixture model, and Friedman's method. For the multiclass setting, we observe that a different, broad group of algorithms yields good performance, including the HDx method, the generalized probabilistic adjusted count, the readme method, the energy distance minimization method, the EM algorithm for quantification, and Friedman's method. We also find that tuning the underlying classifiers has in most cases only a limited impact on the quantification performance. More generally, we find that the performance on multiclass quantification is inferior to the results obtained in the binary setting. Our results can guide practitioners who intend to apply quantification algorithms and help researchers identify opportunities for future research.",
+    "authors": [
+        "Tobias Schumacher",
+        "Markus Strohmaier",
+        "Florian Lemmerich"
+    ],
+    "emails": [
+        "tobias.schumacher@uni-mannheim.de",
+        "markus.strohmaier@uni-mannheim.de",
+        "florian.lemmerich@uni-passau.de"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/tobiasschumacher/quantification_paper"
+        ]
+    ],
+    "id": "21-0241",
+    "issue": 55,
+    "pages": [
+        1,
+        54
+    ],
+    "title": "A Comparative Evaluation of Quantification Methods",
+    "volume": 26,
+    "year": 2025
+}
