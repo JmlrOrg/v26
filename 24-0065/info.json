@@ -1,0 +1,26 @@
+{
+    "abstract": "Recently, sharpness-aware minimization (SAM) has attracted much attention because of its surprising effectiveness in improving generalization performance. However, compared to stochastic gradient descent (SGD), it is more prone to getting stuck at the saddle points, which as a result may lead to performance degradation. To address this issue, we propose a simple renormalization strategy, dubbed Stable SAM (SSAM), so that the gradient norm of the descent step maintains the same as that of the ascent step. Our strategy is easy to implement and flexible enough to integrate with SAM and its variants, almost at no computational cost. With elementary tools from convex optimization and learning theory, we also conduct a theoretical analysis of sharpness-aware training, revealing that compared to SGD, the effectiveness of SAM is only assured in a limited regime of learning rate. In contrast, we show how SSAM extends this regime of learning rate and then it can consistently perform better than SAM with the minor modification. Finally, we demonstrate the improved performance of SSAM on several representative data sets and tasks.",
+    "authors": [
+        "Chengli Tan",
+        "Jiangshe Zhang",
+        "Junmin Liu",
+        "Yicheng Wang",
+        "Yunda Hao"
+    ],
+    "emails": [
+        "cltan023@outlook.com",
+        "jszhang@mail.xjtu.edu.cn",
+        "junminliu@mail.xjtu.edu.cn",
+        "yc_wang@stu.xjtu.edu.cn",
+        "yunda@cwi.nl"
+    ],
+    "id": "24-0065",
+    "issue": 68,
+    "pages": [
+        1,
+        35
+    ],
+    "title": "Stabilizing Sharpness-Aware Minimization Through A Simple Renormalization Strategy",
+    "volume": 26,
+    "year": 2025
+}

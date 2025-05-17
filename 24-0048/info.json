@@ -1,0 +1,22 @@
+{
+    "abstract": "We introduce a new nonparametric methodology for estimating a directed acyclic graph (DAG) from observational data. Our method is nonparametric in nature: it does not impose any specific form on the joint distribution of the underlying DAG. Instead, it relies on a linear operator on reproducing kernel Hilbert spaces to evaluate conditional independence. However, a fully nonparametric approach would involve conditioning on a large number of random variables, subjecting it to the curse of dimensionality. To solve this problem, we apply nonlinear sufficient dimension reduction to reduce the number of variables before evaluating the conditional independence. We develop an estimator for the DAG, based on a linear operator that characterizes conditional independence, and establish the consistency and convergence rates of this estimator, as well as the uniform consistency of the estimated Markov equivalence class. We introduce a modified PC-algorithm to implement the estimating procedure efficiently such that the complexity depends on the sparseness of the underlying true DAG. We demonstrate the effectiveness of our methodology through simulations and a real data analysis.",
+    "authors": [
+        "Eftychia Solea",
+        "Bing Li",
+        "Kyongwon Kim"
+    ],
+    "emails": [
+        "E.SOLEA@QMUL.AC.UK",
+        "BXL9@PSU.EDU",
+        "KIMK@YONSEI.AC.KR"
+    ],
+    "id": "24-0048",
+    "issue": 75,
+    "pages": [
+        1,
+        46
+    ],
+    "title": "Learning causal graphs via nonlinear sufficient dimension reduction",
+    "volume": 26,
+    "year": 2025
+}

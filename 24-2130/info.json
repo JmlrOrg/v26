@@ -1,0 +1,27 @@
+{
+    "abstract": "GraphNeuralNetworks.jl is an open-source framework for deep learning on graphs, written in the Julia programming language. It supports multiple GPU backends, generic sparse or dense graph representations, and offers convenient interfaces for manipulating standard, heterogeneous, and temporal graphs with attributes at the node, edge, and graph levels. The framework allows users to define custom graph convolutional layers using gather/scatter message-passing primitives or optimized fused operations. It also includes several popular layers, enabling efficient experimentation with complex deep architectures. The package is available on GitHub: https://github.com/JuliaGraphs/GraphNeuralNetworks.jl.",
+    "authors": [
+        "Carlo Lucibello",
+        "Aurora Rossi"
+    ],
+    "emails": [
+        "carlo.lucibello@unibocconi.it",
+        "aurora.rossi@inria.fr"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/JuliaGraphs/GraphNeuralNetworks.jl"
+        ]
+    ],
+    "id": "24-2130",
+    "issue": 80,
+    "pages": [
+        1,
+        6
+    ],
+    "special_issue": "MLOSS",
+    "title": "GraphNeuralNetworks.jl: Deep Learning on Graphs with Julia",
+    "volume": 26,
+    "year": 2025
+}

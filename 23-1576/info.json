@@ -1,0 +1,26 @@
+{
+    "abstract": "Identifying change points in dynamic text data is crucial for understanding the evolving nature of topics across various sources, such as news articles, scientific papers, and social media posts. While topic modeling has become a widely used technique for this purpose, capturing fine-grained shifts in individual topics over time remains a significant challenge. Traditional approaches typically use a two-stage process, separating topic modeling and change point detection. However, this separation can lead to information loss and inconsistency in capturing subtle changes in topic evolution. To address this issue, we propose TOPIC-PYP, a change point detection model specifically designed for fine-grained topic-level analysis, i.e., detecting change points for each individual topic. By leveraging the Pitman-Yor process, TOPIC-PYP effectively captures the dynamic evolution of topic meanings over time. Unlike traditional methods, TOPIC-PYP integrates topic modeling and change point detection into a unified framework, facilitating a more comprehensive understanding of the relationship between topic evolution and change points. Experimental evaluations on both synthetic and real-world datasets demonstrate the effectiveness of TOPIC-PYP in accurately detecting change points and generating high-quality topics.",
+    "authors": [
+        "Feifei Wang",
+        "Zimeng Zhao",
+        "Ruimin Ye",
+        "Xiaoge Gu",
+        "Xiaoling Lu"
+    ],
+    "emails": [
+        "feifei.wang@ruc.edu.cn",
+        "annzhao@ruc.edu.cn",
+        "ruimye@tencent.com",
+        "2021201521gxg@ruc.edu.cn",
+        "xiaolinglu@ruc.edu.cn"
+    ],
+    "id": "23-1576",
+    "issue": 67,
+    "pages": [
+        1,
+        53
+    ],
+    "title": "Fine-Grained Change Point Detection for Topic Modeling with Pitman-Yor Process",
+    "volume": 26,
+    "year": 2025
+}

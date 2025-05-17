@@ -1,0 +1,28 @@
+{
+    "abstract": "We propose an operator learning approach to accelerate geometric Markov chain Monte Carlo (MCMC) for solving infinite-dimensional Bayesian inverse problems (BIPs). While geometric MCMC employs high-quality proposals that adapt to posterior local geometry, it requires repeated computations of gradients and Hessians of the log-likelihood, which becomes prohibitive when the parameter-to-observable (PtO) map is defined through expensive-to-solve parametric partial differential equations (PDEs). We consider a delayed-acceptance geometric MCMC method driven by a neural operator surrogate of the PtO map, where the proposal exploits fast surrogate predictions of the log-likelihood and, simultaneously, its gradient and Hessian. To achieve a substantial speedup, the surrogate must accurately approximate the PtO map and its Jacobian, which often demands a prohibitively large number of PtO map samples via conventional operator learning methods. In this work, we present an extension of derivative-informed operator learning [O'Leary-Roseberry et al., J. Comput. Phys., 496 (2024)] that uses joint samples of the PtO map and its Jacobian. This leads to derivative-informed neural operator (DINO) surrogates that accurately predict the observables and posterior local geometry at a significantly lower training cost than conventional methods. Cost and error analysis for reduced basis DINO surrogates are provided. Numerical studies demonstrate that DINO-driven MCMC generates effective posterior samples 3--9 times faster than geometric MCMC and 60--97 times faster than prior geometry-based MCMC. Furthermore, the training cost of DINO surrogates breaks even compared to geometric MCMC after just 10--25 effective posterior samples.",
+    "authors": [
+        "Lianghao Cao",
+        "Thomas O'Leary-Roseberry",
+        "Omar Ghattas"
+    ],
+    "emails": [
+        "lianghao@caltech.edu",
+        "tom.olearyroseberry@utexas.edu",
+        "omar@oden.utexas.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/dinoSciML/geometric_mcmc"
+        ]
+    ],
+    "id": "24-0745",
+    "issue": 78,
+    "pages": [
+        1,
+        68
+    ],
+    "title": "Derivative-Informed Neural Operator Acceleration of Geometric MCMC for Infinite-Dimensional Bayesian Inverse Problems",
+    "volume": 26,
+    "year": 2025
+}

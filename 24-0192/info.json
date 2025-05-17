@@ -1,0 +1,24 @@
+{
+    "abstract": "Determining whether deep neural network (DNN) models can reliably recover target functions at overparameterization is a critical yet complex issue in the theory of deep learning. To advance understanding in this area, we introduce a concept we term \u201clocal linear recovery\u201d (LLR), a weaker form of target function recovery that renders the problem more amenable to theoretical analysis. In the sense of LLR, we prove that functions expressible by narrower DNNs are guaranteed to be recoverable from fewer samples than model parameters. Specifically, we establish upper limits on the optimistic sample sizes, defined as the smallest sample size necessary to guarantee LLR, for functions in the space of a given DNN. Furthermore, we prove that these upper bounds are achieved in the case of two-layer tanh neural networks. Our research lays a solid groundwork for future investigations into the recovery capabilities of DNNs in overparameterized scenarios.",
+    "authors": [
+        "Yaoyu Zhang",
+        "Leyang Zhang",
+        "Zhongwang Zhang",
+        "Zhiwei Bai"
+    ],
+    "emails": [
+        "zhyy.sjtu@sjtu.edu.cn",
+        "leyangz_hawk@outlook.com",
+        "0123zzw666@sjtu.edu.cn",
+        "bai299@sjtu.edu.cn"
+    ],
+    "id": "24-0192",
+    "issue": 69,
+    "pages": [
+        1,
+        30
+    ],
+    "title": "Local Linear Recovery Guarantee of Deep Neural Networks at Overparameterization",
+    "volume": 26,
+    "year": 2025
+}

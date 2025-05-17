@@ -1,0 +1,28 @@
+{
+    "abstract": "Generating synthetic data, with or without differential privacy, has attracted significant attention as a potential solution to the dilemma between making data easily available, and the privacy of data subjects. Several works have shown that consistency of downstream analyses from synthetic data, including accurate uncertainty estimation, requires accounting for the synthetic data generation. There are very few methods of doing so, most of them for frequentist analysis. In this paper, we study how to perform consistent Bayesian inference from synthetic data. We prove that mixing posterior samples obtained separately from multiple large synthetic data sets, that are sampled from a posterior predictive, converges to the posterior of the downstream analysis under standard regularity conditions when the analyst's model is compatible with the data provider's model. We also present several examples showing how the theory works in practice, and showing how Bayesian inference can fail when the compatibility assumption is not met, or the synthetic data set is not significantly larger than the original.",
+    "authors": [
+        "Ossi R{{\\\"a}}is{{\\\"a}}",
+        "Joonas J{{\\\"a}}lk{{\\\"o}}",
+        "Antti Honkela"
+    ],
+    "emails": [
+        "ossi.raisa@helsinki.fi",
+        "joonas.jalko@helsinki.fi",
+        "antti.honkela@helsinki.fi"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/DPBayes/NAPSU-MQ-bayesian-downstream-experiments"
+        ]
+    ],
+    "id": "23-1428",
+    "issue": 74,
+    "pages": [
+        1,
+        65
+    ],
+    "title": "On Consistent Bayesian Inference from Synthetic Data",
+    "volume": 26,
+    "year": 2025
+}

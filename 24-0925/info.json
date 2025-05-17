@@ -1,0 +1,28 @@
+{
+    "abstract": "Given an undirected measurement graph $\\mathcal{H} = ([n], \\mathcal{E})$, \r\nthe classical angular synchronization problem consists of recovering unknown angles $\\theta_1^*,\\dots,\\theta_n^*$ from a collection of noisy pairwise measurements of the form $(\\theta_i^* - \\theta_j^*) \\mod 2\\pi$, for all $\\{i,j\\} \\in \\mathcal{E}$. This problem arises in a variety of applications, including computer vision, time synchronization of distributed networks, and ranking from pairwise comparisons. In this paper, we consider a dynamic version of this problem where the angles, and also the measurement graphs evolve over $T$ time points. Assuming a smoothness condition on the evolution of the\r\nlatent angles, we derive three algorithms for joint estimation of the angles over all time points. Moreover, for one of the algorithms, we establish non-asymptotic recovery guarantees for the mean-squared error (MSE) under different statistical models. In particular, we show that the MSE converges to zero as $T$ increases under milder conditions than in the static setting. This includes the setting where the measurement graphs are highly sparse and disconnected, and also when the measurement noise is large and can potentially increase with $T$. We complement our theoretical results with experiments on synthetic data.",
+    "authors": [
+        "Ernesto Araya",
+        "Mihai Cucuringu",
+        "Hemant Tyagi"
+    ],
+    "emails": [
+        "araya@math.lmu.de",
+        "mihai@math.ucla.edu",
+        "hemant.tyagi@ntu.edu.sg"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/ErnestoArayaV/dynamic_synch"
+        ]
+    ],
+    "id": "24-0925",
+    "issue": 79,
+    "pages": [
+        1,
+        45
+    ],
+    "title": "Dynamic angular synchronization under smoothness constraints",
+    "volume": 26,
+    "year": 2025
+}

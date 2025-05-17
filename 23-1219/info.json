@@ -1,0 +1,26 @@
+{
+    "abstract": "We study the deletion robust version of submodular maximization under matroid constraints. The goal is to extract a small-size summary of the data set that contains a high-value independent set even after an adversary deletes some elements. We present constant-factor approximation algorithms, whose space complexity depends on the rank $k$ of the matroid, the number $d$ of deleted elements, and the input precision $\\varepsilon$. In the centralized setting we present a $(4.494+O(\\varepsilon))$-approximation algorithm with summary size $O( \\frac{k+d}{\\varepsilon^2}\\log \\frac{k}{\\varepsilon})$ that improves to a $(3.582+O(\\varepsilon))$-approximation with $O(k + \\frac{d}{\\varepsilon^2}\\log \\frac{k}{\\varepsilon})$ summary size when the objective is monotone.  In the streaming setting we provide a $(9.294 + O(\\varepsilon))$-approximation algorithm with summary size and memory $O(k + \\frac{d}{\\varepsilon^2}\\log \\frac{k}{\\varepsilon})$; the approximation factor is then improved to  $(5.582+O(\\varepsilon))$ in the monotone case.",
+    "authors": [
+        "Paul D{{\\\"u}}tting",
+        "Federico Fusco",
+        "Silvio Lattanzi",
+        "Ashkan Norouzi-Fard",
+        "Morteza Zadimoghaddam"
+    ],
+    "emails": [
+        "duetting@google.com",
+        "fuscof@diag.uniroma1.it",
+        "silviol@google.com",
+        "ashkannorouzi@google.com",
+        "zadim@google.com"
+    ],
+    "id": "23-1219",
+    "issue": 66,
+    "pages": [
+        1,
+        28
+    ],
+    "title": "Deletion Robust Non-Monotone Submodular Maximization over Matroids",
+    "volume": 26,
+    "year": 2025
+}

@@ -1,0 +1,28 @@
+{
+    "abstract": "Many statistical estimators are defined as the fixed point of a data-dependent operator, with estimators based on minimizing a cost function being an important special case.  The limiting performance of such estimators depends on the properties of the population-level operator in the idealized limit of infinitely many samples.  We develop a general framework that yields bounds on statistical accuracy based on the interplay between the deterministic convergence rate of the algorithm at the population level, and its degree of (in)stability when applied to an empirical object based on $n$ samples.  Using this framework, we analyze both stable forms of gradient descent and some higher-order and unstable algorithms, including Newton's method and its cubic-regularized variant, as well as the EM algorithm. We provide applications of our general results to several concrete classes of models, including Gaussian mixture estimation, non-linear regression models, and informative non-response models.  We exhibit cases in which an unstable algorithm can achieve the same statistical accuracy as a stable algorithm in exponentially fewer steps---namely, with the number of iterations being reduced from polynomial to logarithmic in sample size $n$.",
+    "authors": [
+        "Nhat Ho",
+        "Koulik Khamaru",
+        "Raaz Dwivedi",
+        "Martin J. Wainwright",
+        "Michael I. Jordan",
+        "Bin Yu"
+    ],
+    "emails": [
+        "minhnhat@utexas.edu",
+        "kk1241@stat.rutgers.edu",
+        "rd597@cornell.edu",
+        "wainwrigwork@gmail.com",
+        "jordan@cs.berkeley.edu",
+        "binyu@berkeley.edu"
+    ],
+    "id": "22-0300",
+    "issue": 65,
+    "pages": [
+        1,
+        68
+    ],
+    "title": "Instability, Computational Efficiency and Statistical Accuracy",
+    "volume": 26,
+    "year": 2025
+}

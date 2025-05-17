@@ -1,0 +1,20 @@
+{
+    "abstract": "This paper addresses regression analysis for covariance matrix-valued outcomes with Euclidean covariates, motivated by applications in single-cell genomics and neuroscience where covariance matrices are observed across many samples. Our analysis leverages Fr\\'echet regression on the Bures-Wasserstein manifold to estimate the conditional Fr\\'echet mean given covariates $x$. We establish a non-asymptotic uniform $\\sqrt{n}$-rate of convergence (up to logarithmic factors) over covariates with $\\|x\\| \\lesssim \\sqrt{\\log n}$ and derive a pointwise central limit theorem to enable statistical inference. For testing covariate effects, we devise a novel test whose null distribution converges to a weighted sum of independent chi-square distributions, with power guarantees against a sequence of contiguous alternatives. Simulations validate the accuracy of the asymptotic theory. Finally, we apply our methods to a single-cell gene expression dataset, revealing age-related changes in gene co-expression networks.",
+    "authors": [
+        "Haoshu Xu",
+        "Hongzhe Li"
+    ],
+    "emails": [
+        "haoshuxu@sas.upenn.edu",
+        "hongzhe@upenn.edu"
+    ],
+    "id": "24-0493",
+    "issue": 77,
+    "pages": [
+        1,
+        123
+    ],
+    "title": "Wasserstein F-tests for Frechet regression on Bures-Wasserstein manifolds",
+    "volume": 26,
+    "year": 2025
+}

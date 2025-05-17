@@ -1,0 +1,24 @@
+{
+    "abstract": "Error bounds are derived for sampling and estimation using a discretization of an intrinsically defined Langevin diffusion with invariant measure $\\text{d}\\mu_\\phi \\propto e^{-\\phi} \\mathrm{dvol}_g $ on a compact Riemannian manifold.  Two estimators of linear functionals of $\\mu_\\phi $ based on the discretized Markov process are considered: a time-averaging estimator based on a single trajectory and an ensemble-averaging estimator based on multiple independent trajectories. Imposing no restrictions beyond a nominal level of smoothness on $\\phi$, first-order error bounds, in discretization step size, on the bias and variance/mean-square error of both estimators are derived. The order of error matches the optimal rate in Euclidean and flat spaces, and leads to a first-order bound on distance between the invariant measure $\\mu_\\phi$ and a stationary measure of the discretized Markov process. This order is preserved even upon using retractions when exponential maps are unavailable in closed form, thus enhancing practicality of the proposed algorithms. Generality of the proof techniques, which exploit links between two partial differential equations and the semigroup of operators corresponding to the Langevin diffusion, renders them amenable for the study of a more general class of sampling algorithms related to the Langevin diffusion. Conditions for extending analysis to the case of non-compact manifolds are discussed. Numerical illustrations with distributions, log-concave and otherwise, on the manifolds of positive and negative curvature elucidate on the derived bounds and demonstrate practical utility of the sampling algorithm.",
+    "authors": [
+        "Karthik Bharath",
+        "Alexander Lewis",
+        "Akash Sharma",
+        "Michael V. Tretyakov"
+    ],
+    "emails": [
+        "Karthik.Bharath@nottingham.ac.uk",
+        "Alexander.Lewis@uni-goettingen.de",
+        "akashs@chalmers.se",
+        "Michael.Tretyakov@nottingham.ac.uk"
+    ],
+    "id": "24-0829",
+    "issue": 71,
+    "pages": [
+        1,
+        50
+    ],
+    "title": "Sampling and Estimation on Manifolds using the Langevin Diffusion",
+    "volume": 26,
+    "year": 2025
+}

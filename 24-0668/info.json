@@ -1,0 +1,26 @@
+{
+    "abstract": "There are two paradigms in Federated Learning (FL): parallel FL (PFL), where models are trained in a parallel manner across clients, and sequential FL (SFL), where models are trained in a sequential manner across clients. Specifically, in PFL, clients perform local updates independently and send the updated model parameters to a global server for aggregation; in SFL, one client starts its local updates only after receiving the model parameters from the previous client in the sequence. In contrast to that of PFL, the convergence theory of SFL on heterogeneous data is still lacking. To resolve the theoretical dilemma of SFL, we establish sharp convergence guarantees for SFL on heterogeneous data with both upper and lower bounds. Specifically, we derive the upper bounds for the strongly convex, general convex and non-convex objective functions, and construct the matching lower bounds for the strongly convex and general convex objective functions. Then, we compare the upper bounds of SFL with those of PFL, showing that SFL outperforms PFL on heterogeneous data (at least, when the level of heterogeneity is relatively high). Experimental results validate the counterintuitive theoretical finding.",
+    "authors": [
+        "Yipeng Li",
+        "Xinchen Lyu"
+    ],
+    "emails": [
+        "liyipeng@bupt.edu.cn",
+        "lvxinchen@bupt.edu.cn"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/liyipeng00/SFL"
+        ]
+    ],
+    "id": "24-0668",
+    "issue": 70,
+    "pages": [
+        1,
+        55
+    ],
+    "title": "Sharp Bounds for Sequential Federated Learning on Heterogeneous Data",
+    "volume": 26,
+    "year": 2025
+}

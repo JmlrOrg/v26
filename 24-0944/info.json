@@ -1,0 +1,30 @@
+{
+    "abstract": "We study approximations to the Moreau envelope---and infimal convolutions more broadly---based on Laplace's method, a classical tool in analysis which ties certain integrals to suprema of their integrands. We believe the connection between Laplace's method and infimal convolutions is generally deserving of more attention in the study of optimization and partial differential equations, since it bears numerous potentially important applications, from proximal-type algorithms to Hamilton-Jacobi equations.",
+    "authors": [
+        "Ryan J. Tibshirani",
+        "Samy Wu Fung",
+        "Howard Heaton",
+        "Stanley Osher"
+    ],
+    "emails": [
+        "ryantibs@berkeley.edu",
+        "swufung@mines.edu",
+        "research@typal.academy",
+        "sjo@math.ucla.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/mines-opt-ml/laplace-inf-conv"
+        ]
+    ],
+    "id": "24-0944",
+    "issue": 72,
+    "pages": [
+        1,
+        36
+    ],
+    "title": "Laplace Meets Moreau: Smooth Approximation to Infimal Convolutions Using Laplace's Method",
+    "volume": 26,
+    "year": 2025
+}

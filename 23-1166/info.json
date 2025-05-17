@@ -1,0 +1,26 @@
+{
+    "abstract": "We propose a new iteration scheme, the Cauchy-Simplex, to optimize convex problems over the probability simplex $\\{w\\in\\mathbb{R}^n\\ |\\ \\sum_i w_i=1\\ \\textrm{and}\\ w_i\\geq0\\}$.\r\nSpecifically, we map the simplex to the positive quadrant of a unit sphere, envisage gradient descent in latent variables, and map the result back in a way that only depends on the simplex variable. Moreover, proving rigorous convergence results in this formulation leads inherently to tools from information theory (e.g., cross-entropy and KL divergence). Each iteration of the Cauchy-Simplex consists of simple operations, making it well-suited for high-dimensional problems. In continuous time, we prove that $f(x_T)-f(x^*) = O(1/T)$ for differentiable real-valued convex functions, where $T$ is the number of time steps and $w^*$ is the optimal solution. Numerical experiments of projection onto convex hulls show faster convergence than similar algorithms. Finally, we apply our algorithm to online learning problems and prove the convergence of the average regret for (1) Prediction with expert advice and (2) Universal Portfolios.",
+    "authors": [
+        "James Chok",
+        "Geoffrey M. Vasil"
+    ],
+    "emails": [
+        "james.chok@ed.ac.uk",
+        "gvasil@ed.ac.uk"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/infamoussoap/ConvexHull"
+        ]
+    ],
+    "id": "23-1166",
+    "issue": 73,
+    "pages": [
+        1,
+        35
+    ],
+    "title": "Optimization Over a Probability Simplex",
+    "volume": 26,
+    "year": 2025
+}
