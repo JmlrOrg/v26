@@ -1,0 +1,22 @@
+{
+    "abstract": "Boosting is one of the most significant developments in machine learning. This paper studies the rate of convergence of L2-Boosting in a high-dimensional setting under early stopping. We close a gap in the literature and provide the rate of convergence of L2-Boosting in a high-dimensional setting under approximate sparsity and without beta-min condition. We also show that the rate of convergence of the classical L2-Boosting depends on the design matrix described by a sparse eigenvalue condition. To show the latter results, we derive new, improved approximation results for the pure greedy algorithm, based on analyzing the revisiting behavior of L2-Boosting. These results might be of independent interest. Moreover, we introduce so-called  \"restricted\" L2-Boosting. The restricted L2-Boosting algorithm sticks to the set of the previously chosen variables, exploits the information contained in these variables first and then only occasionally allows to add new variables to this set. We derive the rate of convergence for restricted L2-Boosting under early stopping which is close to the convergence rate of Lasso in an approximate sparse, high-dimensional setting without beta-min condition. We also introduce feasible rules for early stopping, which can be easily implemented and used in applied work. Finally, we present simulation studies to illustrate the relevance of our theoretical results and to provide insights into the practical aspects of boosting. In these simulation studies, L2-Boosting clearly outperforms Lasso. An empirical illustration and the proofs are contained in the Appendix.",
+    "authors": [
+        "Ye Luo",
+        "Martin Spindler",
+        "Jannis Kueck"
+    ],
+    "emails": [
+        "kurtluo@hku.hk",
+        "martin.spindler@uni-hamburg.de",
+        "kueck@dice.hhu.de"
+    ],
+    "id": "21-0725",
+    "issue": 89,
+    "pages": [
+        1,
+        54
+    ],
+    "title": "High-Dimensional L2-Boosting: Rate of Convergence",
+    "volume": 26,
+    "year": 2025
+}

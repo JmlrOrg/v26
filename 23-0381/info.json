@@ -1,0 +1,30 @@
+{
+    "abstract": "We study the causal effect with a functional treatment variable, where practical applications often arise in neuroscience, biomedical sciences, etc. Previous research concerning the effect of a functional variable on an outcome is typically restricted to exploring correlation rather than causality. The generalized propensity score, which is often used to calibrate the selection bias, is not directly applicable to a functional treatment variable due to a lack of definition of probability density function for functional data. We propose three estimators for the average dose-response functional based on the functional linear model, namely, the functional stabilized weight estimator, the outcome regression estimator and the doubly robust estimator, each of which has its own merits. We study their theoretical properties, which are corroborated through extensive numerical experiments. A real data application on electroencephalography data and disease severity demonstrates the practical value of our methods.",
+    "authors": [
+        "Ruoxu Tan",
+        "Wei Huang",
+        "Zheng Zhang",
+        "Guosheng Yin"
+    ],
+    "emails": [
+        "ruoxut@tongji.edu.cn",
+        "wei.huang@unimelb.edu.au",
+        "zhengzhang@ruc.edu.cn",
+        "gyin@hku.hk"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/ruoxut/FunctionalTreatment"
+        ]
+    ],
+    "id": "23-0381",
+    "issue": 91,
+    "pages": [
+        1,
+        39
+    ],
+    "title": "Causal Effect of Functional Treatment",
+    "volume": 26,
+    "year": 2025
+}

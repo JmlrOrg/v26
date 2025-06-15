@@ -1,0 +1,28 @@
+{
+    "abstract": "We consider the task of predicting a response $Y$ from a set of covariates $X$ in settings where the conditional distribution of $Y$ given $X$ changes over time. For this to be feasible, assumptions on how the conditional distribution changes over time are required. Existing approaches assume, for example, that changes occur smoothly over time so that short-term prediction using only the recent past becomes feasible. To additionally exploit observations further in the past, we propose a novel invariance-based framework for linear conditionals, called Invariant Subspace Decomposition (ISD), that splits the conditional distribution into a time-invariant and a residual time-dependent component. As we show, this decomposition can be employed both for zero-shot and time-adaptation prediction tasks, that is, settings where either no or a small amount of training data is available at the time points we want to predict $Y$ at, respectively. We propose a practical estimation procedure, which automatically infers the decomposition using tools from approximate joint matrix diagonalization. Furthermore, we provide finite sample guarantees for the proposed estimator and demonstrate empirically that it indeed improves on approaches that do not use the additional invariant structure.",
+    "authors": [
+        "Margherita Lazzaretto",
+        "Jonas Peters",
+        "Niklas Pfister"
+    ],
+    "emails": [
+        "mala@math.ku.dk",
+        "jonas.peters@stat.math.ethz.ch",
+        "niklas.pfister@gmail.com"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/mlazzaretto/Invariant-Subspace-Decomposition"
+        ]
+    ],
+    "id": "24-0699",
+    "issue": 95,
+    "pages": [
+        1,
+        56
+    ],
+    "title": "Invariant Subspace Decomposition",
+    "volume": 26,
+    "year": 2025
+}

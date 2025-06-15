@@ -1,0 +1,24 @@
+{
+    "abstract": "Uplift modelling is a subfield of causal learning that focuses on ranking entities by individual treatment effects. Uplift models are typically evaluated using Qini curves or Qini scores. While intuitive, the theoretical grounding for Qini in the literature is limited, and the mathematical connection to the well-understood Receiver Operating Characteristic (ROC) curve is unclear. In this paper, we introduce pROCini, a novel uplift evaluation metric that improves upon Qini in two important ways. First, it explicitly incorporates more information by taking into account negative outcomes. Second, it leverages this additional information within the Ordinal Dominance Graph framework, which is the basis behind the well known ROC curve, resulting in a mathematically well-behaved metric that facilitates theoretical analysis. We derive confidence bounds for pROCini, exploiting its theoretical properties. Finally, we empirically validate the improved discriminative power of ROCini and pROCini in a simulation study as well as via experiments on real data.",
+    "authors": [
+        "Brecht Verbeken",
+        "Marie-Anne Guerry",
+        "Wouter Verbeke",
+        "Sam Verboven"
+    ],
+    "emails": [
+        "brecht.verbeken@vub.be",
+        "marie-anne.guerry@vub.be",
+        "wouter.verbeke@kuleuven.be",
+        "sam.verboven@vub.be"
+    ],
+    "id": "22-1455",
+    "issue": 90,
+    "pages": [
+        1,
+        56
+    ],
+    "title": "Uplift Model Evaluation with Ordinal Dominance Graphs",
+    "volume": 26,
+    "year": 2025
+}

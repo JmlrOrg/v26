@@ -1,0 +1,20 @@
+{
+    "abstract": "We consider outlier-robust and sparse estimation of linear regression coefficients, when the covariates and the noises are contaminated by adversarial outliers and noises are sampled from a heavy-tailed distribution. Our results present sharper error bounds under weaker assumptions than prior studies that share similar interests with this study. Our analysis relies on some sharp concentration inequalities resulting from generic chaining.",
+    "authors": [
+        "Takeyuki Sasai",
+        "Hironori Fujisawa"
+    ],
+    "emails": [
+        "takeyuki.sasai@gmail.com",
+        "fujisawa@ism.ac.jp"
+    ],
+    "id": "23-1583",
+    "issue": 93,
+    "pages": [
+        1,
+        79
+    ],
+    "title": "Outlier Robust and Sparse Estimation of Linear Regression Coefficients",
+    "volume": 26,
+    "year": 2025
+}

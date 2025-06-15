@@ -1,0 +1,26 @@
+{
+    "abstract": "It has been observed that applying pruning-at-initialization methods and training the sparse networks can sometimes yield slightly better test performance than training the original dense network. Such experimental observations are yet to be understood theoretically. This work makes the first attempt to study this phenomenon. Specifically, we identify a theoretical minimal setting and study a classification task with a one-hidden-layer neural network, which is randomly pruned according to different rates at the initialization. We show that as long as the pruning rate is below a certain threshold, the network provably exhibits good generalization performance after training.More surprisingly, the generalization bound gets better as the pruning rate mildly gets larger. To complement this positive result, we also show a negative result: there exists a large pruning rate such that while gradient descent is still able to drive the training loss toward zero, the generalization performance is no better than random guessing. This further suggests that pruning can change the feature learning process, which leads to the performance drop of the pruned neural network. To our knowledge, this is the first theory work studying how different pruning rates affect neural networks' performance, suggesting that an appropriate pruning rate might improve the neural network's generalization.",
+    "authors": [
+        "Hongru Yang",
+        "Yingbin Liang",
+        "Xiaojie Guo",
+        "Lingfei Wu",
+        "Zhangyang Wang"
+    ],
+    "emails": [
+        "hy6385@utexas.edu",
+        "liang.889@osu.edu",
+        "xiaojie.guo@ibm.com",
+        "lwu@anytime-ai.com",
+        "atlaswang@utexas.edu"
+    ],
+    "id": "23-0832",
+    "issue": 84,
+    "pages": [
+        1,
+        51
+    ],
+    "title": "Random Pruning Over-parameterized Neural Networks Can Improve Generalization: A Training Dynamics Analysis",
+    "volume": 26,
+    "year": 2025
+}

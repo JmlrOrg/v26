@@ -1,0 +1,20 @@
+{
+    "abstract": "Bayesian approaches for training deep neural networks (BNNs) have received significant interest and have been effectively utilized in a wide range of applications. Several studies have examined the properties of posterior concentrations in BNNs. However, most of these studies focus solely on BNN models with sparse or heavy-tailed priors. Surprisingly, there are currently no theoretical results for BNNs using Gaussian priors, which are the most commonly used in practice. The lack of theory arises from the absence of approximation results of Deep Neural Networks (DNNs) that are non-sparse and have bounded parameters. In this paper, we present a new approximation theory for non-sparse DNNs with bounded parameters. Additionally, based on the approximation theory,  we show that BNNs with non-sparse general priors can achieve near-minimax optimal posterior concentration rates around the true model.",
+    "authors": [
+        "Insung Kong",
+        "Yongdai Kim"
+    ],
+    "emails": [
+        "ggong369@snu.ac.kr",
+        "ydkim0903@gmail.com"
+    ],
+    "id": "24-0425",
+    "issue": 94,
+    "pages": [
+        1,
+        60
+    ],
+    "title": "Posterior Concentrations of Fully-Connected Bayesian Neural Networks with General Priors on the Weights",
+    "volume": 26,
+    "year": 2025
+}

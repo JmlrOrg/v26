@@ -1,0 +1,18 @@
+{
+    "abstract": "The affine rank minimization problem is a well-known approach to matrix recovery. While there are various surrogates to this NP-hard problem, we prove that the asymptotic minimization of log-det objective functions indeed always reveals the desired, lowest-rank matrices---whereas such may or may not recover a sought-after ground truth. Concerning commonly applied methods such as iteratively reweighted least squares, one thus remains with two difficult to distinguish concerns: how problematic are local minima inherent to the approach truly; and opposingly, how influential instead is the numerical realization. We first show that comparable solution statements do not hold true for Schatten-$p$ functions, including the nuclear norm, and discuss the role of divergent minimizers. Subsequently, we outline corresponding implications for general optimization approaches as well as the more specific IRLS-$0$ algorithm, emphasizing through examples that the transition of the involved smoothing parameter to zero is frequently a more substantial issue than non-convexity. Lastly, we analyze several presented aspects empirically in a series of numerical experiments. In particular, allowing for instance sufficiently many iterations, one may even observe a phase transition for generic recoverability at the absolute theoretical minimum.",
+    "authors": [
+        "Sebastian Kr{{\\\"a}}mer"
+    ],
+    "emails": [
+        "kraemer@igpm.rwth-aachen.de"
+    ],
+    "id": "23-0943",
+    "issue": 92,
+    "pages": [
+        1,
+        44
+    ],
+    "title": "Affine Rank Minimization via Asymptotic Log-Det Iteratively Reweighted Least Squares",
+    "volume": 26,
+    "year": 2025
+}

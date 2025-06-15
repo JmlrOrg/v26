@@ -1,0 +1,28 @@
+{
+    "abstract": "The computational cost for inference and prediction of statistical models based on Gaussian processes with Mat\u00e9rn covariance functions scales cubically with the number of observations, limiting their applicability to large data sets. The cost can be reduced in certain special cases, but there are no generally applicable exact methods with linear cost. Several approximate methods have been introduced to reduce the cost, but most lack theoretical guarantees for accuracy. We consider Gaussian processes on bounded intervals with Mat\u00e9rn covariance functions and, for the first time, develop a generally applicable method with linear cost and a covariance error that decreases exponentially fast in the order $m$ of the proposed approximation. The method is based on an optimal rational approximation of the spectral density and results in an approximation that can be represented as a sum of $m$ independent Gaussian Markov processes, facilitating usage in general software for statistical inference. Besides theoretical justifications, we demonstrate accuracy empirically through carefully designed simulation studies, which show that the method outperforms state-of-the-art alternatives in accuracy for fixed computational cost in tasks like Gaussian process regression.",
+    "authors": [
+        "David Bolin",
+        "Vaibhav Mehandiratta",
+        "Alexandre B. Simas"
+    ],
+    "emails": [
+        "david.bolin@kaust.edu.sa",
+        "vaibhav.mehandiratta@kaust.edu.sa",
+        "alexandre.simas@kaust.edu.sa"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/vpnsctl/MarkovApproxMatern"
+        ]
+    ],
+    "id": "24-1779",
+    "issue": 96,
+    "pages": [
+        1,
+        34
+    ],
+    "title": "Linear cost and exponentially convergent approximation of Gaussian Mat\u00e9rn processes on intervals",
+    "volume": 26,
+    "year": 2025
+}

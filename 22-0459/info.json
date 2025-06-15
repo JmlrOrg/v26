@@ -1,0 +1,26 @@
+{
+    "abstract": "It has been observed that message-passing graph neural networks (GNN) sometimes struggle to maintain a healthy balance between the efficient / scalable modeling of long-range dependencies across nodes while avoiding unintended consequences such oversmoothed node representations, sensitivity to spurious edges, or inadequate model interpretability.  To address these and other issues, two separate strategies have recently been proposed, namely implicit and unfolded GNNs (that we abbreviate to IGNN and UGNN respectively).  The former treats node representations as the fixed points of a deep equilibrium model that can efficiently facilitate arbitrary implicit propagation across the graph with a fixed memory footprint.  In contrast, the latter involves treating graph propagation as unfolded descent iterations as applied to some graph-regularized energy function.  While motivated differently, in this paper we carefully quantify explicit situations where the solutions they produce are equivalent and others where their properties sharply diverge.  This includes the analysis of convergence, representational capacity, and interpretability.  In support of this analysis, we also provide empirical head-to-head comparisons across multiple synthetic and public real-world node classification benchmarks.  These results indicate that while IGNN is substantially more memory-efficient, UGNN models support unique, integrated graph attention mechanisms and propagation rules that can achieve strong node classification accuracy across disparate regimes such as adversarially-perturbed graphs, graphs with heterophily, and graphs involving long-range dependencies.",
+    "authors": [
+        "Yongyi Yang",
+        "Tang Liu",
+        "Yangkun Wang",
+        "Zengfeng Huang",
+        "David Wipf"
+    ],
+    "emails": [
+        "yongyi@umich.edu",
+        "cnliutang@gmail.com",
+        "espylapiza@gmail.com",
+        "huangzf@fudan.edu.cn",
+        "davidwipf@gmail.com"
+    ],
+    "id": "22-0459",
+    "issue": 82,
+    "pages": [
+        1,
+        46
+    ],
+    "title": "Implicit vs Unfolded Graph Neural Networks",
+    "volume": 26,
+    "year": 2025
+}

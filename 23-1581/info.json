@@ -1,0 +1,22 @@
+{
+    "abstract": "The linear support vector machine has a parametrised decision boundary. The paper considers inference for the corresponding parameters, which indicate the effects of individual variables on the decision boundary. The proposed inference is via a convolution-smoothed version of the SVM loss function, this having several inferential advantages over the original SVM, whose associated loss function is not everywhere differentiable. Notably, convolution-smoothing comes with non-asymptotic theoretical guarantees, including a distributional approximation to the parameter estimator that scales more favourably with the dimension of the feature vector. The differentiability of the loss function produces other advantages in some settings; for instance, by facilitating the inclusion of penalties or the synthesis of information from a large number of small samples. The paper closes by relating the linear SVM parameters to those of some probability models for binary outcomes.",
+    "authors": [
+        "Jakub Rybak",
+        "Heather Battey",
+        "Wen-Xin Zhou"
+    ],
+    "emails": [
+        "jakub.rybak18@imperial.ac.uk",
+        "h.battey@imperial.ac.uk",
+        "wenxinz@uic.edu"
+    ],
+    "id": "23-1581",
+    "issue": 85,
+    "pages": [
+        1,
+        54
+    ],
+    "title": "On Inference for the Support Vector Machine",
+    "volume": 26,
+    "year": 2025
+}

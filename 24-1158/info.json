@@ -1,0 +1,26 @@
+{
+    "abstract": "Deep linear networks have been extensively studied, as they provide simplified models of deep learning. However, little is known in the case of finite-width architectures with multiple outputs and convolutional layers. In this manuscript, we provide rigorous results for the statistics of functions implemented by the aforementioned class of networks, thus moving closer to a complete characterization of feature learning in the Bayesian setting.  Our results include: (i) an exact and elementary non-asymptotic integral representation for the joint prior distribution over the outputs, given in terms of a mixture of Gaussians; (ii) an analytical formula for the posterior distribution in the case of squared error loss function (Gaussian likelihood); (iii) a quantitative description of the feature learning infinite-width regime, using large deviation theory. From a physical perspective, deep architectures with multiple outputs or convolutional layers represent different manifestations of kernel shape renormalization, and our work provides a dictionary that translates this physics intuition and terminology into rigorous Bayesian statistics.",
+    "authors": [
+        "Federico Bassetti",
+        "Marco Gherardi",
+        "Alessandro Ingrosso",
+        "Mauro Pastore",
+        "Pietro Rotondo"
+    ],
+    "emails": [
+        "federico.bassetti@polimi.it",
+        "marco.gherardi@unimi.it",
+        "alessandro.ingrosso@donders.ru.nl",
+        "mpastore@ictp.it",
+        "pietro.rotondo@unipr.it"
+    ],
+    "id": "24-1158",
+    "issue": 88,
+    "pages": [
+        1,
+        35
+    ],
+    "title": "Feature Learning in Finite-Width Bayesian Deep Linear Networks with Multiple Outputs and Convolutional Layers",
+    "volume": 26,
+    "year": 2025
+}
