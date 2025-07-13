@@ -1,0 +1,26 @@
+{
+    "abstract": "Data silos, mainly caused by privacy and interoperability, significantly constrain collaborations among different organizations with similar data for the same purpose. Distributed learning based on divide-and-conquer provides a promising way to settle the data silos, but it suffers from several challenges, including autonomy, privacy guarantees, and the necessity of collaborations. This paper focuses on developing an adaptive distributed kernel ridge regression (AdaDKRR) by taking autonomy in parameter selection, privacy in communicating non-sensitive information, and the necessity of collaborations for performance improvement into account. We provide both solid theoretical verifications and comprehensive experiments for AdaDKRR to demonstrate its feasibility and effectiveness. Theoretically, we prove that under some mild conditions, AdaDKRR performs similarly to running the optimal learning algorithms on the whole data, verifying the necessity of collaborations and showing that no other distributed learning scheme can essentially beat AdaDKRR under the same conditions. Numerically, we test AdaDKRR on both toy simulations and two real-world applications to show that AdaDKRR is superior to other existing distributed learning schemes. All these results show that AdaDKRR is a feasible scheme to overcome data silos, which are highly desired in numerous application regions such as intelligent decision-making, pricing forecasting, and performance prediction for products.",
+    "authors": [
+        "Shao-Bo Lin",
+        "Xiaotong Liu",
+        "Di Wang",
+        "Hai Zhang",
+        "Ding-Xuan Zhou"
+    ],
+    "emails": [
+        "sblin1983@gmail.com",
+        "ariesoomoon@gmail.com",
+        "wang.di@xjtu.edu.cn",
+        "zhanghai@nwu.edu.cn",
+        "dingxuan.zhou@sydney.edu.au"
+    ],
+    "id": "23-0806",
+    "issue": 108,
+    "pages": [
+        1,
+        54
+    ],
+    "title": "Adaptive Distributed Kernel Ridge Regression: A Feasible Distributed Learning Scheme for Data Silos",
+    "volume": 26,
+    "year": 2025
+}

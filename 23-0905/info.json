@@ -1,0 +1,18 @@
+{
+    "abstract": "A statistical field theory is introduced for finite state and action Markov decision processes with unknown parameters, in a Bayesian setting. The Bellman equation, for policy evaluation and the optimal value function in finite and discounted infinite horizon problems, is studied as a disordered interacting dynamical system. The Markov decision process transition probabilities and mean-rewards are interpreted as quenched random variables and the value functions, or the iterates of the Bellman equation, are deterministic variables that evolve dynamically. The posterior over value functions is then equivalent to the quenched average of Fourier inverse of the Martin-Siggia-Rose-De Dominicis-Janssen generating function. The formalism enables the use of methods from field theory to compute posterior moments of value functions. The paper presents two such methods, corresponding to two distinct asymptotic limits. First, the classical approximation is applied, corresponding to the asymptotic data limit. This approximation recovers so-called plug-in estimators for the mean of the value functions. Second, a dynamic mean field theory is derived, showing that under certain assumptions the state-action values are statistically independent across state-action pairs in the asymptotic state space limit. The state-action value statistics can be computed from a set of self-consistent mean field equations, which we call dynamic mean field programming (DMFP). Collectively, the results provide analytic insight into the structure of model uncertainty in Markov decision processes, and pave the way toward more advanced field theoretic techniques and applications to planning and reinforcement learning problems.",
+    "authors": [
+        "George Stamatescu"
+    ],
+    "emails": [
+        "george.stamatescu@adelaide.edu.au"
+    ],
+    "id": "23-0905",
+    "issue": 99,
+    "pages": [
+        1,
+        24
+    ],
+    "title": "Statistical field theory for Markov decision processes under uncertainty",
+    "volume": 26,
+    "year": 2025
+}

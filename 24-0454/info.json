@@ -1,0 +1,32 @@
+{
+    "abstract": "The problem of learning one task using samples from another task is central to transfer learning. In this paper, we focus on answering the following question: when does combining the samples from two related tasks perform better than learning with one target task alone? This question is motivated by an empirical phenomenon known as negative transfer often observed in transfer learning practice. While the transfer effect from one task to another depends on factors such as their sample sizes and the spectrum of their covariance matrices, precisely quantifying this dependence has remained a challenging problem. In order to compare a transfer learning estimator to single-task learning, one needs to compare the risks between the two estimators precisely. Further, the comparison depends on the distribution shifts between the two tasks. This paper applies recent developments of random matrix theory to tackle this challenge in a high-dimensional linear regression setting with two tasks. We provide precise high-dimensional asymptotics for the bias and variance of a classical hard parameter sharing (HPS) estimator in the proportional limit, when the sample sizes of both tasks increase proportionally with dimension at fixed ratios. The precise asymptotics apply to various types of distribution shifts, including covariate shifts, model shifts, and combinations of both. We illustrate these results in a random-effects model to mathematically prove a phase transition from positive to negative transfer as the number of source task samples increases. One insight from the analysis is that a rebalanced HPS estimator, which downsizes the source task when the model shift is high, achieves the minimax optimal rate. The finding regarding phase transition also applies to multiple tasks when feature covariates are shared across all tasks. Simulations validate the accuracy of the high-dimensional asymptotics for finite dimensions.",
+    "authors": [
+        "Fan Yang",
+        "Hongyang R. Zhang",
+        "Sen Wu",
+        "Christopher Re",
+        "Weijie J. Su"
+    ],
+    "emails": [
+        "fyangmath@mail.tsinghua.edu.cn",
+        "ho.zhang@northeastern.edu",
+        "senwu@cs.stanford.edu",
+        "chrismre@stanford.edu",
+        "suw@wharton.upenn.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/VirtuosoResearch/Transfer_learning_random_matrix_simulations"
+        ]
+    ],
+    "id": "24-0454",
+    "issue": 113,
+    "pages": [
+        1,
+        88
+    ],
+    "title": "Precise High-Dimensional Asymptotics for Quantifying Heterogeneous Transfers",
+    "volume": 26,
+    "year": 2025
+}

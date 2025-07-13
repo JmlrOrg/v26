@@ -1,0 +1,18 @@
+{
+    "abstract": "In this paper, we propose an ensemble learning algorithm named bagged $k$-distance for mode-based clustering (BDMBC) by putting forward a new measure called the probability of localized level sets (PLLS), which enables us to find all clusters for varying densities with a global threshold. On the theoretical side, we show that with a properly chosen number of nearest neighbors $k_D$ in the bagged $k$-distance, the sub-sample size $s$, the bagging rounds $B$, and the number of nearest neighbors $k_L$ for the localized level sets, BDMBC can achieve optimal convergence rates for mode estimation. It turns out that with a relatively small $B$, the sub-sample size $s$ can be much smaller than the number of training data $n$ at each bagging round, and the number of nearest neighbors $k_D$ can be reduced simultaneously. Moreover, we establish fast convergence rates for the level set estimation of the PLLS in terms of Hausdorff distance, which reveals that BDMBC can find localized level sets for varying densities and thus enjoys local adaptivity. On the practical side, we conduct numerical experiments to empirically verify the effectiveness of BDMBC for mode estimation and level set estimation, which demonstrates the promising accuracy and efficiency of our proposed algorithm.",
+    "authors": [
+        "Hanyuan Hang"
+    ],
+    "emails": [
+        "hanyuan0725@gmail.com"
+    ],
+    "id": "22-1179",
+    "issue": 97,
+    "pages": [
+        1,
+        62
+    ],
+    "title": "Bagged k-Distance for Mode-Based Clustering  Using the Probability of Localized Level Sets",
+    "volume": 26,
+    "year": 2025
+}

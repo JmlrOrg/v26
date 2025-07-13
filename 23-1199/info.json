@@ -1,0 +1,28 @@
+{
+    "abstract": "There exist several testing procedures based on the maximum mean discrepancy (MMD) to address the challenge of model specification. However, these testing procedures ignore the presence of estimated parameters in the case of composite null hypotheses. In this paper, we first illustrate the effect of parameter estimation in model specification tests based on the MMD. Second, we propose simple model specification and model selection tests in the case of models with estimated parameters. All our tests are asymptotically standard normal under the null, even when the true underlying distribution belongs to the competing parametric families. A simulation study and a real data analysis illustrate the performance of our tests in terms of power and level.",
+    "authors": [
+        "Florian Br{{\\\"u}}ck",
+        "Jean-David Fermanian",
+        "Aleksey Min"
+    ],
+    "emails": [
+        "florian.brueck@unige.ch",
+        "jean-david.fermanian@ensae.fr",
+        "min@tum.de"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/Flo771994/MMD_tests_for_model_selection"
+        ]
+    ],
+    "id": "23-1199",
+    "issue": 100,
+    "pages": [
+        1,
+        52
+    ],
+    "title": "Distribution Free Tests for Model Selection Based on Maximum Mean Discrepancy with Estimated Parameters",
+    "volume": 26,
+    "year": 2025
+}

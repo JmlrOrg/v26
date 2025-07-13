@@ -1,0 +1,30 @@
+{
+    "abstract": "Domain adaptation (DA) is a statistical learning problem that arises when the distribution of the source data used to train a model differs from that of the target data used to evaluate the model. While many DA algorithms have demonstrated considerable empirical success, blindly applying these algorithms can often lead to worse performance on new datasets. To address this, it is crucial to clarify the assumptions under which a DA algorithm has good target performance. In this work, we focus on the assumption of the presence of conditionally invariant components (CICs), which are relevant for prediction and remain conditionally invariant across the source and target data. We demonstrate that CICs, which can be estimated through conditional invariant penalty (CIP), play three prominent roles in providing target risk guarantees in DA.  First, we propose a new algorithm based on CICs, importance-weighted conditional invariant penalty (IW-CIP), which has target risk guarantees beyond simple settings such as covariate shift and label shift. Second, we show that CICs help identify large discrepancies between source and target risks of other DA algorithms. Finally, we demonstrate that incorporating CICs into the domain invariant projection (DIP) algorithm can address its failure scenario caused by label-flipping features. We support our new algorithms and theoretical findings via numerical experiments on synthetic data, MNIST, CelebA, Camelyon17, and DomainNet datasets.",
+    "authors": [
+        "Keru Wu",
+        "Yuansi Chen",
+        "Wooseok Ha",
+        "Bin Yu"
+    ],
+    "emails": [
+        "keru.wu@duke.edu",
+        "yuansi.chen@duke.edu",
+        "haywse@kaist.ac.kr",
+        "binyu@berkeley.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/KeruWu/Roles_CICs"
+        ]
+    ],
+    "id": "23-1234",
+    "issue": 110,
+    "pages": [
+        1,
+        92
+    ],
+    "title": "Prominent Roles of Conditionally Invariant Components in Domain Adaptation: Theory and Algorithms",
+    "volume": 26,
+    "year": 2025
+}

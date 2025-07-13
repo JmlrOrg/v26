@@ -1,0 +1,22 @@
+{
+    "abstract": "In this work, we consider bilevel optimization when the lower-level problem is strongly convex. Recent works show that with a Hessian-vector product (HVP) oracle, one can provably find an $\\epsilon$-stationary point within ${O}(\\epsilon^{-2})$ oracle calls. However, the HVP oracle may be inaccessible or expensive in practice. Kwon et al. (ICML 2023) addressed this issue by proposing a first-order method that can achieve the same goal at a slower rate of $\\tilde{O}(\\epsilon^{-3})$.  In this paper, we incorporate a two-time-scale update to improve their method to achieve the near-optimal $\\tilde{O}(\\epsilon^{-2})$ first-order oracle complexity. Our analysis is highly extensible. In the stochastic setting, our algorithm can achieve the stochastic first-order oracle complexity of $\\tilde {O}(\\epsilon^{-4})$ and $\\tilde {O}(\\epsilon^{-6})$ when the stochastic noises are only in the  upper-level objective and in both level objectives, respectively.  When the objectives have higher-order smoothness conditions, our deterministic method can escape saddle points by injecting noise, and can be accelerated to  achieve a faster rate of $\\tilde {O}(\\epsilon^{-1.75})$ using Nesterov's momentum.",
+    "authors": [
+        "Lesi Chen",
+        "Yaohua Ma",
+        "Jingzhao Zhang"
+    ],
+    "emails": [
+        "chenlc23@mails.tsinghua.edu.cn",
+        "ma-yh21@mails.tsinghua.edu.cn",
+        "jingzhaoz@mail.tsinghua.edu.cn"
+    ],
+    "id": "23-1104",
+    "issue": 109,
+    "pages": [
+        1,
+        56
+    ],
+    "title": "Near-Optimal Nonconvex-Strongly-Convex Bilevel Optimization with Fully First-Order Oracles",
+    "volume": 26,
+    "year": 2025
+}

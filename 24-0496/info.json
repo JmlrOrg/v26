@@ -1,0 +1,32 @@
+{
+    "abstract": "We derive a new analysis of Follow The Regularized Leader (FTRL) for online learning with delayed bandit feedback. By separating the cost of delayed feedback from that of bandit feedback, our analysis allows us to obtain new results in four important settings. We derive the first optimal (up to logarithmic factors) regret bounds for combinatorial semi-bandits with delay and adversarial Markov Decision Processes with delay (both known and unknown transition functions). \r\nFurthermore, we use our analysis to develop an efficient algorithm for linear bandits with delay achieving near-optimal regret bounds. In order to derive these results we show that FTRL remains stable across multiple rounds under mild assumptions on the regularizer.",
+    "authors": [
+        "Lukas Zierahn",
+        "Dirk van der Hoeven",
+        "Tal Lancewicki",
+        "Aviv Rosenberg",
+        "Nicol{{\\`o}} Cesa-Bianchi"
+    ],
+    "emails": [
+        "Lukas.Zierahn@gmail.com",
+        "dirk@dirkvanderhoeven.com",
+        "lancewicki@mail.tau.ac.il",
+        "avivros@google.com",
+        "nicolo.cesa-bianchi@unimi.it"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/LukasZierahn/A-Unified-Analysis-of-Nonstochastic-Delayed-Feedback"
+        ]
+    ],
+    "id": "24-0496",
+    "issue": 104,
+    "pages": [
+        1,
+        60
+    ],
+    "title": "A Unified Analysis of Nonstochastic Delayed Feedback for Combinatorial Semi-Bandits, Linear Bandits, and MDPs",
+    "volume": 26,
+    "year": 2025
+}

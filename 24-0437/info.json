@@ -1,0 +1,24 @@
+{
+    "abstract": "We derive non-asymptotic error bounds for particle gradient descent (PGD,  Kuntz et al. (2023)), a recently introduced algorithm for maximum likelihood estimation of large latent variable models obtained by discretizing a gradient flow of the free energy.  We begin by showing that the flow converges exponentially fast to the free energy's minimizers for models satisfying a condition that generalizes both the log-Sobolev and the Polyak--\u0141ojasiewicz inequalities (LSI and P\u0141I, respectively). We achieve this by extending a result well-known in the optimal transport literature (that the LSI implies the Talagrand inequality) and its counterpart in the optimization literature (that the P\u0141I implies the so-called quadratic growth condition), and applying the extension to our new setting. We also generalize the Bakry--\u00c9mery Theorem and show that the LSI/P\u0141I  extension holds for models with strongly concave log-likelihoods. For such models, we further control PGD's discretization error and obtain the non-asymptotic error bounds. While we are motivated by the study of PGD, we believe that the inequalities and results we extend may be of independent interest.",
+    "authors": [
+        "Rocco Caprio",
+        "Juan Kuntz",
+        "Samuel Power",
+        "Adam M. Johansen"
+    ],
+    "emails": [
+        "rocco.caprio@warwick.ac.uk",
+        "juankuntznussio@gmail.com",
+        "sam.power@bristol.ac.uk",
+        "a.m.johansen@warwick.ac.uk"
+    ],
+    "id": "24-0437",
+    "issue": 103,
+    "pages": [
+        1,
+        38
+    ],
+    "title": "Error bounds for particle gradient descent, and extensions of the log-Sobolev and Talagrand inequalities",
+    "volume": 26,
+    "year": 2025
+}

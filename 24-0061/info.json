@@ -1,0 +1,24 @@
+{
+    "abstract": "Expected shortfall (ES) is widely used for characterizing the tail of a distribution across various fields, particularly in financial risk management. In this paper, we explore a two-step procedure that leverages an orthogonality property to reduce sensitivity to nuisance parameters when estimating within a joint quantile and expected shortfall regression framework. For high-dimensional sparse models, we propose a robust $\\ell_1$-penalized two-step approach capable of handling heavy-tailed data distributions. We establish non-asymptotic estimation error bounds and propose an appropriate growth rate for the diverging robustification parameter. To facilitate statistical inference for certain linear combinations of the ES regression coefficients, we construct debiased estimators and develop their asymptotic distributions, which form the basis for constructing valid confidence intervals. We validate the proposed method through simulation studies, demonstrating its effectiveness in high-dimensional linear models with heavy-tailed errors.",
+    "authors": [
+        "Gaoyu Wu",
+        "Jelena Bradic",
+        "Kean Ming Tan",
+        "Wen-Xin Zhou"
+    ],
+    "emails": [
+        "g5wu@ucsd.edu",
+        "jbradic@ucsd.edu",
+        "keanming@umich.edu",
+        "wenxinz@uic.edu"
+    ],
+    "id": "24-0061",
+    "issue": 102,
+    "pages": [
+        1,
+        54
+    ],
+    "title": "Linear Hypothesis Testing in High-Dimensional Expected Shortfall Regression with Heavy-Tailed Errors",
+    "volume": 26,
+    "year": 2025
+}

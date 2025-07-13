@@ -1,0 +1,22 @@
+{
+    "abstract": "Varying coefficient models are popular for estimating nonlinear regression functions in functional data models. Their Bayesian variants have received limited attention in large data applications, primarily due to prohibitively slow posterior computations using Markov chain Monte Carlo (MCMC) algorithms. We introduce Bayesian data sketching for varying coefficient models to obviate computational challenges presented by large sample sizes. To address the challenges of analyzing large data, we compress the functional response vector and predictor matrix by a random linear transformation to achieve dimension reduction and conduct inference on the compressed data. Our approach distinguishes itself from several existing methods for analyzing large functional data in that it requires neither the development of new models or algorithms nor any specialized computational hardware while delivering fully model-based Bayesian inference. Well-established methods and algorithms for varying-coefficient regression models can be applied to the compressed data. We establish posterior contraction rates for estimating the varying coefficients and predicting the outcome at new locations with the randomly compressed data model. We use simulation experiments and analyze remote sensed vegetation data to empirically illustrate the inferential and computational efficiency of our approach.",
+    "authors": [
+        "Rajarshi Guhaniyogi",
+        "Laura Baracaldo",
+        "Sudipto Banerjee"
+    ],
+    "emails": [
+        "rajguhaniyogi@tamu.edu",
+        "lnbaracaldol@ucsb.edu",
+        "sudipto@ucla.edu"
+    ],
+    "id": "23-0505",
+    "issue": 98,
+    "pages": [
+        1,
+        29
+    ],
+    "title": "Bayesian Data Sketching for Varying Coefficient Regression Models",
+    "volume": 26,
+    "year": 2025
+}

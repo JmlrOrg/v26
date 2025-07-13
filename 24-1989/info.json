@@ -1,0 +1,22 @@
+{
+    "abstract": "This paper focuses on minimizing a smooth function combined with a nonsmooth regularization term on a compact Riemannian submanifold embedded in the Euclidean space under a decentralized setting. Typically, there are two types of approaches at present for tackling such composite optimization problems. The first, subgradient-based approaches, rely on subgradient information of the objective function to update variables, achieving an iteration complexity of $O(\\epsilon^{-4}\\log^2(\\epsilon^{-2}))$. The second, smoothing approaches, involve constructing a smooth approximation of the nonsmooth regularization term, resulting in an iteration complexity of $O(\\epsilon^{-4})$. This paper proposes a proximal gradient type algorithm that fully exploits the composite structure. The global convergence to a stationary point is established with a significantly improved iteration complexity of $O(\\epsilon^{-2})$. To validate the effectiveness and efficiency of our proposed method, we present numerical results from real-world applications, showcasing its superior performance compared to existing approaches.",
+    "authors": [
+        "Lei Wang",
+        "Le Bao",
+        "Xin Liu"
+    ],
+    "emails": [
+        "wlkings@lsec.cc.ac.cn",
+        "lebao@psu.edu",
+        "liuxin@lsec.cc.ac.cn"
+    ],
+    "id": "24-1989",
+    "issue": 106,
+    "pages": [
+        1,
+        37
+    ],
+    "title": "A Decentralized Proximal Gradient Tracking Algorithm for Composite Optimization on Riemannian Manifolds",
+    "volume": 26,
+    "year": 2025
+}

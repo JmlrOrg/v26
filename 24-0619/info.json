@@ -1,7 +1,7 @@
 {
     "abstract": "The Laplace approximation is a popular method for constructing a Gaussian approximation to the Bayesian posterior and thereby approximating the posterior mean and variance. But approximation quality is a concern. One might consider using rate-of-convergence bounds from certain versions of the Bayesian Central Limit Theorem (BCLT) to provide quality guarantees. But existing bounds require assumptions that are unrealistic even for relatively simple real-life Bayesian analyses; more specifically, existing bounds either (1) require knowing the true data-generating parameter, (2) are asymptotic in the number of samples, (3) do not control the Bayesian posterior mean, or (4) require strongly log concave models to compute. In this work, we provide the first computable bounds on quality that simultaneously (1) do not require knowing the true parameter, (2) apply to finite samples, (3) control posterior means and variances, and (4) apply generally to models that satisfy the conditions of the asymptotic BCLT. Moreover, we substantially improve the dimension dependence of existing bounds; in fact, we achieve the lowest-order dimension dependence possible in the general case. We compute exact constants in our bounds for a variety of standard models, including logistic regression, and numerically demonstrate their utility. We provide a framework for analysis of more complex models.",
     "authors": [
-        "Miko\u0142aj J. Kasprzak",
+        "Miko{\\l}aj J. Kasprzak",
         "Ryan Giordano",
         "Tamara Broderick"
     ],

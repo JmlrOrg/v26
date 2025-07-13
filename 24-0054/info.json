@@ -1,0 +1,20 @@
+{
+    "abstract": "Despite the remarkable empirical successes of Generative Adversarial Networks (GANs), the theoretical guarantees for their statistical accuracy remain rather pessimistic. In particular, the data distributions on which GANs are applied, such as natural images, are often hypothesized to have an intrinsic low-dimensional structure in a typically high-dimensional feature space, but this is often not reflected in the derived rates in the state-of-the-art analyses. In this paper, we attempt to bridge the gap between the theory and practice of GANs and their bidirectional variant, Bi-directional GANs (BiGANs), by deriving statistical guarantees on the estimated densities in terms of the intrinsic dimension of the data and the latent space. We analytically show that if one has access to $n$ samples from the unknown target distribution and the network architectures are properly chosen, the expected Wasserstein-1 distance of the estimates from the target scales as $O\\left( n^{-1/d_\\mu } \\right)$  for GANs and $\\tilde{O}\\left( n^{-1/(d_\\mu+\\ell)} \\right)$  for BiGANs,  where $d_\\mu$ and $\\ell$ are the upper Wasserstein-1 dimension of the data-distribution and latent-space dimension, respectively. The theoretical analyses not only suggest that these methods successfully avoid the curse of dimensionality, in the sense that the exponent of $n$ in the error rates does not depend on the data dimension but also serve to bridge the gap between the theoretical analyses of GANs and the known sharp rates from optimal transport literature.  Additionally, we demonstrate that GANs can effectively achieve the minimax optimal rate even for non-smooth underlying distributions, with the use of interpolating generator networks.",
+    "authors": [
+        "Saptarshi Chakraborty",
+        "Peter L. Bartlett"
+    ],
+    "emails": [
+        "saptarshic@berkeley.edu",
+        "peter@berkeley.edu"
+    ],
+    "id": "24-0054",
+    "issue": 111,
+    "pages": [
+        1,
+        57
+    ],
+    "title": "On the Statistical Properties of Generative Adversarial Models for Low Intrinsic Data Dimension",
+    "volume": 26,
+    "year": 2025
+}
