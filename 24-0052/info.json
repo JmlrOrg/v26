@@ -1,0 +1,26 @@
+{
+    "abstract": "We present a boosting-based method to learn additive Structural Equation Models (SEMs) from observational data, with a focus on the theoretical aspects of determining the causal order among variables. We introduce a family of score functions based on arbitrary regression techniques, for which we establish sufficient conditions that guarantee consistent identification of the true causal ordering. Our analysis reveals that boosting with early stopping meets these criteria and thus offers a consistent score function for causal orderings.  To address the challenges posed by high-dimensional data sets, we adapt our approach through a component-wise gradient descent in the space of additive SEMs. Our simulation study supports the theoretical findings in low-dimensional settings and demonstrates that our high-dimensional adaptation is competitive with state-of-the-art methods. In addition, it exhibits robustness with respect to the choice of hyperparameters, thereby simplifying the tuning process.",
+    "authors": [
+        "Maximilian Kertel",
+        "Nadja Klein"
+    ],
+    "emails": [
+        "maximiliankertel@gmail.com",
+        "nadja.klein@kit.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/mkrtl/BoostingDAGs"
+        ]
+    ],
+    "id": "24-0052",
+    "issue": 169,
+    "pages": [
+        1,
+        49
+    ],
+    "title": "Boosting Causal Additive Models",
+    "volume": 26,
+    "year": 2025
+}

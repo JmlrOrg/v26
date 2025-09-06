@@ -1,0 +1,26 @@
+{
+    "abstract": "We study policy gradient for mean-field control in continuous time in a  reinforcement learning setting. By considering randomised policies with entropy regularisation, we derive a gradient expectation representation of the value function, which is amenable to actor-critic type  algorithms, where the value functions and the policies are learnt alternately based on observation samples of the state  and model-free estimation of the population state distribution, either by offline or online learning. In the linear-quadratic mean-field framework, we obtain an exact parametrisation of the actor and critic functions defined on the Wasserstein space. Finally, we illustrate the results of our algorithms with some numerical experiments on  concrete examples.",
+    "authors": [
+        "Noufel FRIKHA",
+        "Maximilien GERMAIN",
+        "Mathieu LAURIERE",
+        "Huyen PHAM",
+        "Xuanye SONG"
+    ],
+    "emails": [
+        "Noufel.Frikha@univ-paris1.fr",
+        "maximilien.germain@gmail.com",
+        "mathieu.lauriere@nyu.edu",
+        "huyen.pham@polytechnique.edu",
+        "xuanye.song@gmail.com"
+    ],
+    "id": "23-0345",
+    "issue": 127,
+    "pages": [
+        1,
+        42
+    ],
+    "title": "Actor-Critic learning  for mean-field control in continuous time",
+    "volume": 26,
+    "year": 2025
+}

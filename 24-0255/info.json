@@ -1,0 +1,20 @@
+{
+    "abstract": "We study the often overlooked phenomenon, first noted in Breiman (2001), that random forests appear to reduce bias compared to bagging. Motivated by an interesting paper by Mentch and Zhou (2020), where the authors explain the success of random forests in low signal-to-noise ratio (SNR) settings through regularization, we explore how random forests can capture patterns in the data that bagging ensembles fail to capture. We empirically demonstrate that in the presence of such patterns, random forests reduce bias along with variance and can increasingly outperform bagging ensembles when SNR is high. Our observations offer insights into the real-world success of random forests across a range of SNRs and enhance our understanding of the difference between random forests and bagging ensembles. Our investigations also yield practical insights into the importance of tuning $mtry$ in random forests.",
+    "authors": [
+        "Brian Liu",
+        "Rahul Mazumder"
+    ],
+    "emails": [
+        "briliu@mit.edu",
+        "rahulmaz@mit.edu"
+    ],
+    "id": "24-0255",
+    "issue": 150,
+    "pages": [
+        1,
+        49
+    ],
+    "title": "Randomization Can Reduce Both Bias and Variance: A Case Study in Random Forests",
+    "volume": 26,
+    "year": 2025
+}

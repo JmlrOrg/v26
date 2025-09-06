@@ -1,0 +1,22 @@
+{
+    "abstract": "We propose a gradient-enhanced algorithm for high-dimensional function approximation.\r\nThe algorithm proceeds in two steps: firstly, we reduce the input dimension by learning the relevant input features from gradient evaluations, and secondly, we regress the function output against the pre-learned features. To ensure theoretical guarantees, we construct the feature map as the first components of a diffeomorphism, which we learn by minimizing an error bound obtained using Poincar\u00e9 Inequality applied either in the input space or in the feature space. This leads to two different strategies, which we compare both theoretically and numerically and relate to existing methods in the literature.\r\nIn addition, we propose a dimension augmentation trick to increase the approximation power of feature detection.\r\nA generalization to vector-valued functions demonstrate that our methodology directly applies to learning autoencoders. Here, we approximate the identity function over a given dataset by a composition of feature map (encoder) with the regression function (decoder). In practice, we construct the diffeomorphism using coupling flows, a particular class of invertible neural networks.\r\nNumerical experiments on various high-dimensional functions show that the proposed algorithm outperforms state-of-the-art competitors, especially with small datasets.",
+    "authors": [
+        "Romain Verdi{{\\`e}}re",
+        "Cl{{\\'e}}mentine Prieur",
+        "Olivier Zahm"
+    ],
+    "emails": [
+        "romain.verdiere@inria.fr",
+        "clementine.prieur@univ-grenoble-alpes.fr",
+        "olivier.zahm@inria.fr"
+    ],
+    "id": "23-1707",
+    "issue": 139,
+    "pages": [
+        1,
+        31
+    ],
+    "title": "Diffeomorphism-based feature learning using Poincar\u00e9 inequalities on augmented input space",
+    "volume": 26,
+    "year": 2025
+}

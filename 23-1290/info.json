@@ -1,0 +1,26 @@
+{
+    "abstract": "Designing efficient and accurate numerical solvers for high-dimensional partial differential equations (PDEs) remains a challenging and important topic in computational science and engineering, mainly due to the \"curse of dimensionality\" in designing numerical schemes that scale in dimension. This paper introduces a new methodology that seeks an approximate PDE solution in the space of functions with finitely many analytic expressions and, hence, this methodology is named the finite expression method (FEX). It is proved in approximation theory that FEX can avoid the curse of dimensionality. As a proof of concept, a deep reinforcement learning method is proposed to implement FEX for various high-dimensional PDEs in different dimensions, achieving high and even machine accuracy with a memory complexity polynomial in dimension and an amenable time complexity. An approximate solution with finite analytic expressions also provides interpretable insights into the ground truth PDE solution, which can further help to advance the understanding of physical systems and design postprocessing techniques for a refined solution.",
+    "authors": [
+        "Senwei Liang",
+        "Haizhao Yang"
+    ],
+    "emails": [
+        "senwei.liang@ttu.edu",
+        "hzyang@umd.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/LeungSamWai/Finite-expression-method"
+        ]
+    ],
+    "id": "23-1290",
+    "issue": 138,
+    "pages": [
+        1,
+        31
+    ],
+    "title": "Finite Expression Method for Solving High-Dimensional Partial Differential Equations",
+    "volume": 26,
+    "year": 2025
+}

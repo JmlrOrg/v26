@@ -1,0 +1,24 @@
+{
+    "abstract": "Hierarchical Reinforcement Learning (HRL) is a promising approach for managing task complexity across multiple levels of abstraction and accelerating long-horizon agent exploration. However, the effectiveness of hierarchical policies heavily depends on prior knowledge and manual assumptions about skill definitions and task decomposition. In this paper, we propose a novel Structural Information principles-based framework, namely SIDM, for hierarchical Decision Making in both single-agent and multi-agent scenarios. Central to our work is the utilization of structural information embedded in the decision-making process to adaptively and dynamically discover and learn hierarchical policies through environmental abstractions. Specifically, we present an abstraction mechanism that processes historical state-action trajectories to construct abstract representations of states and actions. We define and optimize directed structural entropy\u2014a metric quantifying the uncertainty in transition dynamics between abstract states\u2014to discover skills that capture key transition patterns in RL environments. Building on these findings, we develop a skill-based learning method for single-agent scenarios and a role-based collaboration method for multi-agent scenarios, both of which can flexibly integrate various underlying algorithms for enhanced performance. Extensive evaluations on challenging benchmarks demonstrate that our framework significantly and consistently outperforms state-of-the-art baselines, improving the effectiveness, efficiency, and stability of policy learning by up to 32.70%, 64.86%, and 88.26%, respectively, as measured by average rewards, convergence timesteps, and standard deviations.",
+    "authors": [
+        "Xianghua Zeng",
+        "Hao Peng",
+        "Dingli Su",
+        "Angsheng Li"
+    ],
+    "emails": [
+        "zengxianghua@buaa.edu.cn",
+        "penghao@buaa.edu.cn",
+        "sudingli@buaa.edu.cn",
+        "angsheng@buaa.edu.cn"
+    ],
+    "id": "24-1184",
+    "issue": 182,
+    "pages": [
+        1,
+        55
+    ],
+    "title": "Hierarchical Decision Making Based on Structural Information Principles",
+    "volume": 26,
+    "year": 2025
+}

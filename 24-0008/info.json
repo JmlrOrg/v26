@@ -1,0 +1,33 @@
+{
+    "abstract": "We introduce skglm, an open-source Python package for regularized Generalized Linear Models. Thanks to its composable nature, it supports combining datafits, penalties, and solvers to fit a wide range of models, many of them not included in scikit-learn (e.g. Group Lasso and variants). It uses state-of-the-art algorithms to solve problems involving high-dimensional datasets, providing large speed-ups compared to existing implementations. It is fully compliant with the scikit-learn API and acts as a drop-in replacement for its estimators. Finally, it abides by the standards of open source development and is integrated in the scikit-learn-contrib GitHub organization.",
+    "authors": [
+        "Badr Moufad",
+        "Pierre-Antoine Bannier",
+        "Quentin Bertrand",
+        "Quentin Klopfenstein",
+        "Mathurin Massias"
+    ],
+    "emails": [
+        "badr.moufad@inria.fr",
+        "pierreantoine.bannier@gmail.com",
+        "quentin.bertrand@mila.quebec",
+        "quentin.klopfenstein@uni.lu",
+        "mathurin.massias@inria.fr"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/scikit-learn-contrib/skglm"
+        ]
+    ],
+    "id": "24-0008",
+    "issue": 149,
+    "pages": [
+        1,
+        6
+    ],
+    "special_issue": "MLOSS",
+    "title": "skglm: Improving scikit-learn for Regularized Generalized Linear Models",
+    "volume": 26,
+    "year": 2025
+}

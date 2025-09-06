@@ -1,0 +1,28 @@
+{
+    "abstract": "Although adaptive gradient methods have been extensively used in deep learning, their convergence rates proved in the literature are all slower than that of SGD, particularly with respect to their dependence on the dimension. This paper considers the classical RMSProp and its momentum extension and establishes the convergence rate of $\\frac{1}{T}\\sum_{k=1}^TE\\left[||\\nabla f(\\mathbf{x}^k)||_1\\right]\\leq O(\\frac{\\sqrt{d}C}{T^{1/4}})$ measured by $\\ell_1$ norm without the bounded gradient assumption, where $d$ is the dimension of the optimization variable, $T$ is the iteration number, and $C$ is a constant identical to that appeared in the optimal convergence rate of SGD. Our convergence rate matches the lower bound with respect to all the coefficients except the dimension $d$. Since $||\\mathbf{x}||_2\\ll ||\\mathbf{x}||_1\\leq\\sqrt{d}||\\mathbf{x}||_2$ for problems with extremely large $d$, our convergence rate can be considered to be analogous to the $\\frac{1}{T}\\sum_{k=1}^TE\\left[||\\nabla f(\\mathbf{x}^k)||_2\\right]\\leq O(\\frac{C}{T^{1/4}})$ rate of SGD in the ideal case of $||\\nabla f(\\mathbf{x})||_1=\\varTheta(\\sqrt{d})||\\nabla f(\\mathbf{x})||_2$.",
+    "authors": [
+        "Huan Li",
+        "Yiming Dong",
+        "Zhouchen Lin"
+    ],
+    "emails": [
+        "lihuanss@nankai.edu.cn",
+        "ymdong@stu.pku.edu.cn",
+        "zlin@pku.edu.cn"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/adonis-dym/Convergence-Rate-RMSProp"
+        ]
+    ],
+    "id": "24-0523",
+    "issue": 131,
+    "pages": [
+        1,
+        25
+    ],
+    "title": "On the O(sqrt(d)/T^(1/4)) Convergence Rate of RMSProp and Its Momentum Extension Measured by l_1 Norm",
+    "volume": 26,
+    "year": 2025
+}

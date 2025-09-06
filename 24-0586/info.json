@@ -1,0 +1,30 @@
+{
+    "abstract": "In inverse problems, many conditional generative models approximate the posterior measure by minimizing a distance between the joint measure and its learned approximation. While this approach also controls the distance between the posterior measures in the case of the Kullback\u2013Leibler divergence, the same in general does not hold true for the Wasserstein distance. In this paper, we introduce a conditional Wasserstein distance via a set of restricted couplings that equals the expected Wasserstein distance of the posteriors. Interestingly, the dual formulation of the conditional Wasserstein-1 distance resembles losses in the conditional Wasserstein GAN literature in a quite natural way. We derive theoretical properties of the conditional Wasserstein distance, characterize the corresponding geodesics and velocity fields as well as the flow ODEs. Subsequently, we propose to approximate the velocity fields by relaxing the conditional Wasserstein distance. Based on this, we propose an extension of OT Flow Matching for solving Bayesian inverse problems and demonstrate its numerical advantages on an inverse problem and class-conditional image generation.",
+    "authors": [
+        "Jannis Chemseddine",
+        "Paul Hagemann",
+        "Gabriele Steidl",
+        "Christian Wald"
+    ],
+    "emails": [
+        "chemseddine@math.tu-berlin.de",
+        "hagemann@math.tu-berlin.de",
+        "steidl@math.tu-berlin.de",
+        "wald@math.tu-berlin.de"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/JChemseddine/Conditional_Wasserstein_Distances"
+        ]
+    ],
+    "id": "24-0586",
+    "issue": 141,
+    "pages": [
+        1,
+        47
+    ],
+    "title": "Conditional Wasserstein Distances with Applications in Bayesian OT Flow Matching",
+    "volume": 26,
+    "year": 2025
+}

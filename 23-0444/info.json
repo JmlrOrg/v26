@@ -1,0 +1,28 @@
+{
+    "abstract": "Network data are often sampled with auxiliary information or collected through the observation of a complex system over time, leading to multiple network snapshots indexed by a continuous variable. Many methods in statistical network analysis are traditionally designed for a single network, and can be applied to an aggregated network in this setting, but that approach can miss important functional structure. Here we develop an approach to estimating the expected network explicitly as a function of a continuous index, be it time or another indexing variable. We parameterize the network expectation through low dimensional latent processes, whose components we represent with a fixed, finite-dimensional functional basis. We derive a gradient descent estimation algorithm, establish theoretical guarantees for recovery of the low dimensional structure, compare our method to competitors, and apply it to a data set of international political interactions over time, showing our proposed method to adapt well to data, outperform competitors, and provide interpretable and meaningful results.",
+    "authors": [
+        "Peter W. MacDonald",
+        "Elizaveta Levina",
+        "Ji Zhu"
+    ],
+    "emails": [
+        "pwmacdonald@uwaterloo.ca",
+        "elevina@umich.edu",
+        "jizhu@umich.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/peterwmacd/fase"
+        ]
+    ],
+    "id": "23-0444",
+    "issue": 147,
+    "pages": [
+        1,
+        69
+    ],
+    "title": "Latent Process Models for Functional Network Data",
+    "volume": 26,
+    "year": 2025
+}

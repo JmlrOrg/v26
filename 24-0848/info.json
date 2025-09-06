@@ -1,0 +1,22 @@
+{
+    "abstract": "We study quantitatively the overparametrization limit of the original Wasserstein-GAN algorithm. Effectively, we show that the algorithm is a stochastic discretization of a system of continuity equations for the parameter distributions of the generator and discriminator. We show that parameter clipping to satisfy the Lipschitz condition in the algorithm induces a discontinuous vector field in the mean field dynamics, which gives rise to blow-up in finite time of the mean field dynamics. We look into a specific toy example that shows that all solutions to the mean field equations converge in the long time limit to time periodic solutions, this helps explain the failure to converge of the algorithm.",
+    "authors": [
+        "Matias G. Delgadino",
+        "Bruno B. Suassuna",
+        "Rene Cabrera"
+    ],
+    "emails": [
+        "matias.delgadino@math.utexas.edu",
+        "bruno.b.suassuna@mat.puc-rio.br",
+        "rene.cabrera@math.utexas.edu"
+    ],
+    "id": "24-0848",
+    "issue": 181,
+    "pages": [
+        1,
+        30
+    ],
+    "title": "Generative Adversarial Networks: Dynamics",
+    "volume": 26,
+    "year": 2025
+}

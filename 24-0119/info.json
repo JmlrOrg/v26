@@ -1,0 +1,22 @@
+{
+    "abstract": "One core assumption typically adopted for valid causal inference is that of no interference between experimental units, i.e., the outcome of an experimental unit is unaffected by the treatments assigned to other experimental units. This assumption can be violated in real-life experiments, which significantly complicates the task of causal inference. As the number of potential outcomes increases, it becomes challenging to disentangle direct treatment effects from ``spillover'' effects. Current methodologies are lacking, as they cannot handle arbitrary, unknown interference structures to permit inference on causal estimands. We present a general framework to address the limitations of existing approaches. Our framework is based on the new concept of the ``degree of interference'' (DoI). The DoI is a unit-level latent variable that captures the latent structure of interference. We also develop a data augmentation algorithm that adopts a blocked Gibbs sampler and Bayesian nonparametric methodology to perform inferences on the estimands under our framework. We illustrate the DoI concept and properties of our Bayesian methodology via extensive simulation studies and an analysis of a randomized experiment investigating the impact of a cash transfer program for which interference is a critical concern. Ultimately, our framework enables us to infer causal effects without strong structural assumptions on interference.",
+    "authors": [
+        "Yuki Ohnishi",
+        "Bikram Karmakar",
+        "Arman Sabbaghi"
+    ],
+    "emails": [
+        "yuki.ohnishi@yale.edu",
+        "bkarmakar@wisc.edu",
+        "sabbaghi@purdue.edu"
+    ],
+    "id": "24-0119",
+    "issue": 120,
+    "pages": [
+        1,
+        37
+    ],
+    "title": "Degree of Interference: A General Framework For Causal Inference Under Interference",
+    "volume": 26,
+    "year": 2025
+}

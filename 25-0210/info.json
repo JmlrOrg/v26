@@ -1,0 +1,34 @@
+{
+    "abstract": "We introduce distributional dynamic programming (DP) methods for optimizing statistical functionals of the return distribution, with standard reinforcement learning as a special case. Previous distributional DP methods could optimize the same class of expected utilities as classic DP. To go beyond, we combine distributional DP with stock augmentation, a technique previously introduced for classic DP in the context of risk-sensitive RL, where the MDP state is augmented with a statistic of the rewards obtained since the first time step. We find that a number of recently studied problems can be formulated as stock-augmented return distribution optimization, and we show that we can use distributional DP to solve them. We analyze distributional value and policy iteration, with bounds and a study of what objectives these distributional DP methods can or cannot optimize. We describe a number of applications outlining how to use distributional DP to solve different stock-augmented return distribution optimization problems, for example maximizing conditional value-at-risk, and homeostatic regulation. To highlight the practical potential of stock-augmented return distribution optimization and distributional DP, we introduce an agent that combines DQN and the core ideas of distributional DP, and empirically evaluate it for solving instances of the applications discussed.",
+    "authors": [
+        "Bernardo {{\\'A}}vila Pires",
+        "Mark Rowland",
+        "Diana Borsa",
+        "Zhaohan Daniel Guo",
+        "Khimya Khetarpal",
+        "Andr{{\\'e}} Barreto",
+        "David Abel",
+        "R{{\\'e}}mi Munos",
+        "Will Dabney"
+    ],
+    "emails": [
+        "bavilapires@google.com",
+        "markrowland@google.com",
+        "borsa@google.com",
+        "danielguo@google.com",
+        "khimya@google.com",
+        "andrebarreto@google.com",
+        "dmabel@google.com",
+        "remimunos@meta.com",
+        "wdabney@google.com"
+    ],
+    "id": "25-0210",
+    "issue": 185,
+    "pages": [
+        1,
+        90
+    ],
+    "title": "Optimizing Return Distributions with Distributional Dynamic Programming",
+    "volume": 26,
+    "year": 2025
+}

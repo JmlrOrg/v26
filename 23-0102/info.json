@@ -1,0 +1,28 @@
+{
+    "abstract": "We analyze principal component regression (PCR) in a high-dimensional error-in-variables setting with fixed design. Under suitable conditions, we show that PCR consistently identifies the unique model with minimum $\\ell_2$-norm. These results enable us to establish non-asymptotic out-of-sample prediction guarantees that improve upon the best known rates. In the course of our analysis, we introduce a natural linear algebraic condition between the in- and out-of-sample covariates, which allows us to avoid distributional assumptions for out-of-sample predictions. Our simulations illustrate the importance of this condition for generalization, even under covariate shifts. Accordingly, we construct a hypothesis test to check when this condition holds in practice. As a byproduct, our results also lead to novel results for the synthetic controls literature, a leading approach for policy evaluation. To the best of our knowledge, our prediction guarantees for the fixed design setting have been elusive in both the high-dimensional error-in-variables and synthetic controls literatures.",
+    "authors": [
+        "Anish Agarwal",
+        "Devavrat Shah",
+        "Dennis Shen"
+    ],
+    "emails": [
+        "aa5194@columbia.edu",
+        "devavrat@mit.edu",
+        "dennis.shen@marshall.usc.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/deshen24/principal-component-regression"
+        ]
+    ],
+    "id": "23-0102",
+    "issue": 117,
+    "pages": [
+        1,
+        58
+    ],
+    "title": "On Model Identification and Out-of-Sample Prediction of PCR with Applications to Synthetic Controls",
+    "volume": 26,
+    "year": 2025
+}

@@ -1,0 +1,22 @@
+{
+    "abstract": "We study the classification problem under the two-component anisotropic sub-Gaussian mixture model in high dimensions and in the non-asymptotic setting. First, we derive lower bounds and  matching upper bounds for the minimax risk of classification in this framework. We also show that in the high-dimensional regime, the linear discriminant analysis classifier turns out to be sub-optimal in the minimax sense. Next, we give precise characterization of the risk of classifiers based on solutions of $\\ell_2$-regularized least squares problem. We deduce that the interpolating solutions may outperform the regularized classifiers under mild assumptions on the covariance structure of the noise, and present concrete examples of this phenomenon. Our analysis also demonstrates robustness of interpolation to certain models of corruption. To the best of our knowledge, this peculiar fact has not yet been investigated in the rapidly growing literature related to interpolation. We conclude that interpolation is not only benign but can also be optimal, and in some cases robust.",
+    "authors": [
+        "Stanislav Minsker",
+        "Mohamed Ndaoud",
+        "Yiqiu Shen"
+    ],
+    "emails": [
+        "minsker@usc.edu",
+        "ndaoud@essec.edu",
+        "yiqiushe@usc.edu"
+    ],
+    "id": "24-1366",
+    "issue": 153,
+    "pages": [
+        1,
+        39
+    ],
+    "title": "Classification in the high dimensional Anisotropic mixture framework: A new take on Robust Interpolation",
+    "volume": 26,
+    "year": 2025
+}

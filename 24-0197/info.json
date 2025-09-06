@@ -1,0 +1,22 @@
+{
+    "abstract": "Compositional knowledge representations in reinforcement learning (RL) facilitate modular, interpretable, and safe task specifications. However, generating compositional models requires the characterization of minimal assumptions for the robustness of the compositionality feature, especially in the case of functional decompositions. Using a categorical point of view, we develop a knowledge representation framework for a compositional theory of RL. Our approach relies on the theoretical study of the category $\\mathsf{MDP}$, whose objects are Markov decision processes (MDPs) acting as models of tasks. The categorical semantics models the compositionality of tasks through the application of pushout operations akin to combining puzzle pieces. As a practical application of these pushout operations, we introduce zig-zag diagrams that rely on the compositional guarantees engendered by the category $\\mathsf{MDP}$. We further prove that properties of the category $\\mathsf{MDP}$ unify concepts, such as enforcing safety requirements and exploiting symmetries, generalizing previous abstraction theories for RL.",
+    "authors": [
+        "Georgios Bakirtzis",
+        "Michail Savvas",
+        "Ufuk Topcu"
+    ],
+    "emails": [
+        "bakirtzis@telecom-paris.fr",
+        "michail-savvas@uiowa.edu",
+        "utopcu@utexas.edu"
+    ],
+    "id": "24-0197",
+    "issue": 130,
+    "pages": [
+        1,
+        37
+    ],
+    "title": "Categorical Semantics of Compositional Reinforcement Learning",
+    "volume": 26,
+    "year": 2025
+}

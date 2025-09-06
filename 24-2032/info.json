@@ -1,0 +1,18 @@
+{
+    "abstract": "Recent advances in self-supervised learning have highlighted the efficacy of data augmentation in learning data representation from unlabeled data. Training a linear model atop these enhanced representations can yield an adept classifier. Despite the remarkable empirical performance, the underlying mechanisms that enable data augmentation to unravel nonlinear data structures into linearly separable representations remain elusive. This paper seeks to bridge this gap by investigating under what conditions learned representations can linearly separate manifolds when data is drawn from a multi-manifold model. Our investigation reveals that data augmentation offers additional information beyond observed data and can thus improve the information-theoretic optimal rate of linear separation capacity. In particular, we show that self-supervised learning can linearly separate manifolds with a smaller distance than unsupervised learning, underscoring the additional benefits of data augmentation. Our theoretical analysis further underscores that the performance of downstream linear classifiers primarily hinges on the linear separability of data representations rather than the size of the labeled data set, reaffirming the viability of constructing efficient classifiers with limited labeled data amid an expansive unlabeled data set.",
+    "authors": [
+        "Shulei Wang"
+    ],
+    "emails": [
+        "shuleiw@illinois.edu"
+    ],
+    "id": "24-2032",
+    "issue": 194,
+    "pages": [
+        1,
+        48
+    ],
+    "title": "Linear Separation Capacity of Self-Supervised Representation Learning",
+    "volume": 26,
+    "year": 2025
+}

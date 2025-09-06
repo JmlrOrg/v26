@@ -1,0 +1,26 @@
+{
+    "abstract": "Recently, several universal methods have been proposed for online convex optimization, and attain minimax rates for multiple types of convex  functions simultaneously. However, they need to design and optimize one surrogate loss for each type of functions, making it difficult to exploit the structure of the problem and utilize existing algorithms. In this paper, we propose a simple strategy for universal online convex optimization, which avoids these limitations. The key idea is to construct a set of experts to process the original online functions, and deploy a meta-algorithm over the linearized losses to aggregate predictions from experts. Specifically, the meta-algorithm is required to yield a second-order bound with excess losses, so that it can leverage strong convexity and exponential concavity to control the meta-regret. In this way, our strategy inherits the theoretical guarantee of any expert designed for strongly convex functions and exponentially concave functions, up to a double logarithmic factor. As a result, we can plug in off-the-shelf online solvers as black-box experts to deliver problem-dependent regret bounds. For general convex functions, it maintains the minimax optimality and also achieves a small-loss bound. Furthermore, we extend our universal strategy to online composite optimization, where the loss function comprises a time-varying function and a fixed regularizer. To deal with the composite loss functions, we employ a meta-algorithm based on the optimistic online learning framework, which not only enjoys a second-order bound, but also can utilize estimations for upcoming loss functions.  With suitable configurations, we show that the additional regularizer does not contribute to the meta-regret, thus ensuring the universality in the composite setting.",
+    "authors": [
+        "Lijun Zhang",
+        "Yibo Wang",
+        "Guanghui Wang",
+        "Jinfeng Yi",
+        "Tianbao Yang"
+    ],
+    "emails": [
+        "zhanglj@lamda.nju.edu.cn",
+        "wangyb@lamda.nju.edu.cn",
+        "gwang369@gatech.edu",
+        "yijinfeng@jd.com",
+        "tianbao-yang@tamu.edu"
+    ],
+    "id": "24-1131",
+    "issue": 152,
+    "pages": [
+        1,
+        53
+    ],
+    "title": "Universal Online Convex Optimization Meets Second-order Bounds",
+    "volume": 26,
+    "year": 2025
+}

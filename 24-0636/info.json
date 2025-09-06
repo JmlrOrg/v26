@@ -1,0 +1,22 @@
+{
+    "abstract": "We provide the first known algorithm that provably achieves $\\varepsilon$-optimality within $\\widetilde{O}(1/\\varepsilon)$ function evaluations for the discounted discrete-time linear quadratic regulator problem with unknown parameters, without relying on two-point gradient estimates. These estimates are known to be unrealistic in many settings, as they depend on using the exact same initialization, which is to be selected randomly, for two different policies. Our results substantially improve upon the existing literature outside the realm of two-point gradient estimates, which either leads to $\\widetilde{O}(1/\\varepsilon^2)$ rates or heavily relies on stability assumptions.",
+    "authors": [
+        "Amirreza Neshaei Moghaddam",
+        "Alex Olshevsky",
+        "Bahman Gharesifard"
+    ],
+    "emails": [
+        "amirnesha@ucla.edu",
+        "alexols@bu.edu",
+        "gharesifard@ucla.edu"
+    ],
+    "id": "24-0636",
+    "issue": 151,
+    "pages": [
+        1,
+        50
+    ],
+    "title": "Sample Complexity of the Linear Quadratic Regulator: A Reinforcement Learning Lens",
+    "volume": 26,
+    "year": 2025
+}

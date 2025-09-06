@@ -1,0 +1,30 @@
+{
+    "abstract": "Physics-informed machine learning typically integrates physical priors into the learning process by minimizing a loss function that includes both a data-driven term and a partial differential equation (PDE) regularization. Building on the formulation of the problem as a kernel regression task, we use Fourier methods to approximate the associated kernel, and propose a tractable estimator that minimizes the physics-informed risk function. We refer to this approach as physics-informed kernel learning (PIKL). This framework provides theoretical guarantees, enabling the quantification of the physical prior\u2019s impact on convergence speed. We demonstrate the numerical performance of the PIKL estimator through simulations, both in the context of hybrid modeling and in solving PDEs. In particular, we show that PIKL can outperform physics-informed neural networks in terms of both accuracy and computation time. Additionally, we identify cases where PIKL surpasses traditional PDE solvers, particularly in scenarios with noisy boundary conditions.",
+    "authors": [
+        "Nathan Doum{{\\`e}}che",
+        "Francis Bach",
+        "G{{\\'e}}rard Biau",
+        "Claire Boyer"
+    ],
+    "emails": [
+        "nathan.doumeche@sorbonne-universite.fr",
+        "francis.bach@inria.fr",
+        "gerard.biau@sorbonne-universite.fr",
+        "claire.boyer@universite-paris-saclay.fr"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/NathanDoumeche/numerical_PIML_kernel"
+        ]
+    ],
+    "id": "24-1536",
+    "issue": 124,
+    "pages": [
+        1,
+        39
+    ],
+    "title": "Physics-informed Kernel Learning",
+    "volume": 26,
+    "year": 2025
+}

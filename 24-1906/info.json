@@ -1,0 +1,24 @@
+{
+    "abstract": "Despite being a key bottleneck in many machine learning tasks, the cost of solving large linear systems has proven challenging to quantify due to problem-dependent quantities such as condition numbers.\r\nTo tackle this, we\r\n    consider a fine-grained notion of complexity for solving linear systems, which is motivated by applications where the data exhibits low-dimensional structure, including spiked covariance models and kernel machines, and when the linear system is explicitly regularized, such as ridge regression.\r\n    \r\n    Concretely, let $\\kappa_\\ell$ be the ratio between the $\\ell$th largest and the smallest singular value of $n\\times n$ matrix $A$.\r\n    We give a stochastic algorithm based on the Sketch-and-Project paradigm, that solves the linear system $Ax=b$ in time\r\n    $\\tilde O(\\kappa_\\ell\\cdot n^2\\log1/\\epsilon)$ for any $\\ell = O(n^{0.729})$.\r\nThis is a direct improvement over \r\npreconditioned conjugate gradient, and it provides a stronger separation between stochastic linear solvers and algorithms accessing $A$ only through matrix-vector products.\r\n\r\nOur main technical contribution is the new analysis of the first and second moments of the random projection matrix that arises in Sketch-and-Project.",
+    "authors": [
+        "Michal Derezi{{\\'n}}ski",
+        "Daniel LeJeune",
+        "Deanna Needell",
+        "Elizaveta Rebrova"
+    ],
+    "emails": [
+        "derezin@umich.edu",
+        "daniel@dlej.net",
+        "deanna@math.ucla.edu",
+        "elre@princeton.edu"
+    ],
+    "id": "24-1906",
+    "issue": 144,
+    "pages": [
+        1,
+        49
+    ],
+    "title": "Fine-grained Analysis and Faster Algorithms for Iteratively Solving Linear Systems",
+    "volume": 26,
+    "year": 2025
+}

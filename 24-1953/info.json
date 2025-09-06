@@ -1,0 +1,22 @@
+{
+    "abstract": "Temporal point process (TPP) is an important tool for modeling and predicting irregularly timed events across various domains. Recently, the recurrent neural network (RNN)-based TPPs have shown practical advantages over traditional parametric TPP models. However, in the current literature, it remains nascent in understanding neural TPPs from theoretical viewpoints. In this paper, we establish the excess risk bounds of RNN-TPPs under many well-known TPP settings. We especially show that an RNN-TPP with no more than four layers can achieve vanishing generalization errors. Our technical contributions include the characterization of the complexity of the multi-layer RNN class, the construction of $\\tanh$ neural networks for approximating dynamic event intensity functions, and the truncation technique for alleviating the issue of unbounded event sequences. Our results bridge the gap between TPP's application and neural network theory.",
+    "authors": [
+        "Zhiheng Chen",
+        "Guanhua Fang",
+        "Wen Yu"
+    ],
+    "emails": [
+        "zhchen22@m.fudan.edu.cn",
+        "fanggh@fudan.edu.cn",
+        "wenyu@fudan.edu.cn"
+    ],
+    "id": "24-1953",
+    "issue": 154,
+    "pages": [
+        1,
+        67
+    ],
+    "title": "On Non-asymptotic Theory of Recurrent Neural Networks in Temporal Point Processes",
+    "volume": 26,
+    "year": 2025
+}

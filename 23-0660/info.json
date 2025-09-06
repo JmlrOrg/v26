@@ -1,0 +1,28 @@
+{
+    "abstract": "Dynamic treatment regimes or policies are a sequence of decision functions over multiple stages that are tailored to individual features. One important class of treatment policies in practice, namely multi-stage stationary treatment policies, prescribes treatment assignment probabilities using the same decision function across stages, where the decision is based on the same set of features consisting of time-evolving variables (e.g., routinely collected disease biomarkers). Although there has been extensive literature on constructing valid inference for the value function associated with dynamic treatment policies, little work has focused on the policies themselves, especially in the presence of high-dimensional features. We aim to fill the gap in this work. Specifically, we first obtain the multi-stage stationary treatment policy by minimizing the negative augmented inverse probability weighted estimator of the value function to increase asymptotic efficiency. An $L_1$ penalty is applied on the policy parameters to select important features. We then construct one-step improvements of the policy parameter estimators for valid inference. Theoretically, we show that the improved estimators are asymptotically normal, even if nuisance parameters are estimated at a slow convergence rate and the dimension of the features increases with the sample size. Our numerical studies demonstrate that the proposed method estimates a sparse policy with a near-optimal value function and conducts valid inference for the policy parameters.",
+    "authors": [
+        "Daiqi Gao",
+        "Yufeng Liu",
+        "Donglin Zeng"
+    ],
+    "emails": [
+        "dgao@fas.harvard.edu",
+        "yfliu@email.unc.edu",
+        "dzeng@umich.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/DqGao/MSTP"
+        ]
+    ],
+    "id": "23-0660",
+    "issue": 167,
+    "pages": [
+        1,
+        50
+    ],
+    "title": "Asymptotic Inference for Multi-Stage Stationary Treatment Policy with Variable Selection",
+    "volume": 26,
+    "year": 2025
+}

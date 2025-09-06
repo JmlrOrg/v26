@@ -1,0 +1,20 @@
+{
+    "abstract": "The paper focuses on mean-field type multi-agent control problems with finite state and action spaces where the dynamics and cost structures are symmetric and homogeneous, and are affected by the distribution of the agents. A standard solution method for these problems is to consider the infinite population limit as an approximation and use symmetric solutions of the limit problem to achieve near optimality. The control policies, and in particular the dynamics, depend on the population distribution in the finite population setting, or the marginal distribution of the state variable of a representative agent for the infinite population setting. Hence, learning and planning for these control problems generally require estimating the reaction of the system to all possible state distributions of the agents. To overcome this issue, we consider linear function approximation for the control problem and provide coordinated and independent learning methods. We rigorously establish error upper bounds for the performance of learned solutions. The performance gap stems from (i) the mismatch due to estimating the true model with a linear one, and (ii) using the infinite population solution in the finite population problem as an approximate control. The provided upper bounds quantify the impact of these error sources on the overall performance.",
+    "authors": [
+        "Erhan Bayraktar",
+        "Ali Devran Kara"
+    ],
+    "emails": [
+        "erhan@umich.edu",
+        "akara@fsu.edu"
+    ],
+    "id": "24-1221",
+    "issue": 192,
+    "pages": [
+        1,
+        53
+    ],
+    "title": "Learning with Linear Function Approximations in Mean-Field Control",
+    "volume": 26,
+    "year": 2025
+}

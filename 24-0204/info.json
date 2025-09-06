@@ -1,0 +1,28 @@
+{
+    "abstract": "Variational dimensionality reduction methods are widely used for their accuracy, generative capabilities, and robustness. We introduce a unifying framework that generalizes both such as traditional and state-of-the-art methods. The framework is based on an interpretation of the multivariate information bottleneck, trading off the information preserved in an encoder graph (defining what to compress) against that in a decoder graph (defining a generative model for data). Using this approach, we rederive existing methods, including the deep variational information bottleneck, variational autoencoders, and deep multiview information bottleneck. We naturally extend the deep variational CCA (DVCCA) family to beta-DVCCA and introduce a new method, the deep variational symmetric information bottleneck (DVSIB). DSIB, the deterministic limit of DVSIB, connects to modern contrastive learning approaches such as Barlow Twins, among others. We evaluate these methods on Noisy MNIST and Noisy CIFAR-100, showing that algorithms better matched to the structure of the problem like DVSIB and beta-DVCCA produce better latent spaces as measured by classification accuracy, dimensionality of the latent variables, sample efficiency, and consistently outperform other approaches under comparable conditions. Additionally, we benchmark against state-of-the-art models, achieving superior or competitive accuracy. Our results demonstrate that this framework can seamlessly incorporate diverse multi-view representation learning algorithms, providing a foundation for designing novel, problem-specific loss functions.",
+    "authors": [
+        "Eslam Abdelaleem",
+        "Ilya Nemenman",
+        "K. Michael Martini"
+    ],
+    "emails": [
+        "eslam.abdelaleem@emory.edu",
+        "ilya.nemenman@emory.edu",
+        "karl.michael.martini@emory.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/KMichaelMartini/DVMIB"
+        ]
+    ],
+    "id": "24-0204",
+    "issue": 140,
+    "pages": [
+        1,
+        50
+    ],
+    "title": "Deep Variational Multivariate Information Bottleneck - A Framework for Variational Losses",
+    "volume": 26,
+    "year": 2025
+}

@@ -1,0 +1,24 @@
+{
+    "abstract": "We consider the paradigm of unsupervised anomaly detection, which involves the identification of anomalies within a dataset in the absence of labeled examples. Though distance-based methods are top-performing for unsupervised anomaly detection, they suffer heavily from the sensitivity to the choice of the number of the nearest neighbors. In this paper, we propose a new distance-based algorithm called bagged regularized $k$-distances for anomaly detection (BRDAD), converting the unsupervised anomaly detection problem into a convex optimization problem. Our BRDAD algorithm selects the weights by minimizing the surrogate risk, i.e., the finite sample bound of the empirical risk of the bagged weighted $k$-distances for density estimation (BWDDE). This approach enables us to successfully address the sensitivity challenge of the hyperparameter choice in distance-based algorithms. Moreover, when dealing with large-scale datasets, the efficiency issues can be addressed by the incorporated bagging technique in our BRDAD algorithm. On the theoretical side, we establish fast convergence rates of the AUC regret of our algorithm and demonstrate that the bagging technique significantly reduces the computational complexity. On the practical side, we conduct numerical experiments to illustrate the insensitivity of the parameter selection of our algorithm compared with other state-of-the-art distance-based methods. Furthermore, our method achieves superior performance on real-world datasets with the introduced bagging technique compared to other approaches.",
+    "authors": [
+        "Yuchao Cai",
+        "Hanfang Yang",
+        "Yuheng Ma",
+        "Hanyuan Hang"
+    ],
+    "emails": [
+        "yccai@nus.edu.sg",
+        "hyang@ruc.edu.cn",
+        "yma@ruc.edu.cn",
+        "hanyuan0725@gmail.com"
+    ],
+    "id": "23-1519",
+    "issue": 178,
+    "pages": [
+        1,
+        59
+    ],
+    "title": "Bagged Regularized k-Distances for Anomaly Detection",
+    "volume": 26,
+    "year": 2025
+}

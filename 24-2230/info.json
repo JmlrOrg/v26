@@ -1,0 +1,22 @@
+{
+    "abstract": "Hidden Markov models (HMMs) are flexible tools for clustering dependent data coming from unknown populations, allowing nonparametric modelling of the population densities. Identifiability fails when the data is in fact independent and identically distributed (i.i.d.), and we study the frontier between learnable and unlearnable two-state nonparametric HMMs. Learning the parameters of the HMM requires solving a nonlinear inverse problem whose difficulty depends not only on the smoothnesses of the populations but also on the distance to the i.i.d. boundary of the parameter set. The latter difficulty is mostly ignored in the literature in favour of assumptions precluding nearly independent data. This is the first work conducting a precise nonasymptotic, nonparametric analysis of the minimax risk taking into account all aspects of the hardness of the problem, in the case of two populations. Our analysis reveals an unexpected interplay between the distance to the i.i.d. boundary and the relative smoothnesses of the two populations: a surprising and intriguing transition occurs in the rate when the two densities have differing smoothnesses. We obtain upper and lower bounds revealing that, close to the i.i.d. boundary, it is possible to \"borrow strength\" from the estimator of the smoother density to improve the risk of the other.",
+    "authors": [
+        "Kweku Abraham",
+        "Elisabeth Gassiat",
+        "Zacharie Naulet"
+    ],
+    "emails": [
+        "lkwa2@cam.ac.uk",
+        "elisabeth.gassiat@universite-paris-saclay.fr",
+        "zacharie.naulet@inrae.fr"
+    ],
+    "id": "24-2230",
+    "issue": 155,
+    "pages": [
+        1,
+        75
+    ],
+    "title": "Frontiers to the learning of nonparametric hidden Markov models",
+    "volume": 26,
+    "year": 2025
+}

@@ -1,0 +1,24 @@
+{
+    "abstract": "The training of modern machine learning models often consists in solving high-dimensional non-convex optimisation problems that are subject to large-scale data. In this context, momentum-based stochastic optimisation algorithms have become particularly widespread. The stochasticity arises from data subsampling which reduces computational cost. Both, momentum and stochasticity help the algorithm to converge globally. In this work, we propose and analyse a continuous-time model for stochastic gradient descent with momentum. This model is a piecewise-deterministic Markov process that represents the optimiser by an underdamped dynamical system and the data subsampling through a stochastic switching. We investigate longtime limits, the subsampling-to-no-subsampling limit, and the momentum-to-no-momentum limit. We are particularly interested in the case of reducing the momentum over time. Under convexity assumptions, we show convergence of our dynamical system to the global minimiser when reducing momentum over time and letting the subsampling rate go to infinity. We then propose a stable, symplectic discretisation scheme to construct an algorithm from our continuous-time dynamical system. In experiments, we study our scheme in convex and non-convex test problems. Additionally, we train a convolutional neural network in an image classification problem. Our algorithm attains competitive results compared to stochastic gradient descent with momentum.",
+    "authors": [
+        "Kexin Jin",
+        "Jonas Latz",
+        "Chenguang Liu",
+        "Alessandro Scagliotti"
+    ],
+    "emails": [
+        "kexinj@math.princeton.edu",
+        "jonas.latz@manchester.ac.uk",
+        "C.Liu-13@tudelft.nl",
+        "scag@ma.tum.de"
+    ],
+    "id": "23-1396",
+    "issue": 148,
+    "pages": [
+        1,
+        55
+    ],
+    "title": "Losing Momentum in Continuous-time Stochastic Optimisation",
+    "volume": 26,
+    "year": 2025
+}

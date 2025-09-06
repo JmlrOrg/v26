@@ -1,0 +1,20 @@
+{
+    "abstract": "Deep neural networks have produced significant progress among machine learning models in terms of accuracy and functionality, but their inner workings are still largely unknown. Attribution  methods seek to shine  a light on these \"black box\" models by indicating how much each input contributed to a model's outputs. The Integrated Gradients (IG) method is a state of the art baseline attribution method in the axiomatic vein, meaning it is designed to conform to particular principles of attributions. We present four axiomatic characterizations of IG, establishing IG as the unique method satisfying four different sets of axioms.",
+    "authors": [
+        "Daniel Lundstrom",
+        "Meisam Razaviyayn"
+    ],
+    "emails": [
+        "dan.dave.lundstrom@gmail.com",
+        "razaviya@usc.edu"
+    ],
+    "id": "23-0671",
+    "issue": 177,
+    "pages": [
+        1,
+        31
+    ],
+    "title": "Four Axiomatic Characterizations of the Integrated Gradients Attribution Method",
+    "volume": 26,
+    "year": 2025
+}

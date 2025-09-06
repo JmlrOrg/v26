@@ -1,0 +1,30 @@
+{
+    "abstract": "Generative networks have shown remarkable success in learning complex data distributions, particularly in generating high-dimensional data from lower-dimensional inputs. While this capability is well-documented empirically, its theoretical underpinning remains unclear. One common theoretical explanation appeals to the widely accepted manifold hypothesis, which suggests that many real-world datasets, such as images and signals, often possess intrinsic low-dimensional geometric structures. Under this manifold hypothesis, it is widely believed that to approximate a distribution on a $d$-dimensional Riemannian manifold, the latent dimension needs to be at least $d$ or $d+1$. In this work, we show that this requirement on the latent dimension is not necessary by demonstrating that generative networks can approximate distributions on $d$-dimensional Riemannian manifolds from inputs of any arbitrary dimension, even lower than $d$, taking inspiration from the concept of space-filling curves. This approach, in turn, leads to a super-exponential complexity bound of the deep neural networks through expanded neurons. Our findings thus challenge the conventional belief on the relationship between input dimensionality and the ability of generative networks to model data distributions. This novel insight not only corroborates the practical effectiveness of generative networks in handling complex data structures, but also underscores a critical trade-off between approximation error, dimensionality, and model complexity.",
+    "authors": [
+        "Kevin Wang",
+        "Hongqian Niu",
+        "Yixin Wang",
+        "Didong Li"
+    ],
+    "emails": [
+        "kcwang@unc.edu",
+        "hong.niu@unc.edu",
+        "yixinw@umich.edu",
+        "didongli@unc.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/hong-niu/dgm24"
+        ]
+    ],
+    "id": "24-1335",
+    "issue": 143,
+    "pages": [
+        1,
+        37
+    ],
+    "title": "Deep Generative Models: Complexity, Dimensionality, and Approximation",
+    "volume": 26,
+    "year": 2025
+}

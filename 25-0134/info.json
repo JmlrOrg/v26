@@ -1,0 +1,30 @@
+{
+    "abstract": "Irreducible Cartesian tensors (ICTs) play a crucial role in the design of equivariant graph neural networks, as well as in theoretical chemistry and chemical physics. Meanwhile, the design space of available linear operations on tensors that preserve symmetry presents a significant challenge. The ICT decomposition and a basis of this equivariant space are difficult to obtain for high-rank tensors. After decades of research, Bonvicini (2024) has recently achieved an explicit ICT decomposition for $n=5$ with factorial time/space complexity. In this work we, for the first time, obtain decomposition matrices for ICTs up to rank $n=9$ with reduced and affordable complexity, by constructing what we call path matrices. The path matrices are obtained via performing chain-like contractions with Clebsch-Gordan matrices following the parentage scheme. We prove and leverage that the concatenation of path matrices is an orthonormal change-of-basis matrix between the Cartesian tensor product space and the spherical direct sum spaces. Furthermore, we identify a complete orthogonal basis for the equivariant space, rather than a spanning set (Pearce-Crump, 2023b), through this path matrices technique. Our method avoids the RREF algorithm and maintains a fully analytical derivation of each ICT decomposition matrix, thereby significantly improving the algorithm\u2019s speed to obtain arbitrary rank orthogonal ICT decomposition matrices and orthogonal equivariant bases. We further extend our result to the arbitrary tensor product and direct sum spaces, enabling free design between different spaces while keeping symmetry. The Python code is available at https://github.com/ShihaoShao-GH/ICT-decomposition-and-equivariant-bases, where the $n=6,\\dots,9$ ICT decomposition matrices are obtained in 1s, 3s, 11s, and 4m32s on 28-core Intel Xeon Gold 6330 CPU @ 2.00GHz, respectively.",
+    "authors": [
+        "Shihao Shao",
+        "Yikang Li",
+        "Zhouchen Lin",
+        "Qinghua Cui"
+    ],
+    "emails": [
+        "shaoshihao@pku.edu.cn",
+        "liyk18@pku.edu.cn",
+        "ZLIN@pku.edu.cn",
+        "cuiqinghua@bjmu.edu.cn"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/ShihaoShao-GH/ICT-decomposition-and-equivariant-bases"
+        ]
+    ],
+    "id": "25-0134",
+    "issue": 175,
+    "pages": [
+        1,
+        53
+    ],
+    "title": "High-Rank Irreducible Cartesian Tensor Decomposition and Bases of Equivariant Spaces",
+    "volume": 26,
+    "year": 2025
+}

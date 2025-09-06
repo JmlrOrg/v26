@@ -1,0 +1,26 @@
+{
+    "abstract": "Training neural networks with first order optimisation methods is at the core of the empirical success of deep learning. The scale of initialisation is a crucial factor, as small initialisations are generally associated to a feature learning regime, for which gradient descent is implicitly biased towards simple solutions. This work provides a general and quantitative description of the early alignment phase, originally introduced by Maennel et al. (2018). For small initialisation and one hidden ReLU layer networks, the early stage of the training dynamics leads to an alignment of the neurons towards key directions. This alignment induces a sparse representation of the network, which is directly related to the implicit bias of gradient flow  at convergence. This sparsity inducing alignment however comes at the expense of difficulties in minimising the training objective: we also provide a simple data example for which overparameterised networks fail to converge towards global minima and only converge to a spurious stationary point instead.",
+    "authors": [
+        "Etienne Boursier",
+        "Nicolas Flammarion"
+    ],
+    "emails": [
+        "etienne.boursier@inria.fr",
+        "nicolas.flammarion@epfl.ch"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/eboursier/early_alignment"
+        ]
+    ],
+    "id": "24-1523",
+    "issue": 183,
+    "pages": [
+        1,
+        75
+    ],
+    "title": "Early Alignment in Two-Layer Networks Training is a Two-Edged Sword",
+    "volume": 26,
+    "year": 2025
+}

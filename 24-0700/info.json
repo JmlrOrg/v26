@@ -1,0 +1,28 @@
+{
+    "abstract": "As machine learning models continue to grow more complex, poor calibration significantly limits the reliability of their predictions. Temperature scaling learns a single temperature parameter to scale the output logits, and despite its simplicity, remains one of the most effective post-hoc recalibration methods. We identify one of temperature scaling's defining attributes, that it increases the uncertainty of the predictions in a manner that we term homogenization, and propose to learn the optimal recalibration mapping from a larger class of functions that satisfies this property. We demonstrate the advantage of our method over temperature scaling in both calibration and out-of-distribution detection. Additionally, we extend our methodology and experimental evaluation to recalibration in the Bayesian setting.",
+    "authors": [
+        "Christopher Qian",
+        "Feng Liang",
+        "Jason Adams"
+    ],
+    "emails": [
+        "cq7@illinois.edu",
+        "liangf@illinois.edu",
+        "jradams@sandia.gov"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/anonymous1596/extending-temperature-scaling"
+        ]
+    ],
+    "id": "24-0700",
+    "issue": 161,
+    "pages": [
+        1,
+        46
+    ],
+    "title": "Extending Temperature Scaling with Homogenizing Maps",
+    "volume": 26,
+    "year": 2025
+}

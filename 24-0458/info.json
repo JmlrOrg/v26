@@ -1,0 +1,22 @@
+{
+    "abstract": "This paper explores the use of Maximum Causal Entropy Inverse Reinforcement Learning (IRL) within the context of discrete-time stationary Mean-Field Games (MFGs) characterized by finite state spaces and an infinite-horizon, discounted-reward setting. Although the resulting optimization problem is non-convex with respect to policies, we reformulate it as a convex optimization problem in terms of state-action occupation measures by leveraging the linear programming framework of Markov Decision Processes. Based on this convex reformulation, we introduce a gradient descent algorithm with a guaranteed convergence rate to efficiently compute the optimal solution. Moreover, we develop a new method that conceptualizes the MFG problem as a Generalized Nash Equilibrium Problem (GNEP), enabling effective computation of the mean-field equilibrium for forward reinforcement learning (RL) problems and marking an advancement in MFG solution techniques. We further illustrate the practical applicability of our GNEP approach by employing this algorithm to generate data for numerical MFG examples.",
+    "authors": [
+        "Berkay Anahtarci",
+        "Can Deha Kariksiz",
+        "Naci Saldi"
+    ],
+    "emails": [
+        "berkay.anahtarci@ozyegin.edu.tr",
+        "deha.kariksiz@ozyegin.edu.tr",
+        "naci.saldi@bilkent.edu.tr"
+    ],
+    "id": "24-0458",
+    "issue": 121,
+    "pages": [
+        1,
+        40
+    ],
+    "title": "Maximum Causal Entropy IRL in Mean-Field Games and GNEP Framework for Forward RL",
+    "volume": 26,
+    "year": 2025
+}

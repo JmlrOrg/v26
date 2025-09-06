@@ -1,0 +1,22 @@
+{
+    "abstract": "We study contextual bandits in the presence of a stage-wise constraint when the constraint must be satisfied both with high probability and in expectation. We start with the linear case where both the reward function and the stage-wise constraint (cost function) are linear. In each of the high probability and in expectation settings, we propose an upper-confidence bound algorithm for the problem and prove a $T$-round regret bound for it. We also prove a lower-bound for this constrained problem, show how our algorithms and analyses can be extended to multiple constraints, and provide simulations to validate our theoretical results. In the high probability setting, we describe the minimum requirements for the action set for our algorithm to be tractable. In the setting that the constraint is in expectation, we specialize our results to multi-armed bandits and propose a computationally efficient algorithm for this setting with regret analysis. Finally, we extend our results to the case where the reward and cost functions are both non-linear. We propose an algorithm for this case and prove a regret bound for it that characterize the function class complexity by the eluder dimension.",
+    "authors": [
+        "Aldo Pacchiano",
+        "Mohammad Ghavamzadeh",
+        "Peter Bartlett"
+    ],
+    "emails": [
+        "pacchian@bu.edu",
+        "ghavamza@amazon.com",
+        "peter@berkeley.edu"
+    ],
+    "id": "24-0267",
+    "issue": 170,
+    "pages": [
+        1,
+        57
+    ],
+    "title": "Contextual Bandits with Stage-wise Constraints",
+    "volume": 26,
+    "year": 2025
+}

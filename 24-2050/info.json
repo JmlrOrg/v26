@@ -1,0 +1,40 @@
+{
+    "abstract": "The increasing size of large language models (LLMs) has posed challenges for deployment and raised concerns about environmental impact due to high energy consumption. Previous research typically applies quantization after pre-training. While these methods avoid the need for model retraining, they often cause notable accuracy loss at extremely low bit-widths. In this work, we explore the feasibility and scalability of 1-bit pre-training. We introduce BitNet b1 and BitNet b1.58, the scalable and stable 1-bit Transformer architecture designed for LLMs. Specifically, we introduce BitLinear as a drop-in replacement of the nn.Linear layer in order to train 1-bit weights from scratch. Experimental results show that BitNet b1 achieves competitive performance, compared to state-of-the-art 8-bit quantization methods and FP16 Transformer baselines. With the ternary weight, BitNet b1.58 matches the half-precision Transformer LLM with the same model size and training tokens in terms of both perplexity and end-task performance, while being significantly more cost-effective in terms of latency, memory, throughput, and energy consumption. More profoundly, BitNet defines a new scaling law and recipe for training new generations of LLMs that are both high-performance and cost-effective. It enables a new computation paradigm and opens the door for designing specific hardware optimized for 1-bit LLMs.",
+    "authors": [
+        "Hongyu Wang",
+        "Shuming Ma",
+        "Lingxiao Ma",
+        "Lei Wang",
+        "Wenhui Wang",
+        "Li Dong",
+        "Shaohan Huang",
+        "Huaijie Wang",
+        "Jilong Xue",
+        "Ruiping Wang",
+        "Yi Wu",
+        "Furu Wei"
+    ],
+    "emails": [
+        "wanghongyu22@mails.ucas.ac.cn",
+        "shumingma@pku.edu.cn",
+        "lingxiao.ma@microsoft.com",
+        "leiwang1999@outlook.com",
+        "wenwan@microsoft.com",
+        "lidong1@microsoft.com",
+        "shaohanh@microsoft.com",
+        "hjwang998244353@gmail.com",
+        "xuejilong@gmail.com",
+        "wangruiping@ict.ac.cn",
+        "jxwuyi@gmail.com",
+        "fuwei@microsoft.com"
+    ],
+    "id": "24-2050",
+    "issue": 125,
+    "pages": [
+        1,
+        29
+    ],
+    "title": "BitNet: 1-bit Pre-training for Large Language Models",
+    "volume": 26,
+    "year": 2025
+}

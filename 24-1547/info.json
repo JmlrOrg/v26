@@ -1,0 +1,20 @@
+{
+    "abstract": "For overparameterized optimization tasks, such as those found in modern machine learning, global minima are generally not unique. In order to understand generalization in these settings, it is vital to study to which minimum an optimization algorithm converges. The possibility of having minima that are unstable under the dynamics imposed by the optimization algorithm limits the potential minima that the algorithm can find. In this paper, we characterize the global minima that are dynamically stable/unstable for both deterministic and stochastic gradient descent (SGD). In particular, we introduce a characteristic Lyapunov exponent that depends on the local dynamics around a global minimum and rigorously prove that the sign of this Lyapunov exponent determines whether SGD can accumulate at the respective global minimum.",
+    "authors": [
+        "Dennis Chemnitz",
+        "Maximilian Engel"
+    ],
+    "emails": [
+        "dennis.chemnitz2@fu-berlin.de",
+        "m.r.engel@uva.nl"
+    ],
+    "id": "24-1547",
+    "issue": 134,
+    "pages": [
+        1,
+        46
+    ],
+    "title": "Characterizing Dynamical Stability of Stochastic Gradient Descent in Overparameterized Learning",
+    "volume": 26,
+    "year": 2025
+}

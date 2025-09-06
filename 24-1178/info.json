@@ -1,0 +1,26 @@
+{
+    "abstract": "We propose a new method for feature learning and function estimation in supervised learning via regularised empirical risk minimisation. Our approach considers functions as expectations of Sobolev functions over all possible one-dimensional projections of the data. This framework is similar to kernel ridge regression, where the kernel is E_w(k(B)(wx, wx')), with k(B)(a, b) := min(|a|, |b|)1_{ab>0} the Brownian kernel, and the distribution of the projections w is learnt. This can also be viewed as an infinite-width one-hidden layer neural network, optimising the first layer\u2019s weights through gradient descent and explicitly adjusting the non-linearity and weights of the second layer. We introduce a gradient-based computational method for the estimator, called Brownian Kernel Neural Network (BKerNN), using particles to approximate the expectation, where the positive homogeneity of the Brownian kernel leads to improved robustness to local minima. Using Rademacher complexity, we show that BKerNN\u2019s expected risk converges to the minimal risk with explicit high-probability rates of O(min((d/n)^1/2, n^\u22121/6)) (up to logarithmic factors).  Numerical experiments confirm our optimisation intuitions, and BKerNN outperforms kernel ridge regression, and favourably compares to a one-hidden layer neural network with ReLU activations in various settings and real datasets.",
+    "authors": [
+        "Bertille FOLLAIN",
+        "Francis BACH"
+    ],
+    "emails": [
+        "bertille.follain@inria.fr",
+        "francis.bach@inria.fr"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/BertilleFollain/BKerNN"
+        ]
+    ],
+    "id": "24-1178",
+    "issue": 172,
+    "pages": [
+        1,
+        56
+    ],
+    "title": "Enhanced Feature Learning via Regularisation: Integrating Neural Networks and Kernel Methods",
+    "volume": 26,
+    "year": 2025
+}

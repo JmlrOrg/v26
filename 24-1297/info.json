@@ -1,0 +1,24 @@
+{
+    "abstract": "Most methods for neural network verification focus on bounding the image, i.e., set of outputs for a given input set. This can be used to, for example, check the robustness of neural network predictions to bounded perturbations of an input. However, verifying properties concerning the preimage, i.e., the set of inputs satisfying an output property, requires abstractions in the input space. We present a general framework for preimage abstraction that produces under- and over-approximations of any polyhedral output set. Our framework employs cheap parameterised linear relaxations of the neural network, together with an anytime refinement procedure that iteratively partitions the input region by splitting on input features and neurons. The effectiveness of our approach relies on carefully designed heuristics and optimisation objectives to achieve rapid improvements in the approximation volume. We evaluate our method on a range of tasks, demonstrating significant improvement in efficiency and scalability to high-input-dimensional image classification tasks compared to state-of-the-art techniques. Further, we showcase the application to quantitative verification and robustness analysis, presenting a sound and complete algorithm for the former and providing sound quantitative results for the latter.",
+    "authors": [
+        "Xiyue Zhang",
+        "Benjie Wang",
+        "Marta Kwiatkowska",
+        "Huan Zhang"
+    ],
+    "emails": [
+        "xiyue.zhang@cs.ox.ac.uk",
+        "benjie.wang@cs.ox.ac.uk",
+        "marta.kwiatkowska@cs.ox.ac.uk",
+        "huan@huan-zhang.com"
+    ],
+    "id": "24-1297",
+    "issue": 133,
+    "pages": [
+        1,
+        44
+    ],
+    "title": "PREMAP: A Unifying PREiMage APproximation Framework for Neural Networks",
+    "volume": 26,
+    "year": 2025
+}

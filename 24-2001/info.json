@@ -1,0 +1,18 @@
+{
+    "abstract": "We introduce a novel multi-armed bandit framework, where each arm is associated with a fixed unknown credal set over the space of outcomes (which can be richer than just the reward). The arm-to-credal-set correspondence comes from a known class of hypotheses. We then define a notion of regret corresponding to the lower prevision defined by these credal sets. Equivalently, the setting can be regarded as a two-player zero-sum game, where, on each round, the agent chooses an arm and the adversary chooses the distribution over outcomes from a set of options associated with this arm. The regret is defined with respect to the value of game. For certain natural hypothesis classes, loosely analogous to stochastic linear bandits (which are a special case of the resulting setting), we propose an algorithm and prove a corresponding upper bound on regret.",
+    "authors": [
+        "Vanessa Kosoy"
+    ],
+    "emails": [
+        "vanessa@alter.org.il"
+    ],
+    "id": "24-2001",
+    "issue": 184,
+    "pages": [
+        1,
+        75
+    ],
+    "title": "Imprecise Multi-Armed Bandits: Representing Irreducible Uncertainty as a Zero-Sum Game",
+    "volume": 26,
+    "year": 2025
+}

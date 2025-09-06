@@ -1,0 +1,22 @@
+{
+    "abstract": "We study the variational inference problem of minimizing a regularized R\u00e9nyi divergence over an exponential family. We propose to solve this problem with a Bregman proximal gradient algorithm. We propose a sampling-based algorithm to cover the black-box setting, corresponding to a stochastic Bregman proximal gradient algorithm with biased gradient estimator. We show that the resulting algorithms can be seen as relaxed moment-matching algorithms with an additional proximal step. Using Bregman updates instead of Euclidean ones allows us to exploit the geometry of our approximate model. We prove strong convergence guarantees for both our deterministic and stochastic algorithms using this viewpoint, including monotonic decrease of the objective, convergence to a stationary point or to the minimizer, and geometric convergence rates. These new theoretical insights lead to a versatile, robust, and competitive method, as illustrated by numerical experiments",
+    "authors": [
+        "Thomas Guilmeau",
+        "Emilie Chouzenoux",
+        "V{{\\'i}}ctor Elvira"
+    ],
+    "emails": [
+        "thomas.guilmeau@inria.fr",
+        "emilie.chouzenoux@inria.fr",
+        "victor.elvira@ed.ac.uk"
+    ],
+    "id": "23-0573",
+    "issue": 157,
+    "pages": [
+        1,
+        56
+    ],
+    "title": "Regularized R\u00e9nyi Divergence Minimization through Bregman Proximal Gradient Algorithms",
+    "volume": 26,
+    "year": 2025
+}

@@ -1,0 +1,26 @@
+{
+    "abstract": "We investigate decentralized online convex optimization (D-OCO), in which a set of local learners are required to minimize a sequence of global loss functions using only local computations and communications. Previous studies have established $O(n^{5/4}\\rho^{-1/2}\\sqrt{T})$ and ${O}(n^{3/2}\\rho^{-1}\\log T)$ regret bounds for convex and strongly convex functions respectively, where $n$ is the number of local learners, $\\rho<1$ is the spectral gap of the communication matrix, and $T$ is the time horizon. However, there exist large gaps from the existing lower bounds, i.e., $\\Omega(n\\sqrt{T})$ for convex functions and $\\Omega(n)$ for strongly convex functions. To fill these gaps, in this paper, we first develop a novel D-OCO algorithm that can respectively reduce the regret bounds for convex and strongly convex functions to $\\tilde{O}(n\\rho^{-1/4}\\sqrt{T})$ and $\\tilde{O}(n\\rho^{-1/2}\\log T)$. The primary technique is to design an online accelerated gossip strategy that enjoys a faster average consensus among local learners. Furthermore, by carefully exploiting spectral properties of a specific network topology, we enhance the lower bounds for convex and strongly convex functions to $\\Omega(n\\rho^{-1/4}\\sqrt{T})$ and $\\Omega(n\\rho^{-1/2}\\log T)$, respectively. These results suggest that the regret of our algorithm is nearly optimal in terms of $T$, $n$, and $\\rho$ for both convex and strongly convex functions. Finally, we propose a projection-free variant of our algorithm to efficiently handle practical applications with complex constraints. Our analysis reveals that the projection-free variant can achieve ${O}(nT^{3/4})$ and ${O}(nT^{2/3}(\\log T)^{1/3})$ regret bounds for convex and strongly convex functions with nearly optimal $\\tilde{O}(\\rho^{-1/2}\\sqrt{T})$ and $\\tilde{O}(\\rho^{-1/2}T^{1/3}(\\log T)^{2/3})$ communication rounds, respectively.",
+    "authors": [
+        "Yuanyu Wan",
+        "Tong Wei",
+        "Bo Xue",
+        "Mingli Song",
+        "Lijun Zhang"
+    ],
+    "emails": [
+        "wanyy@zju.edu.cn",
+        "weit@seu.edu.cn",
+        "boxue4-c@my.cityu.edu.hk",
+        "brooksong@zju.edu.cn",
+        "zhanglj@lamda.nju.edu.cn"
+    ],
+    "id": "24-2137",
+    "issue": 135,
+    "pages": [
+        1,
+        43
+    ],
+    "title": "Optimal and Efficient Algorithms for Decentralized Online Convex Optimization",
+    "volume": 26,
+    "year": 2025
+}

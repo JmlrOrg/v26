@@ -1,0 +1,28 @@
+{
+    "abstract": "The performance of machine learning models relies heavily on the quality of input data, yet real-world applications often face significant data-related challenges. A common issue arises when curating training data or deploying models: two datasets from the same domain may exhibit differing distributions. While many techniques exist for detecting such distribution shifts, there is a lack of comprehensive methods to explain these differences in a human-understandable way beyond opaque quantitative metrics. To bridge this gap, we propose a versatile framework of interpretable methods for comparing datasets. Using a variety of case studies, we demonstrate the effectiveness of our approach across diverse data modalities\u2014including tabular data, text data, images, time-series signals \u2013 in both low and high-dimensional settings. These methods complement existing techniques by providing actionable and interpretable insights to better understand and address distribution shifts.",
+    "authors": [
+        "Varun Babbar*",
+        "Zhicheng Guo*",
+        "Cynthia Rudin"
+    ],
+    "emails": [
+        "varun.babbar@duke.edu",
+        "zhicheng.guo@duke.edu",
+        "cynthia@cs.duke.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/chengstark/Interpretable-Dataset-Difference-Explanation"
+        ]
+    ],
+    "id": "24-0352",
+    "issue": 180,
+    "pages": [
+        1,
+        64
+    ],
+    "title": "\u201cWhat is Different Between These Datasets?\u201d A Framework for Explaining Data Distribution Shifts",
+    "volume": 26,
+    "year": 2025
+}

@@ -1,0 +1,20 @@
+{
+    "abstract": "We present novel bounds for estimating discrete probability distributions under the $\\ell_\\infty$ norm. These are nearly optimal in various precise senses, including a kind of instance-optimality. Our data-dependent convergence guarantees for the maximum likelihood estimator significantly improve upon the currently known results. A variety of techniques are utilized and innovated upon, including Chernoff-type inequalities and empirical Bernstein bounds. We illustrate our results in synthetic and real-world experiments. Finally, we apply our proposed framework to a basic selective inference problem, where we estimate the most frequent probabilities in a sample.",
+    "authors": [
+        "Aryeh Kontorovich",
+        "Amichai Painsky"
+    ],
+    "emails": [
+        "karyeh@cs.bgu.ac.il",
+        "amichaip@tauex.tau.ac.il"
+    ],
+    "id": "24-1166",
+    "issue": 162,
+    "pages": [
+        1,
+        30
+    ],
+    "title": "Distribution Estimation under the Infinity Norm",
+    "volume": 26,
+    "year": 2025
+}

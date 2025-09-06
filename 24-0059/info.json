@@ -1,0 +1,32 @@
+{
+    "abstract": "First proposed by Seide (2014) as a heuristic, error feedback (EF) is a very popular mechanism for enforcing convergence of distributed gradient-based optimization methods enhanced with communication compression strategies based on the application of contractive compression operators. However, existing theory of EF relies on very strong assumptions (e.g., bounded gradients), and provides pessimistic convergence rates (e.g., while the best known rate for EF in the smooth nonconvex regime, and when full gradients are compressed, is $O(1/T^{2/3})$, the rate of gradient descent in the same regime is $O(1/T)$). Recently, Richt\u00e0rik et al. (2021) proposed a new error feedback mechanism, EF21, based on the construction of a Markov compressor induced by a contractive compressor. EF21 removes the aforementioned theoretical deficiencies of EF and at the same time works better in practice. In this work we propose six practical extensions of EF21, all supported by strong convergence theory: partial participation, stochastic approximation, variance reduction, proximal setting, momentum, and bidirectional compression. To the best of our knowledge, several of these techniques have not been previously analyzed in combination with EF, and in cases where prior analysis exists---such as for bidirectional compression---our theoretical convergence guarantees significantly improve upon existing results.",
+    "authors": [
+        "Ilyas Fatkhullin",
+        "Igor Sokolov",
+        "Eduard Gorbunov",
+        "Zhize Li",
+        "Peter Richt{{\\'a}}rik"
+    ],
+    "emails": [
+        "ilyas.fatkhullin@ai.ethz.ch",
+        "igor.sokolov.1@kaust.edu.sa",
+        "eduard.gorbunov@mbzuai.ac.ae",
+        "zhizeli@smu.edu.sg",
+        "peter.richtarik@kaust.edu.sa"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/IgorSokoloff/ef21_b-w_experiements_source_code"
+        ]
+    ],
+    "id": "24-0059",
+    "issue": 189,
+    "pages": [
+        1,
+        50
+    ],
+    "title": "EF21 with Bells & Whistles: Six Algorithmic Extensions of Modern Error Feedback",
+    "volume": 26,
+    "year": 2025
+}

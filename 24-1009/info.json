@@ -1,0 +1,30 @@
+{
+    "abstract": "In this paper, we introduce a policy-gradient method for model-based reinforcement learning (RL) that exploits a type of stationary distributions commonly obtained from Markov decision processes (MDPs) in stochastic networks, queueing systems, and statistical mechanics. Specifically, when the stationary distribution of the MDP belongs to an exponential family that is parametrized by policy parameters, we can improve existing policy gradient methods for average-reward RL. Our key identification is a family of gradient estimators, called score-aware gradient estimators (SAGEs), that enable policy gradient estimation without relying on value-function estimation in the aforementioned setting. We show that SAGE-based policy-gradient locally converges, and we obtain its regret. This includes cases when the state space of the MDP is countable and unstable policies can exist. Under appropriate assumptions such as starting sufficiently close to a maximizer and the existence of a local Lyapunov function, the policy under SAGE-based stochastic gradient ascent has an overwhelming probability of converging to the associated optimal policy. Furthermore, we conduct a numerical comparison between a SAGE-based policy-gradient method and an actor-critic method on several examples inspired from stochastic networks, queueing systems, and models derived from statistical physics. Our results demonstrate that a SAGE-based method finds close-to-optimal policies faster than an actor-critic method.",
+    "authors": [
+        "C{{\\'e}}line Comte",
+        "Matthieu Jonckheere",
+        "Jaron Sanders",
+        "Albert Senen-Cerda"
+    ],
+    "emails": [
+        "celine.comte@cnrs.fr",
+        "matthieu.jonckheere@laas.fr",
+        "jaron.sanders@tue.nl",
+        "albert.senen-cerda@irit.fr"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://gitlab.laas.fr/ccomte/policy-gradient-reinforcement-learning"
+        ]
+    ],
+    "id": "24-1009",
+    "issue": 132,
+    "pages": [
+        1,
+        74
+    ],
+    "title": "Score-Aware Policy-Gradient and Performance Guarantees using Local Lyapunov Stability",
+    "volume": 26,
+    "year": 2025
+}

@@ -1,0 +1,20 @@
+{
+    "abstract": "We explicitly construct zero loss neural network classifiers.  We write the weight matrices and bias vectors in terms of cumulative parameters, which determine truncation maps acting recursively on input space. The configurations for the training data considered are $(i)$ sufficiently small, well separated clusters corresponding to each class, and $(ii)$ equivalence classes which are sequentially linearly separable. In the best case, for $Q$ classes of data in $\\mathbb{R}^{M}$, global minimizers can be described with $Q(M+2)$ parameters.",
+    "authors": [
+        "Thomas Chen",
+        "Patr{{\\'i}}cia Mu\u00f1oz Ewald"
+    ],
+    "emails": [
+        "tc@math.utexas.edu",
+        "ewald@utexas.edu"
+    ],
+    "id": "24-1516",
+    "issue": 173,
+    "pages": [
+        1,
+        31
+    ],
+    "title": "Interpretable Global Minima of Deep ReLU Neural Networks on Sequentially Separable Data",
+    "volume": 26,
+    "year": 2025
+}

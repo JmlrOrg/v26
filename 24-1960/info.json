@@ -1,0 +1,20 @@
+{
+    "abstract": "We consider the nonparametric regression problem when the covariates are located on an unknown compact submanifold of a Euclidean space. Under defining a random geometric graph structure over the covariates we analyse the asymptotic frequentist behaviour of the posterior distribution arising from Bayesian priors designed through random basis expansion in the graph Laplacian eigenbasis. Under H\u00f6lder smoothness assumption on the regression function and the density of the covariates over the submanifold, we prove that the posterior contraction rates of such methods are minimax optimal (up to logarithmic factors) for any positive smoothness index.",
+    "authors": [
+        "Paul Rosa",
+        "Judith Rousseau"
+    ],
+    "emails": [
+        "paul.rosa@stats.ox.ac.uk",
+        "rousseau@ceremade.dauphine.fr"
+    ],
+    "id": "24-1960",
+    "issue": 164,
+    "pages": [
+        1,
+        65
+    ],
+    "title": "Nonparametric Regression on Random Geometric Graphs Sampled from Submanifolds",
+    "volume": 26,
+    "year": 2025
+}

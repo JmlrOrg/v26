@@ -1,0 +1,28 @@
+{
+    "abstract": "We explore multiple instance verification, a problem setting in which a query instance is verified against a bag of target instances with heterogeneous, unknown relevancy. We show that naive adaptations of attention-based multiple instance learning (MIL) methods and standard verification methods like Siamese neural networks are unsuitable for this setting: directly combining state-of-the-art (SOTA) MIL methods and Siamese networks is shown to be no better, and sometimes significantly worse, than a simple baseline model. Postulating that this may be caused by the failure of the representation of the target bag to incorporate the query instance, we introduce a new pooling approach named ``cross-attention pooling'' (CAP). Under the CAP framework, we propose two novel attention functions to address the challenge of distinguishing between highly similar instances in a target bag. Through empirical studies on three different verification tasks, we demonstrate that CAP outperforms adaptations of SOTA MIL methods and the baseline by substantial margins, in terms of both classification accuracy and the ability to detect key instances. The superior ability to identify key instances is attributed to the new attention functions by ablation studies.",
+    "authors": [
+        "Xin Xu",
+        "Eibe Frank",
+        "Geoffrey Holmes"
+    ],
+    "emails": [
+        "xinxu75@gmail.com",
+        "eibe@waikato.ac.nz",
+        "geoff@waikato.ac.nz"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/xxweka/MIV"
+        ]
+    ],
+    "id": "23-1590",
+    "issue": 188,
+    "pages": [
+        1,
+        46
+    ],
+    "title": "Multiple Instance Verification",
+    "volume": 26,
+    "year": 2025
+}

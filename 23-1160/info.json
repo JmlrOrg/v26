@@ -1,0 +1,34 @@
+{
+    "abstract": "Modern deep learning heavily relies on large labeled datasets, which often comse with high costs in terms of both manual labeling and computational resources. To mitigate these challenges, researchers have explored the use of informative subset selection techniques. In this study, we present a theoretically optimal solution for addressing both sampling with and without labels within the context of linear softmax regression. Our proposed method, COPS (unCertainty based OPtimal Sub-sampling), is designed to minimize the expected loss of a model trained on subsampled data. Unlike existing approaches that rely on explicit calculations of the inverse covariance matrix, which are not easily applicable to deep learning scenarios, COPS leverages the model's logits to estimate the sampling ratio. This sampling ratio is closely associated with model uncertainty and can be effectively applied to deep learning tasks. Furthermore, we address the challenge of model sensitivity to misspecification by incorporating a down-weighting approach for low-density samples, drawing inspiration from previous works. To assess the effectiveness of our proposed method, we conducted extensive empirical experiments using deep neural networks on benchmark datasets. The results consistently showcase the superior performance of COPS compared to baseline methods, reaffirming its efficacy.",
+    "authors": [
+        "Yong Lin",
+        "Chen Liu",
+        "Chenlu Ye",
+        "Qing Lian",
+        "Yuan Yao",
+        "Tong Zhang"
+    ],
+    "emails": [
+        "ylindf@connect.ust.hk",
+        "cliudh@connect.ust.hk",
+        "chenluy3@illinois.edu",
+        "qlianab@connect.ust.hk",
+        "yuany@ust.hk",
+        "tongzhang@tongzhang-ml.org"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/corwinliu9669/COPS"
+        ]
+    ],
+    "id": "23-1160",
+    "issue": 128,
+    "pages": [
+        1,
+        47
+    ],
+    "title": "Optimal Sample Selection Through Uncertainty Estimation and Its Application in Deep Learning",
+    "volume": 26,
+    "year": 2025
+}

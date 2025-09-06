@@ -1,0 +1,20 @@
+{
+    "abstract": "Shuffling gradient algorithms are extensively used to solve finite-sum optimization problems in machine learning. However, their theoretical properties still need to be further explored, especially the last-iterate convergence in the non-convex setting. In this paper, we study the last-iterate convergence behavior of shuffling momentum gradient (SMG) method, a shuffling gradient algorithm with momentum. Specifically, we focus on the non-convex scenario and provide theoretical guarantees under arbitrary shuffling strategies. For non-convex objectives, we achieve the convergence of gradient norms at the last-iterate, showing that every accumulation point of the iterative sequence is a stationary point of the non-convex problem. Our analysis also reveals that the function values of the last-iterate converge to a finite value. Additionally, we obtain the asymptotic convergence rates of gradient norms at the minimum-iterate. By employing a uniform without-replacement sampling strategy, we further achieve an improved convergence rate for the minimum-iterate output. Under the Kurdyka-Lojasiewicz (KL) inequality, we establish the challenging strong limit-point convergence results. In particular, we prove that the whole sequence of iterates exhibits convergence to a stationary point of the finite-sum problem. By choosing an appropriate stepsize, we also obtain the corresponding rate of last-iterate convergence, matching available results in the strongly convex setting. Given that the last iteration is typically preferred as the output of the algorithm in applied scenarios, this paper contributes to narrowing the gap between theory and practice.",
+    "authors": [
+        "Yuqing Liang",
+        "Dongpo Xu"
+    ],
+    "emails": [
+        "liangyq337@nenu.edu.cn",
+        "xudp100@nenu.edu.cn"
+    ],
+    "id": "24-1243",
+    "issue": 123,
+    "pages": [
+        1,
+        51
+    ],
+    "title": "Last-iterate Convergence of Shuffling Momentum Gradient Method under the Kurdyka-Lojasiewicz Inequality",
+    "volume": 26,
+    "year": 2025
+}

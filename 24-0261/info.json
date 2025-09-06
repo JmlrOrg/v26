@@ -1,0 +1,24 @@
+{
+    "abstract": "We propose a new density estimation algorithm. Given\r\n$n$ i.i.d. observations from a distribution belonging to a class\r\nof densities on $\\mathbb{R}^d$, our estimator outputs any density in the class whose ``perceptron\r\ndiscrepancy'' with the empirical distribution is at most $O(\\sqrt{d/n})$.\r\nThe perceptron discrepancy is defined as the largest\r\ndifference in mass two distribution place on any halfspace. It is shown that\r\nthis estimator achieves the expected total variation distance to the truth that is almost\r\nminimax optimal over the class of densities with bounded Sobolev norm and Gaussian\r\nmixtures. This suggests that the regularity of the prior distribution could be an\r\nexplanation for the efficiency of the ubiquitous step in machine learning that replaces optimization over large function spaces with simpler parametric\r\nclasses (such as discriminators of GANs).\r\nWe also show that replacing the perceptron discrepancy with\r\nthe generalized energy distance of  Sz\u00e9kely and Rizzo (2013) further improves\r\ntotal variation loss. The generalized energy distance between empirical\r\ndistributions is easily computable and\r\ndifferentiable, which makes it especially useful for fitting generative models.\r\nTo the best of our knowledge, it is the first ``simple'' distance with such\r\nproperties that yields minimax optimal statistical guarantees. \r\n\r\n\r\nIn addition, we shed light on the ubiquitous method of representing discrete data in domain $[k]$ via embedding vectors on a unit ball in $\\mathbb{R}^d$. We show that taking $d \\asymp \\log(k)$ allows one to use simple linear probing to evaluate and estimate total variation distance, as well as recovering minimax optimal sample complexity for the class of discrete distributions on $[k]$.",
+    "authors": [
+        "Patrik R{{\\'o}}bert Gerber",
+        "Tianze Jiang",
+        "Yury Polyanskiy",
+        "Rui Sun"
+    ],
+    "emails": [
+        "prgerber@mit.edu",
+        "tzjiang@princeton.edu",
+        "yp@mit.edu",
+        "eruisun@stanford.edu"
+    ],
+    "id": "24-0261",
+    "issue": 160,
+    "pages": [
+        1,
+        51
+    ],
+    "title": "Density Estimation Using the Perceptron",
+    "volume": 26,
+    "year": 2025
+}

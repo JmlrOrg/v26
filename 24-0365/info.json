@@ -1,0 +1,29 @@
+{
+    "abstract": "In contemporary data analysis, it is increasingly common to work with non-stationary complex data sets. These data sets typically extend beyond the classical low-dimensional Euclidean space, making it challenging to detect shifts in their distribution without relying on strong structural assumptions. This paper proposes a novel offline change-point detection method that leverages classifiers developed in the statistics and machine learning community.  With suitable data splitting, the test statistic is constructed through sequential computation of the Area Under the Curve (AUC) of a classifier, which is trained on data segments on both ends of the sequence. It is shown that the resulting AUC process attains its maxima at the true change-point location, which facilitates the change-point estimation. The proposed method is characterized by its complete nonparametric nature, high versatility, considerable flexibility, and absence of stringent assumptions on the underlying data or any distributional shifts. Theoretically, we derive the limiting pivotal distribution of the proposed test statistic under null, as well as the asymptotic behaviors under both local and fixed alternatives. The localization rate of the change-point estimator is also provided. Extensive simulation studies and the analysis of two real-world data sets illustrate the superior performance of our approach compared to existing model-free change-point detection methods.",
+    "authors": [
+        "Rohit Kanrar",
+        "Feiyu Jiang",
+        "Zhanrui Cai"
+    ],
+    "emails": [
+        "rohitk@iastate.edu",
+        "jiangfy@fudan.edu.cn",
+        "zhanruic@hku.hk"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/rohitkanrar/changeAUC"
+        ]
+    ],
+    "id": "24-0365",
+    "issue": 190,
+    "pages": [
+        1,
+        50
+    ],
+    "special_issue": "MLOSS",
+    "title": "Model-free Change-Point Detection Using AUC of a Classifier",
+    "volume": 26,
+    "year": 2025
+}

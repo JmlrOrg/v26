@@ -1,0 +1,32 @@
+{
+    "abstract": "A primary challenge facing modern scientific research is the limited availability of gold-standard data, which can be costly, labor-intensive, or invasive to obtain. With the rapid development of machine learning (ML), scientists can now employ ML algorithms to predict gold-standard outcomes using variables that are easier to obtain. However, these predicted outcomes are often used directly in subsequent statistical analyses, ignoring imprecision and heterogeneity introduced by the prediction procedure. This will likely result in false positive findings and invalid scientific conclusions. In this work, we introduce PoSt-Prediction Adaptive inference (PSPA) that allows valid and powerful inference based on ML-predicted data. Its \u201cassumption-lean\u201d property guarantees reliable statistical inference without assumptions on the ML prediction. Its \u201cdata-adaptive\u201d feature guarantees an efficiency gain over existing methods, regardless of the accuracy of ML prediction. We demonstrate the statistical superiority and broad applicability of our method through simulations and real-data applications.",
+    "authors": [
+        "Jiacheng Miao",
+        "Xinran Miao",
+        "Yixuan Wu",
+        "Jiwei Zhao",
+        "Qiongshi Lu"
+    ],
+    "emails": [
+        "jcmiao@stanford.edu",
+        "xinran.miao@wisc.edu",
+        "wu638@wisc.edu",
+        "jiwei.zhao@wisc.edu",
+        "qlu@biostat.wisc.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/qlu-lab/pspa"
+        ]
+    ],
+    "id": "24-0056",
+    "issue": 179,
+    "pages": [
+        1,
+        31
+    ],
+    "title": "Assumption-lean and data-adaptive post-prediction inference",
+    "volume": 26,
+    "year": 2025
+}

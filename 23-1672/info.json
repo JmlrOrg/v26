@@ -1,0 +1,28 @@
+{
+    "abstract": "Learning representations for structured data with certain geometries (e.g., observed or unobserved) is a fundamental challenge, wherein message passing neural networks (MPNNs) have become a de facto class of model solutions. In this paper, inspired by physical systems, we propose an energy-constrained diffusion model, which integrates the inductive bias of diffusion on manifolds with layer-wise constraints of energy minimization. We identify that the diffusion operators have a one-to-one correspondence with the energy functions implicitly descended by the diffusion process, and the finite-difference iteration for solving the energy-constrained diffusion system induces the propagation layers of various types of MPNNs operating on observed or latent structures. This leads to a unified mathematical framework for common neural architectures whose computational flows can be cast as message passing (or its special case), including MLPs, GNNs, and Transformers. Building on these insights, we devise a new class of neural message passing models, dubbed diffusion-inspired Transformers (DIFFormer), whose global attention layers are derived from the principled energy-constrained diffusion framework. Across diverse datasets ranging from real-world networks to images, texts, and physical particles, we demonstrate that the new model achieves promising performance in scenarios where the data structures are observed (as a graph), partially observed, or entirely unobserved.",
+    "authors": [
+        "Qitian Wu",
+        "David Wipf",
+        "Junchi Yan"
+    ],
+    "emails": [
+        "wuqitian@mit.edu",
+        "davidwipf@gmail.com",
+        "yanjunchi@sjtu.edu.cn"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/qitianwu/DIFFormer"
+        ]
+    ],
+    "id": "23-1672",
+    "issue": 129,
+    "pages": [
+        1,
+        47
+    ],
+    "title": "Transformers from Diffusion: A Unified Framework for Neural Message Passing",
+    "volume": 26,
+    "year": 2025
+}

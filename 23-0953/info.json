@@ -1,0 +1,22 @@
+{
+    "abstract": "The hard-margin loss function has been at the core of the support vector machine research from the very beginning due to its generalization capability. On the other hand, the cardinality constraint has been widely used for feature selection, leading to sparse solutions. This paper studies the sparse SVM with the hard-margin loss that integrates the virtues of both worlds, resulting in one of the most challenging models to solve. We cast the problem as a composite optimization with the cardinality constraint. We characterize its local minimizers in terms of pseudo KKT point that well captures the combinatorial structure of the problem, and investigate a sharper P-stationary point with a concise representation for algorithm design. We further develop an inexact proximal augmented Lagrangian method (iPAL). The different parts of the inexactness measurements from the {\\rm P}-stationarity are controlled at different scales in a way that the generated sequence converges both globally and at a linear rate. To make iPAL practically efficient, we propose a gradient-Newton method in a subspace for the iPAL subproblem. This is accomplished by detecting active samples and features with the help of the proximal operator of the hard margin loss and the projection of the cardinality constraint. Extensive numerical results on both simulated and real data sets demonstrate that the proposed method is fast, produces sparse solution of high accuracy, and can lead to effective reduction on active samples and features  when compared with several leading solvers.",
+    "authors": [
+        "Penghe Zhang",
+        "Naihua Xiu",
+        "Hou-Duo Qi"
+    ],
+    "emails": [
+        "penghe.zhang@polyu.edu.hk",
+        "nhxiu@bjtu.edu.cn",
+        "houduo.qi@polyu.edu.hk"
+    ],
+    "id": "23-0953",
+    "issue": 118,
+    "pages": [
+        1,
+        55
+    ],
+    "title": "Sparse SVM with Hard-Margin Loss: a Newton-Augmented Lagrangian Method in Reduced Dimensions",
+    "volume": 26,
+    "year": 2025
+}
