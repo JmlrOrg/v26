@@ -1,0 +1,30 @@
+{
+    "abstract": "We develop an approach for Bayesian learning of spatiotemporal dynamical mechanistic models. Such learning consists of statistical emulation of the mechanistic system that can efficiently interpolate the output of the system from arbitrary inputs. The emulated learner can then be used to train the system from noisy data achieved by melding information from observed data with the emulated mechanistic system. This joint melding of mechanistic systems employ hierarchical state-space models with Gaussian process regression. Assuming the dynamical system is controlled by a finite collection of inputs, Gaussian process regression learns the effect of these parameters through a number of training runs, driving the stochastic innovations of the spatiotemporal state-space component. This enables efficient modeling of the dynamics over space and time. This article details exact inference with analytically accessible posterior distributions in hierarchical matrix-variate Normal and Wishart models in designing the emulator. This step obviates expensive iterative algorithms such as Markov chain Monte Carlo or variational approximations. We also show how emulation is applicable to large-scale emulation by designing a dynamic Bayesian transfer learning framework. Inference on mechanistic model parameters proceeds using Markov chain Monte Carlo as a post-emulation step using the emulator as a regression component. We demonstrate this framework through solving inverse problems arising in the analysis of ordinary and partial nonlinear differential equations and, in addition, to a black-box computer model generating spatiotemporal dynamics across a graphical model.",
+    "authors": [
+        "Sudipto Banerjee",
+        "Xiang Chen",
+        "Ian Frankenburg",
+        "Daniel Zhou"
+    ],
+    "emails": [
+        "sudipto@ucla.edu",
+        "xiangchen@ucla.edu",
+        "ian.frankenburg@ucla.edu",
+        "hunanzhou@ucla.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/xiangchen-stat/Bayesian_Modeling_Mechanistic_Systems"
+        ]
+    ],
+    "id": "22-0896",
+    "issue": 146,
+    "pages": [
+        1,
+        43
+    ],
+    "title": "Dynamic Bayesian Learning for Spatiotemporal Mechanistic Models",
+    "volume": 26,
+    "year": 2025
+}

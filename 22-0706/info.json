@@ -1,0 +1,22 @@
+{
+    "abstract": "Network data arises through the observation of relational information between a collection of entities, for example, friendships (relations) amongst a sample of people (entities). Traditionally, statistical models of such data have been developed to analyse a single network, that is, a single collection of entities and relations. More recently, attention has shifted to analysing samples of networks. A driving force has been the analysis of connectome data, arising in neuroscience applications, where a single network is observed for each patient in a study. These models typically assume, within each network, the entities are the units of observation, that is, more data equates to including more entities. However, an alternative paradigm considers relations\u2014such as edges or paths\u2014as the observational units, exemplified by email exchanges or user navigations across a website. This interaction network framework has generally been applied to single networks, without extending to the case where multiple such networks are observed, for instance, analysing navigation patterns from many users. Motivated by this gap, we propose a new Bayesian modelling framework to analyse such data. Our approach is based on practitioner-specified distance metrics between networks, allowing us to parameterise models analogous to Gaussian distributions in network space, using location and scale parameters. We address the key challenge of defining meaningful distances between interaction networks, proposing two new metrics with theoretical guarantees and practical computation strategies. To enable efficient Bayesian inference, we develop specialised Markov chain Monte Carlo (MCMC) algorithms within the involutive MCMC (iMCMC) framework, tailored to the doubly-intractable and discrete nature of the induced posteriors. Through simulation studies, we demonstrate the robustness and efficiency of our approach, and we showcase its applicability with a case study on a location-based social network (LSBN) dataset.",
+    "authors": [
+        "George Bolt",
+        "Sim{{\\'o}}n Lunag{{\\'o}}mez",
+        "Christopher Nemeth"
+    ],
+    "emails": [
+        "george.bolt.stat@gmail.com",
+        "simon.lunagomez@itam.mx",
+        "c.nemeth@lancaster.ac.uk"
+    ],
+    "id": "22-0706",
+    "issue": 126,
+    "pages": [
+        1,
+        112
+    ],
+    "title": "Modelling Populations of Interaction Networks via Distance Metrics",
+    "volume": 26,
+    "year": 2025
+}

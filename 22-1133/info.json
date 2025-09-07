@@ -1,0 +1,31 @@
+{
+    "abstract": "Word embeddings, which are a mapping of words into continuous vectors, are widely used in modern Natural Language Processing (NLP) systems. However, they are prone to inherit stereotypical social biases from the corpus on which they are built. \r\nThe research community has focused on two main tasks to address this problem: 1) how to measure these biases, and 2) how to mitigate them.\r\nWord Embedding Fairness Evaluation (WEFE) is an open source library that implements many fairness metrics and mitigation methods in a unified framework. It also provides a standard interface for designing new ones. \r\nThe software follows the object-oriented paradigm with a strong focus on extensibility. Each of its methods is appropriately documented, verified and tested.\r\nWEFE is not limited to just a library: it also contains several replications of previous studies as well as tutorials that serve as educational material for newcomers to the field.\r\nIt is licensed under BSD-3 and can be easily installed through pip and conda package managers.",
+    "authors": [
+        "Pablo Badilla",
+        "Felipe Bravo-Marquez",
+        "Mar{{\\'i}}a Jos{{\\'e}} Zambrano",
+        "Jorge P{{\\'e}}rez"
+    ],
+    "emails": [
+        "pablo.badilla@ug.uchile.cl",
+        "fbravo@dcc.uchile.cl",
+        "mzambrano@ug.uchile.cl",
+        "perez@cero.ai"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/dccuchile/wefe"
+        ]
+    ],
+    "id": "22-1133",
+    "issue": 156,
+    "pages": [
+        1,
+        6
+    ],
+    "special_issue": "MLOSS",
+    "title": "WEFE: A Python Library for Measuring and Mitigating Bias in Word Embeddings",
+    "volume": 26,
+    "year": 2025
+}

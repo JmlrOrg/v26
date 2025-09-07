@@ -1,0 +1,22 @@
+{
+    "abstract": "Graphical models have been used extensively for modeling brain connectivity networks. However, unmeasured confounders and correlations among measurements are often overlooked during model fitting, which may lead to spurious scientific discoveries. Motivated by functional magnetic resonance imaging (fMRI) studies, we propose a novel method for constructing brain connectivity networks with correlated replicates and latent effects. In a typical fMRI study, each participant is scanned and fMRI measurements are collected across a period of time. In many cases, subjects may have different states of mind that cannot be measured during the brain scan: for instance, some subjects may be awake during the first half of the brain scan, and may fall asleep during the second half of the brain scan. To model the correlation among replicates and latent effects induced by the different states of mind, we assume that the correlated replicates within each independent subject follow a one-lag vector autoregressive model, and that the latent effects induced by the unmeasured confounders are piecewise constant. Theoretical guarantees are established for parameter estimation. We demonstrate via extensive numerical studies that our method is able to estimate latent variable graphical models with correlated replicates more accurately than existing methods.",
+    "authors": [
+        "Yanxin Jin",
+        "Yang Ning",
+        "Kean Ming Tan"
+    ],
+    "emails": [
+        "yanxinj@umich.edu",
+        "yn265@cornell.edu",
+        "keanming@umich.edu"
+    ],
+    "id": "22-1421",
+    "issue": 186,
+    "pages": [
+        1,
+        66
+    ],
+    "title": "Exponential Family Graphical Models: Correlated Replicates and Unmeasured Confounders, with Applications to fMRI Data",
+    "volume": 26,
+    "year": 2025
+}
