@@ -1,0 +1,20 @@
+{
+    "abstract": "We propose a novel hybrid procedure for constructing a randomly weighted nearest neighbour classifier for semi-supervised learning. The procedure first uses the labelled learning set to predict a probability distribution of class labels for the unlabelled learning set. This turns the unlabelled set into a pseudo-labelled set, on which a sequentially weighted nearest neighbour classifier can be trained. The vote proportions calculated by this sequentially weighted nearest neighbour classifier and the standard weighted nearest neighbour classifier trained on the labelled set alone are then linearly combined to build a hybrid classifier. Our theory shows that, given a sufficiently large set of unlabelled data, the hybrid classifier has an optimal regret converging at a faster rate than that of the optimally weighted nearest neighbour classifier and hence of the optimal bagged or k-nearest neighbour classifier. We also show that the hybrid classifier can be revised by a dislabelling strategy to achieve the fastest possible rate of regret irrespective of the size of the unlabelled set, which may even be empty.  Simulation studies and real data examples are presented to support our theoretical findings and illustrate the empirical performance of the hybrid classifiers constructed using uniform weights. We also explore the effects of pseudo-labelling by hypothesized class probabilities as a supplement to our main findings.",
+    "authors": [
+        "Stephen M. S. Lee",
+        "Mehdi Soleymani"
+    ],
+    "emails": [
+        "smslee@hku.hk",
+        "mehdi.soleymani@me.com"
+    ],
+    "id": "23-1258",
+    "issue": 218,
+    "pages": [
+        1,
+        46
+    ],
+    "title": "A Hybrid Weighted Nearest Neighbour Classifier for Semi-Supervised Learning",
+    "volume": 26,
+    "year": 2025
+}

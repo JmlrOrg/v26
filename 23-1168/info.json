@@ -1,0 +1,24 @@
+{
+    "abstract": "We study   sparse linear regression over a network of agents, modeled as an undirected  graph without a center node. The estimation of the $s$-sparse parameter is  formulated as a constrained LASSO problem wherein each agent   owns a subset of the $N$ total   observations. We analyze the convergence rate and statistical guarantees of a distributed projected gradient tracking-based algorithm under high-dimensional scaling, allowing the ambient  dimension $d$ to grow with (and possibly exceed) the sample size $N$. Our theory shows that, under standard   notions of restricted strong convexity and smoothness of the average loss functions,  suitable conditions on the network connectivity  and algorithm tuning, the distributed algorithm converges   globally at a   linear rate to an estimate that is within the centralized   statistical precision  of the model, $O(s\\log d/N)$. When $s\\log d/N=o(1)$, a condition necessary for statistical consistency, an $\\varepsilon$-optimal solution is attained after  ${O}(\\kappa \\log (1/\\varepsilon))$ gradient computations  and $O(\\kappa/(1-\\rho) \\log (1/\\varepsilon))$  communication rounds,\r\nwhere $\\kappa$ is the restricted condition number of the loss function and $\\rho$ measures the network connectivity. The computation cost matches that of  the centralized projected gradient algorithm despite  having data distributed; whereas the communication rounds reduce as the network connectivity improves. Overall, our study   reveals  interesting connections between statistical efficiency, network connectivity and topology, and  convergence rate in  the high dimensional setting.",
+    "authors": [
+        "Marie Maros",
+        "Gesualdo Scutari",
+        "Ying Sun",
+        "Guang Cheng"
+    ],
+    "emails": [
+        "mmaros@tamu.edu",
+        "gscutari@purdue.edu",
+        "ybs5190@psu.edu",
+        "guangcheng@ucla.edu"
+    ],
+    "id": "23-1168",
+    "issue": 197,
+    "pages": [
+        1,
+        56
+    ],
+    "title": "Decentralized Sparse Linear Regression via Gradient-Tracking",
+    "volume": 26,
+    "year": 2025
+}

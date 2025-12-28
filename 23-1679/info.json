@@ -1,0 +1,24 @@
+{
+    "abstract": "Motivated by studies of neural networks, particularly the neural tangent kernel theory, we investigate the large-dimensional behavior of kernel ridge regression, where the sample size satisfies $n $ is proportion to $ d^{\\gamma}$ for some $\\gamma > 0$. Given a reproducing kernel Hilbert space $H$ associated with an inner product kernel defined on the unit sphere $S^{d}$, we assume that the true function $f_{\\rho}^{*}$ belongs to the interpolation space $[H]^{s}$ for some $s>0$ (source condition). We first establish the exact order (both upper and lower bounds) of the generalization error of KRR for the optimally chosen regularization parameter $\\lambda$. Furthermore, we show that KRR is minimax optimal when $0<s\\le1$, whereas for $s>1$, KRR fails to achieve minimax optimality, exhibiting the saturation effect. Our results illustrate that the convergence rate with respect to dimension $d$ varying along $\\gamma$ exhibits a periodic plateau behavior, and the convergence rate with respect to sample size $n$ exhibits a multiple descent behavior. Interestingly, our work unifies several recent studies on kernel regression in the large-dimensional setting, which correspond to $s=0$ and $s=1$, respectively.",
+    "authors": [
+        "Haobo Zhang",
+        "Yicheng Li",
+        "Weihao Lu",
+        "Qian Lin"
+    ],
+    "emails": [
+        "zhang-hb21@mails.tsinghua.edu.cn",
+        "liyc22@mails.tsinghua.edu.cn",
+        "luwh19@mails.tsinghua.edu.cn",
+        "qianlin@tsinghua.edu.cn"
+    ],
+    "id": "23-1679",
+    "issue": 219,
+    "pages": [
+        1,
+        63
+    ],
+    "title": "Optimal Rates of Kernel Ridge Regression under Source Condition in Large Dimensions",
+    "volume": 26,
+    "year": 2025
+}

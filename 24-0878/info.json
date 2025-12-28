@@ -1,0 +1,28 @@
+{
+    "abstract": "Given an intractable distribution $p$, the problem of variational inference (VI) is to find the best approximation from some more tractable family $Q$. Commonly, one chooses $Q$ to be a family of factorized distributions (i.e., the mean-field assumption), even though $p$ itself does not factorize. We show that this mismatch leads to an impossibility theorem: if $p$ does not factorize, then any factorized approximation $q\\!\\in\\!Q$ can correctly estimate at most one of the following three measures of uncertainty: (i) the marginal variances, (ii) the marginal precisions, or (iii) the generalized variance (which for elliptical distributions is closely related to the entropy). In practice, the best variational approximation in $Q$ is found by minimizing some divergence $D(q,p)$ between distributions, and so we ask: how does the choice of divergence determine which measure of uncertainty, if any, is correctly estimated by VI? We consider the classic Kullback-Leibler divergences, the more general $\\alpha$-divergences, and a score-based divergence which compares $\\nabla \\log p$ and $\\nabla \\log q$. We thoroughly analyze the case where $p$ is a Gaussian and $q$ is a (factorized) Gaussian. In this setting, we show that all the considered divergences can be ordered based on the estimates of uncertainty they yield as objective functions for VI. Finally, we empirically evaluate the validity of this ordering when the target distribution $p$ is not Gaussian.",
+    "authors": [
+        "Charles C. Margossian",
+        "Loucas Pillaud-Vivien",
+        "Lawrence K. Saul"
+    ],
+    "emails": [
+        "charles.margossian@ubc.ca",
+        "loucas.pillaud-vivien@enpc.fr",
+        "lsaul@flatironinstitute.org"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/charlesm93/VI-ordering"
+        ]
+    ],
+    "id": "24-0878",
+    "issue": 202,
+    "pages": [
+        1,
+        41
+    ],
+    "title": "Variational Inference for Uncertainty Quantification: an Analysis of Trade-offs",
+    "volume": 26,
+    "year": 2025
+}

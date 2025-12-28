@@ -1,0 +1,20 @@
+{
+    "abstract": "Interest in reinforcement learning (RL) for large-scale systems, comprising extensive populations of intelligent agents interacting with heterogeneous environments, has surged significantly across diverse scientific domains in recent years. However, the large-scale nature of these systems often leads to high computational costs or reduced performance for most state-of-the-art RL techniques. To address these challenges, we propose a novel RL architecture and derive effective algorithms to learn optimal policies for arbitrarily large systems of agents. In our formulation, we model such systems as parameterized control systems defined on an infinite-dimensional function space. We then develop a moment kernel transform that maps the parameterized system and the value function into a reproducing kernel Hilbert space. This transformation generates a sequence of finite-dimensional moment representations for the RL problem, organized into a filtrated structure. Leveraging this RL filtration, we develop a hierarchical algorithm for learning optimal policies for the infinite-dimensional parameterized system. To enhance the algorithm's efficiency, we incorporate early stopping at each hierarchy, demonstrating the fast convergence property of the algorithm through the construction of a convergent spectral sequence. The performance and efficiency of the proposed algorithm are validated using practical examples in engineering and quantum systems.",
+    "authors": [
+        "Wei Zhang",
+        "Jr-Shin Li"
+    ],
+    "emails": [
+        "wei.zhang@wustl.edu",
+        "jsli@wustl.edu"
+    ],
+    "id": "24-1575",
+    "issue": 214,
+    "pages": [
+        1,
+        52
+    ],
+    "title": "Reinforcement Learning for Infinite-Dimensional Systems",
+    "volume": 26,
+    "year": 2025
+}

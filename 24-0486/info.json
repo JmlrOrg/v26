@@ -1,0 +1,28 @@
+{
+    "abstract": "We use the PAC-Bayesian theory for the setting of learning-to-optimize. To the best of our knowledge, we present the first framework to learn optimization algorithms with provable generalization guarantees (PAC-Bayesian bounds) and explicit trade-off between convergence guarantees and convergence speed, which contrasts with the typical worst-case analysis. Our learned optimization algorithms provably outperform related ones derived from a worst-case analysis. The results rely on PAC-Bayesian bounds for general, possibly unbounded loss-functions based on exponential families. Further, we provide a concrete algorithmic realization of the framework and new methodologies for learning-to-optimize. Finally, we conduct four practically relevant experiments to support our theory. With this, we showcase that the provided learning framework yields optimization algorithms that provably outperform the state-of-the-art by orders of magnitude.",
+    "authors": [
+        "Michael Sucker",
+        "Jalal Fadili",
+        "Peter Ochs"
+    ],
+    "emails": [
+        "michael.sucker@math.uni-tuebingen.de",
+        "jalal.fadili@ensicaen.fr",
+        "ochs@cs.uni-saarland.de"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/MichiSucker/Learning-to-Optimize-with-PAC-Bayes"
+        ]
+    ],
+    "id": "24-0486",
+    "issue": 211,
+    "pages": [
+        1,
+        53
+    ],
+    "title": "Learning-to-Optimize with PAC-Bayesian Guarantees: Theoretical Considerations and Practical Implementation",
+    "volume": 26,
+    "year": 2025
+}

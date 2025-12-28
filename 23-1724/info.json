@@ -1,0 +1,26 @@
+{
+    "abstract": "We construct the first rigorously justified probabilistic algorithm for recovering the solution operator of a hyperbolic partial differential equation (PDE) in two variables from input-output training pairs. The primary challenge of recovering the solution operator of hyperbolic PDEs is the presence of characteristics, along which the associated Green's function is discontinuous. Therefore, a central component of our algorithm is a rank detection scheme that identifies the approximate location of the characteristics. By combining the randomized singular value decomposition with an adaptive hierarchical partition of the domain, we construct an approximant to the solution operator using $O(\\Psi_\\epsilon^{-1}\\epsilon^{-7}\\log(\\Xi_\\epsilon^{-1}\\epsilon^{-1}))$ input-output pairs with relative error $O(\\Xi_\\epsilon^{-1}\\epsilon)$ in the operator norm as $\\epsilon\\to0$, with high probability. Here, $\\Psi_\\epsilon$ represents the existence of degenerate singular values of the solution operator, and $\\Xi_\\epsilon$ measures the quality of the training data. Our assumptions on the regularity of the coefficients of the hyperbolic PDE are relatively weak given that hyperbolic PDEs do not have the \"instantaneous smoothing effect\" of elliptic and parabolic PDEs, and our recovery rate improves as the regularity of the coefficients increases. We also include numerical experiments which corroborate our theoretical findings.",
+    "authors": [
+        "Christopher Wang",
+        "Alex Townsend"
+    ],
+    "emails": [
+        "cyw33@cornell.edu",
+        "townsend@cornell.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/chriswang030/OperatorLearningforHPDEs"
+        ]
+    ],
+    "id": "23-1724",
+    "issue": 199,
+    "pages": [
+        1,
+        44
+    ],
+    "title": "Operator Learning for Hyperbolic PDEs",
+    "volume": 26,
+    "year": 2025
+}

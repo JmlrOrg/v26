@@ -1,0 +1,28 @@
+{
+    "abstract": "This article studies the Fisher-Rao gradient, also referred to as the natural gradient, of the evidence lower bound (ELBO) which plays a central role in generative machine learning. It reveals that the gap between the evidence and its lower bound, the ELBO, has essentially a vanishing natural gradient within unconstrained optimization. As a result, maximization of the ELBO is equivalent to minimization of the Kullback-Leibler divergence from a target distribution, the primary objective function of learning. Building on this insight, we derive a condition under which this equivalence persists even when optimization is constrained to a model. This condition yields a geometric characterization, which we formalize through the notion of a cylindrical model.",
+    "authors": [
+        "Nihat Ay",
+        "Jesse van Oostrum",
+        "Adwait Datar"
+    ],
+    "emails": [
+        "nihat.ay@tuhh.de",
+        "jesse.van@tuhh.de",
+        "adwait.datar@tuhh.de"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/addat10/Nat-Gradient-ELBO.git"
+        ]
+    ],
+    "id": "24-0606",
+    "issue": 222,
+    "pages": [
+        1,
+        37
+    ],
+    "title": "On the Natural Gradient of the Evidence Lower Bound",
+    "volume": 26,
+    "year": 2025
+}

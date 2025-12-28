@@ -1,0 +1,59 @@
+{
+    "abstract": "Our open-source Python package BoFire combines Bayesian Optimization (BO) with other design of experiments (DoE) strategies focusing on developing and optimizing new chemistry. Previous BO implementations, for example as they exist in the literature or software, require substantial adaptation for effective real-world deployment in chemical industry. BoFire provides a rich feature-set with extensive configurability and realizes our vision of fast-tracking research contributions into industrial use via maintainable open-source software. Owing to quality-of-life features like JSON-serializability of problem formulations, BoFire enables seamless integration of BO into RESTful APIs, a common architecture component for both self-driving laboratories and human-in-the-loop setups. This paper discusses the differences between BoFire and other BO implementations and outlines ways that BO research needs to be adapted for real-world use in a chemistry setting.",
+    "authors": [
+        "Johannes P. D\u00fcrholt",
+        "Thomas S. Asche",
+        "Johanna Kleinekorte",
+        "Gabriel Mancino-Ball",
+        "Benjamin Schiller",
+        "Simon Sung",
+        "Julian Keupp",
+        "Aaron Osburg",
+        "Toby Boyne",
+        "Ruth Misener",
+        "Rosona Eldred",
+        "Chrysoula Kappatou",
+        "Robert M. Lee",
+        "Dominik Linzner",
+        "Wagner Steuer Costa",
+        "David Walz",
+        "Niklas Wulkow",
+        "Behrang Shafei"
+    ],
+    "emails": [
+        "johannespeter.duerholt@evonik.com",
+        "thomas.asche@evonik.com",
+        "johanna.kleinekorte@evonik.com",
+        "gabriel.mancino.ball@gmail.com",
+        "benjamin.schiller@evonik.com",
+        "simon.sung06@gmail.com",
+        "julian.keupp@boehringer-ingelheim.com",
+        "aaron.osburg@t-online.de",
+        "t.boyne23@imperial.ac.uk",
+        "r.misener@imperial.ac.uk",
+        "rosona.eldred@chemovator.com",
+        "chrysoula.kappatou@basf.com",
+        "robert-matthew.lee@basf.com",
+        "dominik.linzner@basf.com",
+        "wagner.steuer-costa@chemovator.com",
+        "david-simon.walz@basf.com",
+        "niklas-bjoen.wulkow@basf.com",
+        "behrang.shafei@basf.com"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/experimental-design/bofire"
+        ]
+    ],
+    "id": "24-1540",
+    "issue": 204,
+    "pages": [
+        1,
+        7
+    ],
+    "special_issue": "MLOSS",
+    "title": "BoFire: Bayesian Optimization Framework Intended for Real Experiments",
+    "volume": 26,
+    "year": 2025
+}

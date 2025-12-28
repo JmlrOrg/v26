@@ -1,0 +1,28 @@
+{
+    "abstract": "This paper studies a multiobjective bandit problem under lexicographic ordering, wherein the learner aims to maximize $m$ objectives, each with different levels of importance. First, we introduce the local trade-off, $\\lambda_*$, which depicts the trade-off between different objectives. For the case when an upper bound of $\\lambda_*$ is known, i.e., $\\lambda\\geq\\lambda_*$, we develop an algorithm that achieves a general regret bound of $\\widetilde{O}(\\Lambda^i(\\lambda)T^{(d_z^i+1)/(d_z^i+2)})$ for the $i$-th objective, where $i\\in\\{1,2,\\ldots,m\\}$, $\\Lambda^i(\\lambda)=1+\\lambda+\\cdots+\\lambda^{i-1}$, $d_z^i$ is the zooming dimension for the $i$-th objective, and $T$ is the time horizon. Next, we provide a matching lower bound for the lexicographic Lipschitz bandit problem, proving that our algorithm is optimal in terms of $\\lambda_*$ and $T$. Finally, for the case where $m=2$, we remove the dependence on the knowledge about $\\lambda_*$, albeit at the cost of increasing the regret bound to $\\widetilde{O}(\\Lambda^i(\\lambda_*)T^{(3d_z^i+4)/(3d_z^i+6)})$, which remains optimal in terms of $\\lambda_*$. Compared to existing work on lexicographic multi-armed bandits, our approach improves the current regret bound of $\\widetilde{O}(T^{2/3})$ and extends the number of arms to infinity. Numerical experiments confirm the effectiveness of our algorithms.",
+    "authors": [
+        "Bo Xue",
+        "Ji Cheng",
+        "Fei Liu",
+        "Yimu Wang",
+        "Lijun Zhang",
+        "Qingfu Zhang"
+    ],
+    "emails": [
+        "boxue4-c@my.cityu.edu.hk",
+        "jcheng27-c@my.cityu.edu.hk",
+        "fliu36-c@my.cityu.edu.hk",
+        "yimu.wang@uwaterloo.ca",
+        "zhanglj@lamda.nju.edu.cn",
+        "qingfu.zhang@cityu.edu.hk"
+    ],
+    "id": "24-1047",
+    "issue": 223,
+    "pages": [
+        1,
+        56
+    ],
+    "title": "Lexicographic Lipschitz Bandits: New Algorithms and a Lower Bound",
+    "volume": 26,
+    "year": 2025
+}

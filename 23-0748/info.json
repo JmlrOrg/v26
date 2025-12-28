@@ -1,0 +1,26 @@
+{
+    "abstract": "DADAO is the first decentralized, accelerated, asynchronous, primal, first-order algorithm to minimize  a sum of $L$-smooth and $\\mu$-strongly convex functions distributed over a network of size $n$.  Modeling the gradient updates and gossip communication procedures with separate independent Poisson Point Processes allows us to decouple the computation and communication steps, which can be run in parallel, while making the whole approach completely asynchronous. This leads to communication acceleration compared to synchronous approaches. Our method employs primal gradients and avoids using a multi-consensus inner loop and other ad-hoc mechanisms. By relating the smallest positive eigenvalue $1/\\chi_1$ of the Laplacian matrix $\\Lambda$  and the maximal resistance $\\chi_2\\leq \\chi_1$ of the graph to a sufficient minimal communication rate, we show that  DADAO requires $\\mathcal{O}(n\\sqrt{\\frac{L}{\\mu}}\\log(\\frac{1}{\\epsilon}))$ local gradients and only $\\mathcal{O}(\\sqrt{\\chi_1\\chi_2}\\operatorname{Tr}\\Lambda\\sqrt{\\frac{L}{\\mu}}\\log(\\frac{1}{\\epsilon}))$ communications to reach $\\epsilon$-precision, up to logarithmic terms. Thus, we simultaneously obtain an accelerated rate for computations and communications, leading to an improvement over state-of-the-art works, our simulations further validating the strength of our relatively unconstrained method. Moreover, we propose a SDP relaxation to find the gossip rate of each edge minimizing the total number of communications for a given graph, resulting in faster convergence compared to standard approaches relying on uniform communication weights.",
+    "authors": [
+        "Adel Nabli",
+        "Edouard Oyallon"
+    ],
+    "emails": [
+        "adel.nabli@sorbonne-universite.fr",
+        "edouard.oyallon@cnrs.fr"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/AdelNabli/DADAO/"
+        ]
+    ],
+    "id": "23-0748",
+    "issue": 207,
+    "pages": [
+        1,
+        48
+    ],
+    "title": "Decentralized Asynchronous Optimization with DADAO allows Decoupling and Acceleration",
+    "volume": 26,
+    "year": 2025
+}

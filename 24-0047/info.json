@@ -1,0 +1,36 @@
+{
+    "abstract": "Over the past decade, deep learning has proven to be a highly effective tool for learning meaningful features from raw data. However, it remains an open question how deep networks perform hierarchical feature learning across layers. In this work, we attempt to unveil this mystery by investigating the structures of intermediate features. Motivated by our empirical findings that linear layers mimic the roles of deep layers in nonlinear networks for feature learning, we explore how deep linear networks transform input data into output by investigating the output (i.e., features) of each layer after training in the context of multi-class classification problems. Toward this goal, we first define metrics to measure within-class compression and between-class discrimination of intermediate features, respectively. Through theoretical analysis of these two metrics, we show that the evolution of features follows a simple and quantitative pattern from shallow to deep layers when the input data is nearly orthogonal and the network weights are minimum-norm, balanced, and approximately low-rank: each layer of the linear network progressively compresses within-class features at a geometric rate and discriminates between-class features at a linear rate with respect to the number of layers that data have passed through. To the best of our knowledge, this is the first quantitative characterization of feature evolution in hierarchical representations of deep linear networks. Moreover, our extensive experiments not only validate our theoretical results but also reveal a similar pattern in deep nonlinear networks, which aligns well with recent empirical studies. Finally, we demonstrate the practical value of our results in transfer learning.",
+    "authors": [
+        "Peng Wang",
+        "Xiao Li",
+        "Can Yaras",
+        "Zhihui Zhu",
+        "Laura Balzano",
+        "Wei Hu",
+        "Qing Qu"
+    ],
+    "emails": [
+        "peng8wang@gmail.com",
+        "xlxiao@umich.edu",
+        "cjyaras@umich.edu",
+        "zhu.3440@osu.edu",
+        "girasole@umich.edu",
+        "vvh@umich.edu",
+        "qingqu@umich.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/Heimine/PNC_DLN"
+        ]
+    ],
+    "id": "24-0047",
+    "issue": 220,
+    "pages": [
+        1,
+        61
+    ],
+    "title": "Understanding Deep Representation Learning via Layerwise Feature Compression and Discrimination",
+    "volume": 26,
+    "year": 2025
+}

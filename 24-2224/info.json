@@ -1,0 +1,20 @@
+{
+    "abstract": "Computational difficulty of quadratic matching and the Gromov-Wasserstein distance has led to various approximation and relaxation schemes. One of such methods, relying on the notion of distance profiles, has been widely used in practice, but its theoretical understanding is limited. By delving into the statistical complexity of the previously proposed method based on distance profiles, we show that it suffers from the curse of dimensionality unless we make certain assumptions on the underlying metric measure spaces. Building on this insight, we propose and analyze a modified matching procedure that can be used to robustly match points under a certain probabilistic setting. We demonstrate the performance of the proposed methods using simulations and real data applications to complement the theoretical findings. As a result, we contribute to the literature by providing theoretical underpinnings of the matching procedures based on distance invariants like distance profiles, which have been widely used in practice but rarely analyzed theoretically.",
+    "authors": [
+        "YoonHaeng Hur",
+        "Yuehaw Khoo"
+    ],
+    "emails": [
+        "yoonhaenghur@uchicago.edu",
+        "ykhoo@uchicago.edu"
+    ],
+    "id": "24-2224",
+    "issue": 205,
+    "pages": [
+        1,
+        38
+    ],
+    "title": "Robust Point Matching with Distance Profiles",
+    "volume": 26,
+    "year": 2025
+}

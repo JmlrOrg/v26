@@ -1,0 +1,30 @@
+{
+    "abstract": "Gaussian processes are a key component of many flexible statistical and machine learning models. However, they exhibit cubic computational complexity and high memory constraints due to the need of inverting and storing a full covariance matrix. To circumvent this, mixtures of Gaussian process experts have been considered where data points are assigned to independent experts, reducing the complexity by allowing inference based on smaller, local covariance matrices. Moreover, mixtures of Gaussian process experts substantially enrich the model's flexibility, allowing for behaviors such as non-stationarity, heteroscedasticity, and discontinuities. In this work, we construct a novel inference approach based on nested sequential Monte Carlo samplers to simultaneously infer both the gating network and Gaussian process expert parameters. This greatly improves inference  compared to importance sampling, particularly in settings when a stationary Gaussian process is inappropriate,  while still being thoroughly parallelizable.",
+    "authors": [
+        "Teemu H{{\\\"a}}rk{{\\\"o}}nen",
+        "Sara Wade",
+        "Kody Law",
+        "Lassi Roininen"
+    ],
+    "emails": [
+        "teemu.h.harkonen@aalto.fi",
+        "sara.wade@ed.ac.uk",
+        "kody.law@manchester.ac.uk",
+        "lassi.roininen@lut.fi"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/ththarkonen/smc2-gp-moe"
+        ]
+    ],
+    "id": "22-0973",
+    "issue": 206,
+    "pages": [
+        1,
+        38
+    ],
+    "title": "Mixtures of Gaussian Process Experts with SMC^2",
+    "volume": 26,
+    "year": 2025
+}

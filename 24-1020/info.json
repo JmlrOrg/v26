@@ -1,0 +1,24 @@
+{
+    "abstract": "To find the shortest paths for all pairs on manifolds with infinitesimally defined metrics, we introduce a framework to generate them by predicting midpoints recursively. To learn midpoint prediction, we propose an actor-critic approach. We prove the soundness of our approach and show experimentally that the proposed method outperforms existing methods on several planning tasks, including path planning for agents with complex kinematics and motion planning for multi-degree-of-freedom robot arms.",
+    "authors": [
+        "Kazumi Kasaura"
+    ],
+    "emails": [
+        "kazumi.kasaura@sinicx.com"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/omron-sinicx/midpoint_learning"
+        ]
+    ],
+    "id": "24-1020",
+    "issue": 212,
+    "pages": [
+        1,
+        36
+    ],
+    "title": "Generation of Geodesics with Actor-Critic Reinforcement Learning to Predict Midpoints",
+    "volume": 26,
+    "year": 2025
+}

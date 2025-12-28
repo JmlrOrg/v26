@@ -1,0 +1,20 @@
+{
+    "abstract": "How can we draw trustworthy scientific conclusions? One criterion is that a study can be replicated by independent teams. While replication is critically important, it is arguably insufficient. If a study is biased for some reason and other studies recapitulate the approach then findings might be consistently incorrect. It has been argued that trustworthy scientific conclusions require disparate sources of evidence. However, different methods might have shared biases, making it difficult to judge the trustworthiness of a result. We formalize this issue by introducing a \"distributional uncertainty model\", wherein dense distributional shifts emerge as the superposition of numerous small random changes. The distributional perturbation model arises under a symmetry assumption on distributional shifts and is strictly weaker than assuming that the data is i.i.d. from the target distribution. We show that a stability analysis on a single data set allows us to construct confidence intervals that account for both sampling uncertainty and distributional uncertainty.",
+    "authors": [
+        "Yujin Jeong",
+        "Dominik Rothenh{{\\\"a}}usler"
+    ],
+    "emails": [
+        "yujinj@stanford.edu",
+        "rdominik@stanford.edu"
+    ],
+    "id": "23-0714",
+    "issue": 196,
+    "pages": [
+        1,
+        48
+    ],
+    "title": "Calibrated Inference: Statistical Inference that Accounts for Both Sampling Uncertainty and Distributional Uncertainty",
+    "volume": 26,
+    "year": 2025
+}

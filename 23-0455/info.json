@@ -1,0 +1,28 @@
+{
+    "abstract": "Applying machine learning to biological sequences---DNA, RNA and protein---has enormous potential to advance human health and environmental sustainability. To support such high-stakes applications, it is important to develop models and evaluations that not only capture underlying biology, but also have theoretical guarantees of reliability and performance. In this article, we analyze kernel methods for biological sequences, including both hand-crafted kernels and deep neural network-based kernels. We show that popular biological kernels can severely fail at learning functions or distinguishing distributions. We then develop modified kernels that (1) are universal, characteristic, and metrize the space of distributions, and (2) preserve the underlying biological inductive biases and domain knowledge embedded in the original kernel. Our results rest on novel proof techniques for kernels that handle the structure of biological sequence space--discrete, variable length sequences--and biological notions of sequence similarity. We illustrate our theoretical results in simulation and on real biological data sets.",
+    "authors": [
+        "Alan N. Amin",
+        "Debora S. Marks",
+        "Eli N. Weinstein"
+    ],
+    "emails": [
+        "alanamin@nyu.edu",
+        "debbie@hms.harvard.edu",
+        "enawe@dtu.dk"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/AlanNawzadAmin/Kernels-with-guarantees"
+        ]
+    ],
+    "id": "23-0455",
+    "issue": 216,
+    "pages": [
+        1,
+        63
+    ],
+    "title": "Biological Sequence Kernels with Guaranteed Flexibility",
+    "volume": 26,
+    "year": 2025
+}

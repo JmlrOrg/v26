@@ -1,0 +1,26 @@
+{
+    "abstract": "Ensemble methods combine the predictions of several base models. We study whether or not including more models always improves their average performance. This question depends on the kind of ensemble considered, as well as the predictive metric chosen. We focus on situations where all members of the ensemble are a priori expected to perform equally well, which is the case of several popular methods such as random forests or deep ensembles. In this setting, we show that ensembles are getting better all the time if, and only if, the considered loss function is convex. More precisely, in that case, the loss of the ensemble is a decreasing function of the number of models. When the loss function is nonconvex, we show a series of results that can be summarised as: ensembles of good models keep getting better, and ensembles of bad models keep getting worse. To this end, we prove a new result on the monotonicity of tail probabilities that may be of independent interest. We illustrate our results on a  medical problem (diagnosing melanomas using neural nets) and a ``wisdom of crowds'' experiment (guessing the ratings of upcoming movies).",
+    "authors": [
+        "Pierre-Alexandre Mattei",
+        "Damien Garreau"
+    ],
+    "emails": [
+        "pierre-alexandre.mattei@inria.fr",
+        "damien.garreau@uni-wuerzburg.de"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/pamattei/Getting-Better-Ensembles"
+        ]
+    ],
+    "id": "24-0408",
+    "issue": 201,
+    "pages": [
+        1,
+        46
+    ],
+    "title": "Are Ensembles Getting Better All the Time?",
+    "volume": 26,
+    "year": 2025
+}

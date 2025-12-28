@@ -1,0 +1,24 @@
+{
+    "abstract": "Recent efforts to accelerate first-order methods have focused on convex optimization problems that satisfy a geometric property known as error-bound condition, which covers a broad class of problems, including piece-wise linear programs and strongly convex programs. Parameter-free first-order methods that employ projection-free updates have the potential to broaden the benefit of acceleration. Such a method has been developed for unconstrained convex optimization but is lacking for general constrained convex optimization. We propose a parameter-free level-set method for the latter constrained case based on projection-free subgradient method that exhibits accelerated convergence for problems that satisfy an error-bound condition. Our method maintains a separate copy of the level-set sub-problem for each level parameter value and restarts the computation of these copies based on objective function progress. Applying such a restarting scheme in a level-set context is novel and results in an algorithm that dynamically adapts the precision of each copy. This property is key to extending prior restarting methods based on static precision that have been proposed for unconstrained convex optimization to handle constraints. We report promising numerical performance relative to benchmark methods.",
+    "authors": [
+        "Qihang Lin",
+        "Negar Soheili",
+        "Runchao Ma",
+        "Selvaprabu Nadarajah"
+    ],
+    "emails": [
+        "qihang-lin@uiowa.edu",
+        "nazad@uic.edu",
+        "runchao-ma@uiowa.edu",
+        "selvan@uic.edu"
+    ],
+    "id": "24-0201",
+    "issue": 200,
+    "pages": [
+        1,
+        45
+    ],
+    "title": "An Adaptive Parameter-free and Projection-free Restarting Level Set Method for Constrained Convex Optimization Under the Error Bound Condition",
+    "volume": 26,
+    "year": 2025
+}

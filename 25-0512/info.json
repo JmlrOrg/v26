@@ -1,0 +1,37 @@
+{
+    "abstract": "Tabular data is a prevalent source in machine learning. While classical methods have proven effective, deep learning methods for tabular data are emerging as flexible alternatives due to their capacity to uncover hidden patterns and capture complex interactions. Considering that deep tabular methods exhibit diverse design philosophies, including the ways they handle features, design learning objectives, and construct model architectures, we introduce Talent (Tabular Analytics and Learning Toolbox), a versatile toolbox for utilizing, analyzing, and comparing these methods.  Talent includes over 35 deep tabular prediction methods, offering various encoding and normalization modules, all within a unified, easily extensible interface. We demonstrate its design, application, and performance evaluation in case studies. The code is available at https://github.com/LAMDA-Tabular/TALENT.",
+    "authors": [
+        "Si-Yang Liu",
+        "Hao-Run Cai",
+        "Qi-Le Zhou",
+        "Huai-Hong Yin",
+        "Tao Zhou",
+        "Jun-Peng Jiang",
+        "Han-Jia Ye"
+    ],
+    "emails": [
+        "liusy@lamda.nju.edu.cn",
+        "caihr@lamda.nju.edu.cn",
+        "zhouql@lamda.nju.edu.cn",
+        "yinhh@lamda.nju.edu.cn",
+        "zhout@lamda.nju.edu.cn",
+        "jiangjp@lamda.nju.edu.cn",
+        "yehj@lamda.nju.edu.cn"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/LAMDA-Tabular/TALENT"
+        ]
+    ],
+    "id": "25-0512",
+    "issue": 226,
+    "pages": [
+        1,
+        16
+    ],
+    "special_issue": "MLOSS",
+    "title": "Talent: A Tabular Analytics and Learning Toolbox",
+    "volume": 26,
+    "year": 2025
+}

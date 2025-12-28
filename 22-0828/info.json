@@ -1,0 +1,28 @@
+{
+    "abstract": "This work presents a new procedure for obtaining predictive distributions in the context of Gaussian process (GP) modeling, with a relaxation of the interpolation constraints outside ranges of interest: the mean of the predictive distribution no longer necessarily interpolates the observed values when they are outside ranges of interest, but is simply constrained to remain outside. This method called relaxed Gaussian process (reGP) interpolation provides better predictive distributions in ranges of interest, especially in cases where a stationarity assumption for the GP model is not appropriate. It can be viewed as a goal-oriented method and becomes particularly interesting in Bayesian optimization, for example, for the minimization of an objective function, where good predictive distributions for low function values are important. When the expected improvement criterion and reGP are used for sequentially choosing evaluation points, the convergence of the resulting optimization algorithm is theoretically guaranteed (provided that the function to be optimized lies in the reproducing kernel Hilbert space attached to the known covariance of the underlying Gaussian process). Experiments indicate that using reGP instead of stationary GP models in Bayesian optimization is beneficial.",
+    "authors": [
+        "S{{\\'e}}bastien J. Petit",
+        "Julien Bect",
+        "Emmanuel Vazquez"
+    ],
+    "emails": [
+        "sebastien.petit@lne.fr",
+        "julien.bect@centralesupelec.fr",
+        "emmanuel.vazquez@centralesupelec.fr"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/relaxedGP/regp_paper_experiments"
+        ]
+    ],
+    "id": "22-0828",
+    "issue": 195,
+    "pages": [
+        1,
+        70
+    ],
+    "title": "Relaxed Gaussian Process Interpolation: a Goal-Oriented Approach to Bayesian Optimization",
+    "volume": 26,
+    "year": 2025
+}

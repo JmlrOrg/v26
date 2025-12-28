@@ -1,0 +1,22 @@
+{
+    "abstract": "Deep learning has exhibited remarkable results across diverse areas. To understand its success, substantial research has been directed towards its theoretical foundations. Nevertheless, the majority of these studies examine how well deep neural networks can model functions with uniform regularities. In this paper, we explore a different angle: how deep neural networks can adapt to varying degrees of smoothness in functions and nonuniform data distributions across different locations and scales. More precisely, we focus on a broad class of functions defined by nonlinear tree-based approximation methods. This class encompasses a range of function types, such as functions with uniform regularities and discontinuous functions. We develop nonparametric  approximation and estimation theories  for this class using deep ReLU networks. Our results show that deep neural networks are adaptive to the nonuniform smoothness of functions and nonuniform data distributions at different locations and scales. We apply our results to several function classes, and derive the corresponding approximation and generalization errors. The validity of our results is demonstrated through  numerical experiments.",
+    "authors": [
+        "Hao Liu",
+        "Jiahui Cheng",
+        "Wenjing Liao"
+    ],
+    "emails": [
+        "haoliu@hkbu.edu.hk",
+        "jcheng328@gatech.edu",
+        "wliao60@gatech.edu"
+    ],
+    "id": "24-1148",
+    "issue": 213,
+    "pages": [
+        1,
+        56
+    ],
+    "title": "Deep Neural Networks are Adaptive to Function Regularity and Data Distribution in Approximation and Estimation",
+    "volume": 26,
+    "year": 2025
+}

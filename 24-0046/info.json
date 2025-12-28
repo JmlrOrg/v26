@@ -1,0 +1,28 @@
+{
+    "abstract": "Sequencing-based technologies provide an abundance of high-dimensional biological data sets with highly skewed and zero-inflated measurements. Despite the computational efficiency and high interpretability offered by linear classification methods, the violation of underlying distribution assumptions, driven by high skewness and zero inflation, results in invalid classification rules and interpretations. Furthermore, existing data transformation methods addressing these violations introduce ambiguity, rendering the final model and classification performance contingent on the specific transformation employed. To tackle these challenges, we propose a novel semiparametric framework for discriminant analysis based on the truncated latent Gaussian copula model. This model accommodates skewness and zero inflation, and its estimation procedure ensures robustness against data transformations. To facilitate model interpretability, we incorporate $\\ell_1$ sparsity regularization and establish the consistency of the classification directions in high-dimensional settings. We validate our approach using human gut microbiome, breast cancer microRNA, and single-cell RNA sequencing data, highlighting its superior classification accuracy and robustness to data transformations.",
+    "authors": [
+        "Hee Cheol Chung",
+        "Yang Ni",
+        "Irina Gaynanova"
+    ],
+    "emails": [
+        "hchung13@charlotte.edu",
+        "yang.ni@austin.utexas.edu",
+        "irinagn@umich.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/heech31/SEDA"
+        ]
+    ],
+    "id": "24-0046",
+    "issue": 210,
+    "pages": [
+        1,
+        54
+    ],
+    "title": "Sparse Semiparametric Discriminant Analysis for High-dimensional Zero-inflated Data",
+    "volume": 26,
+    "year": 2025
+}

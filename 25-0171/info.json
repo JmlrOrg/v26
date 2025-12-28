@@ -1,0 +1,30 @@
+{
+    "abstract": "Discrete diffusion models have attracted significant attention for their application to naturally discrete data, such as language and graphs. While discrete-time discrete diffusion has been established for some time, it was only recently that Campbell et al. (2022) introduced the first framework for continuous-time discrete diffusion. However, their training and backward sampling processes significantly differ from those of the discrete-time version, requiring nontrivial approximations for tractability. In this paper, we first introduce a series of generalizations and simplifications of the evidence lower bound (ELBO) that facilitate more accurate and easier optimization both discrete- and continuous-time discrete diffusion. We further establish a unification of discrete- and continuous-time discrete diffusion through shared forward process and backward parameterization. Thanks to this unification, the continuous-time diffusion can now utilize the exact and efficient backward process developed for the discrete-time case, avoiding the need for costly and inexact approximations. Similarly, the discrete-time diffusion now also employ the MCMC corrector, which was previously exclusive to the continuous-time case. Extensive experiments and ablations demonstrate the significant improvement, and we open-source our code at: https://github.com/LingxiaoShawn/USD3.",
+    "authors": [
+        "Lingxiao Zhao",
+        "Xueying Ding",
+        "Lijun Yu",
+        "Leman Akoglu"
+    ],
+    "emails": [
+        "lingxiaozlx@gmail.com",
+        "xding2@cs.cmu.edu",
+        "lijun@lj-y.com",
+        "lakoglu@andrew.cmu.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/LingxiaoShawn/USD3"
+        ]
+    ],
+    "id": "25-0171",
+    "issue": 215,
+    "pages": [
+        1,
+        49
+    ],
+    "title": "Unified Discrete Diffusion for Categorical Data",
+    "volume": 26,
+    "year": 2025
+}

@@ -1,0 +1,24 @@
+{
+    "abstract": "In this paper, we explore optimal subsampling strategies for estimating the parametric regression coefficients in partially linear models with unknown nuisance functions involving high-dimensional and potentially endogenous covariates. To address model misspecifications and the curse of dimensionality, we leverage flexible machine learning (ML) techniques to estimate the unknown nuisance functions.  By constructing an unbiased subsampling Neyman-orthogonal score function, we eliminate regularization bias. A two-step algorithm is then used to obtain appropriate ML estimators of the nuisance functions, mitigating the risk of over-fitting. Using martingale techniques, we establish the unconditional consistency and asymptotic normality of the subsample estimators. Furthermore, we derive optimal subsampling probabilities, including A-optimal and L-optimal probabilities as special cases. The proposed optimal subsampling approach is extended to partially linear instrumental variable models to account for potential endogeneity through instrumental variables.  Simulation studies and an empirical analysis of the Physicochemical Properties of Protein Tertiary Structure dataset demonstrate the superior performance of our subsample estimators.",
+    "authors": [
+        "Yujing Shao",
+        "Lei Wang",
+        "Heng Lian",
+        "Haiying Wang"
+    ],
+    "emails": [
+        "shaoyujing0203@163.com",
+        "lwangstat@nankai.edu.cn",
+        "henglian@cityu.edu.hk",
+        "haiying.wang@uconn.edu"
+    ],
+    "id": "23-1475",
+    "issue": 198,
+    "pages": [
+        1,
+        70
+    ],
+    "title": "Optimal subsampling for high-dimensional partially linear models via machine learning methods",
+    "volume": 26,
+    "year": 2025
+}

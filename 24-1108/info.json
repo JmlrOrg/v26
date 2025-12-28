@@ -1,0 +1,22 @@
+{
+    "abstract": "Changepoint detection typically relies on a grid-search strategy for optimal data segmentation. When model fitting itself is expensive, repeatedly fitting a model on every candidate segment dominates the computation. Existing approaches mitigate this by pruning the grid, thus reducing the number of segments (and model fits). We propose Reliever, which instead cuts the number of model fits directly and nests seamlessly within standard grid-search routines. Reliever fits a small, deterministic collection of proxy models and reuses them wherever they apply, making it compatible with a wide range of existing algorithms. For high-dimensional regression with changepoints, coupling Reliever with an optimal grid-search method yields changepoint and coefficient estimators that are rate-optimal up to a logarithmic factor. Extensive numerical experiments demonstrate that Reliever rapidly and accurately detects changepoints across a wide range of high-dimensional and nonparametric models.",
+    "authors": [
+        "Chengde Qian",
+        "Guanghui Wang",
+        "Changliang Zou"
+    ],
+    "emails": [
+        "qianchd@gmail.com",
+        "ghwang.nk@gmail.com",
+        "zoucl@nankai.edu.cn"
+    ],
+    "id": "24-1108",
+    "issue": 203,
+    "pages": [
+        1,
+        57
+    ],
+    "title": "Reliever: Relieving the Burden of Costly Model Fits for Changepoint Detection",
+    "volume": 26,
+    "year": 2025
+}

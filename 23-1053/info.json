@@ -1,0 +1,22 @@
+{
+    "abstract": "Hawkes processes are often applied to model dependence and interaction phenomena in multivariate event data sets, such as neuronal spike trains, social interactions, and financial transactions. In the nonparametric setting, learning the temporal dependence structure of Hawkes processes is generally a computationally expensive task, all the more with Bayesian estimation methods. In particular, for multivariate nonlinear Hawkes processes, Monte-Carlo Markov Chain (MCMC) methods used to sample from the posterior distribution do not scale well to the dimension of the process. Recently, efficient algorithms targeting a mean-field variational approximation of the posterior distribution have been proposed, however, these methods do not allow to perform model selection on the graph of interactions of the Hawkes model. In this work, we propose a novel adaptive Bayesian variational method that performs model selection and can estimate a sparse graphical parameter. For the popular sigmoid Hawkes processes, we design a parallel algorithm which is scalable to high-dimensional point processes and large sequences of events. Furthermore, we unify existing variational Bayes approaches under a general nonparametric inference framework, and analyse the asymptotic properties of these methods under easily verifiable conditions on the prior, the variational class, and the nonlinear model. Finally, through an extensive set of numerical simulations, we demonstrate that our method is able to adapt to the dimensionality of the parameter of the Hawkes process, and is partially robust to certain types of model misspecification.",
+    "authors": [
+        "Deborah Sulem",
+        "Vincent Rivoirard",
+        "Judith Rousseau"
+    ],
+    "emails": [
+        "deborah.sulem@bse.eu",
+        "vincent.rivoirard@ceremade.dauphine.fr",
+        "judith.rousseau@stats.ox.ac.uk"
+    ],
+    "id": "23-1053",
+    "issue": 217,
+    "pages": [
+        1,
+        102
+    ],
+    "title": "Scalable and Adaptive Variational Bayes Methods for Hawkes Processes",
+    "volume": 26,
+    "year": 2025
+}

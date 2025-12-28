@@ -1,0 +1,24 @@
+{
+    "abstract": "Non-stationary online learning has drawn much attention in recent years. In particular, dynamic regret and adaptive regret are proposed as two principled performance measures for online convex optimization in non-stationary environments. To optimize them, a two-layer online ensemble is usually deployed due to the inherent uncertainty of non-stationarity, in which multiple base-learners are maintained and a meta-algorithm is employed to track the best one on the fly. However, the two-layer structure raises concerns about computational complexity --- such methods typically maintain $O(\\log T)$ base-learners simultaneously for a $T$-round online game and thus perform multiple projections onto the feasible domain per round, which becomes the computational bottleneck when the domain is complicated. In this paper, we present efficient methods for optimizing dynamic regret and adaptive regret that reduce the number of projections per round from $O(\\log T)$ to $1$. The proposed algorithms require only one gradient query and one function evaluation at each round. Our technique hinges on the reduction mechanism developed in parameter-free online learning and requires non-trivial modifications for non-stationary online methods. Furthermore, we study an even stronger measure, namely \"interval dynamic regret\", and reduce the number of projections per round from $O(\\log^2 T)$ to $1$ for minimizing it. Our reduction demonstrates broad generality and applies to two important applications: online stochastic control and online principal component analysis, resulting in methods that are both efficient and optimal. Finally, empirical studies verify our theoretical findings.",
+    "authors": [
+        "Peng Zhao",
+        "Yan-Feng Xie",
+        "Lijun Zhang",
+        "Zhi-Hua Zhou"
+    ],
+    "emails": [
+        "zhaop@lamda.nju.edu.cn",
+        "xieyf@lamda.nju.edu.cn",
+        "zhanglj@lamda.nju.edu.cn",
+        "zhouzh@lamda.nju.edu.cn"
+    ],
+    "id": "23-1188",
+    "issue": 208,
+    "pages": [
+        1,
+        66
+    ],
+    "title": "Efficient Methods for Non-stationary Online Learning",
+    "volume": 26,
+    "year": 2025
+}
