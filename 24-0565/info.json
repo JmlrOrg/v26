@@ -1,0 +1,28 @@
+{
+    "abstract": "This paper introduces the Collaborative Likelihood-ratio Estimation problem, which is relevant for applications involving multiple statistical estimation tasks that can be mapped to the nodes of a fixed graph expressing pairwise task similarity. Each graph node $v$ observes i.i.d data from two unknown node-specific pdfs, $p_{v}$ and $q_{v}$, and the goal is to estimate the likelihood-ratios (or density-ratios), $r_{v}(x)=\\frac{q_{v}(x)}{p_{v}(x)}$, for all $v$. Our contribution is multifold: we present a non-parametric collaborative framework that leverages the graph structure of the problem to solve the tasks more efficiently; we present a concrete method that we call Graph-based Relative Unconstrained Least-Squares Importance Fitting (GRULSIF) along with an efficient implementation; we derive convergence rates that highlight the role of the main variables of the problem. Our theoretical results explicit the conditions under which the collaborative estimation leads to performance gains compared to solving each estimation task independently. Finally, in a series of experiments, we demonstrate that the joint likelihood-ratio estimation of GRULSIF at all graph nodes is more accurate compared to state-of-the-art methods that operate independently at each node, and we verify that the behavior of GRULSIF is in agreement with our theoretical analysis.",
+    "authors": [
+        "Alejandro de la Concha",
+        "Nicolas Vayatis",
+        "Argyris Kalogeratos"
+    ],
+    "emails": [
+        "alejandro.de_la_concha_duarte@ens-paris-saclay.fr",
+        "nicolas.vayatis@ens-paris-saclay.fr",
+        "argyris.kalogeratos@ens-paris-saclay.fr"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/AlejandrodelaConcha/Collaborative-Likelihood-Ratio-Estimation-over-Graphs"
+        ]
+    ],
+    "id": "24-0565",
+    "issue": 259,
+    "pages": [
+        1,
+        66
+    ],
+    "title": "Collaborative likelihood-ratio estimation over graphs",
+    "volume": 26,
+    "year": 2025
+}

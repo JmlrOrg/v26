@@ -1,0 +1,26 @@
+{
+    "abstract": "Spectral estimators have been broadly applied to statistical network analysis, but they do not incorporate the likelihood information of the network sampling model. This paper proposes a novel surrogate likelihood function for statistical inference of a class of popular network models referred to as random dot product graphs. In contrast to the structurally complicated exact likelihood function, the surrogate likelihood function has a separable structure and is log-concave yet approximates the exact likelihood function well. From the frequentist perspective, we study the maximum surrogate likelihood estimator and establish the accompanying theory. We show its existence, uniqueness, large sample properties, and that it improves upon the baseline spectral estimator with a smaller sum of squared errors. Furthermore, we derive the second-order bias of the proposed estimator and gain insight into why it outperforms some of the existing estimators. A computationally convenient stochastic gradient descent algorithm is designed to find the maximum surrogate likelihood estimator in practice. From the Bayesian perspective, we establish the Bernstein--von Mises theorem of the posterior distribution with the surrogate likelihood function and show that the resulting credible sets have the correct frequentist coverage. The empirical performance of the proposed surrogate-likelihood-based methods is validated through the analyses of simulation examples and two real-world data sets.",
+    "authors": [
+        "Dingbo Wu",
+        "Fangzheng Xie"
+    ],
+    "emails": [
+        "dw16@iu.edu",
+        "fxie@iu.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://fangzheng-xie.github.io/materials/lgraph_0.1.0.tar.gz"
+        ]
+    ],
+    "id": "24-0153",
+    "issue": 230,
+    "pages": [
+        1,
+        65
+    ],
+    "title": "Statistical Inference of Random Graphs With a Surrogate Likelihood Function",
+    "volume": 26,
+    "year": 2025
+}

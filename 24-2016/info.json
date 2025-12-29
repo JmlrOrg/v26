@@ -1,0 +1,28 @@
+{
+    "abstract": "We explore the trade-off between privacy and statistical utility in private two-sample testing under local differential privacy (LDP) for both multinomial and continuous data. We begin with the multinomial case, where we introduce private permutation tests using practical privacy mechanisms such as Laplace, discrete Laplace, and Google's RAPPOR. We then extend this approach to continuous data via binning and study its uniform separation under LDP over H\\\"{o}lder and Besov smoothness classes. The proposed tests for both discrete and continuous cases rigorously control type I error for any finite sample size, strictly adhere to LDP constraints, and achieve minimax optimality under LDP. The attained minimax rates reveal inherent privacy-utility trade-offs that are unavoidable in private testing. To address scenarios with unknown smoothness parameters in density testing, we propose a Bonferroni-type adaptive test that ensures robust performance without prior knowledge of the smoothness parameters. We validate our theoretical findings with extensive numerical experiments and demonstrate the practical relevance and effectiveness of our proposed methods.",
+    "authors": [
+        "Jongmin Mun",
+        "Seungwoo Kwak",
+        "Ilmun Kim"
+    ],
+    "emails": [
+        "jongmin.mun@marshall.usc.edu",
+        "swkwak@skhu.ac.kr",
+        "ilmunk@kaist.ac.kr"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/Jong-Min-Moon/optimal-local-dp-two-sample.git"
+        ]
+    ],
+    "id": "24-2016",
+    "issue": 252,
+    "pages": [
+        1,
+        79
+    ],
+    "title": "Minimax Optimal Two-Sample Testing under Local Differential Privacy",
+    "volume": 26,
+    "year": 2025
+}

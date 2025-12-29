@@ -1,0 +1,28 @@
+{
+    "abstract": "We introduce Markov chain Monte Carlo (MCMC) algorithms based on numerical approximations of piecewise-deterministic Markov processes obtained with the framework of splitting schemes. We present unadjusted as well as adjusted algorithms, for which the asymptotic bias due to the discretisation error is removed applying a non-reversible Metropolis-Hastings filter. In a general framework we demonstrate that the unadjusted schemes have weak error of second order in the step size, while typically maintaining a computational cost of only one gradient evaluation of the negative log-target function per iteration. Focusing then on unadjusted schemes based on the Bouncy Particle and Zig-Zag samplers, we provide conditions ensuring geometric ergodicity and consider the expansion of the invariant measure in terms of the step size. We analyse the dependence of the leading term in this expansion on the refreshment rate and on the structure of the splitting scheme, giving a guideline on which structure is best. Finally, we illustrate promising results for our samplers with numerical experiments on a Bayesian imaging inverse problem and a system of interacting particles.",
+    "authors": [
+        "Andrea Bertazzi",
+        "Paul Dobson",
+        "Pierre Monmarch{{\\'e}}"
+    ],
+    "emails": [
+        "andreabertazzi@duck.com",
+        "p.dobson_1@hw.ac.uk",
+        "pierre.monmarche@sorbonne-universite.fr"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/andreabertazzi/splittingschemes_PDMP"
+        ]
+    ],
+    "id": "23-0036",
+    "issue": 243,
+    "pages": [
+        1,
+        94
+    ],
+    "title": "Piecewise deterministic sampling with splitting schemes",
+    "volume": 26,
+    "year": 2025
+}

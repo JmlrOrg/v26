@@ -1,0 +1,44 @@
+{
+    "abstract": "We present AlphaGeometry2, a significantly improved version of AlphaGeometry introduced in Nature, 625 (7995):476, 2024, which has now surpassed an average gold medalist in solving Olympiad geometry problems. To achieve this, we first extend the original AlphaGeometry language to tackle problems involving movements of objects, and problems containing linear equations of angles, ratios, and distances. This, together with support for non-constructive problems, has markedly improved the coverage rate of the AlphaGeometry language on International Math Olympiads 2000-2024 geometry problems from 66% to 88%. The search process of AlphaGeometry2 has also been greatly improved through the use of Gemini architecture for better language modeling, and a novel knowledge-sharing mechanism that enables effective communication between search trees. Together with further enhancements to the symbolic engine and synthetic data generation, we have significantly boosted the overall solving rate of AlphaGeometry to 84% on all geometry problems over the last 25 years, compared to 54% previously. AlphaGeometry2 was also part of the system that achieved the silver-medal standard at IMO 2024 https://dpmd.ai/imo-silver. Finally, we report progress towards using AlphaGeometry2 as a part of a fully automated system that reliably solves geometry problems from natural language input. Code: https://github.com/google-deepmind/alphageometry2.",
+    "authors": [
+        "Yuri Chervonyi",
+        "Trieu H. Trinh",
+        "Miroslav Ol{\\v{s}}{{\\'a}}k",
+        "Xiaomeng Yang",
+        "Hoang H. Nguyen",
+        "Marcelo Menegali",
+        "Junehyuk Jung",
+        "Junsu Kim",
+        "Vikas Verma",
+        "Quoc V. Le",
+        "Thang Luong"
+    ],
+    "emails": [
+        "cyuri@google.com",
+        "thtrieu@google.com",
+        "miroslavo@google.com",
+        "yangxm@google.com",
+        "hnguyen455@gatech.edu",
+        "mmenegali@google.com",
+        "junehyuk_jung@brown.edu",
+        "kimjunsu@google.com",
+        "vikasve@google.com",
+        "qvle@google.com",
+        "thangluong@google.com"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/google-deepmind/alphageometry2"
+        ]
+    ],
+    "id": "25-1654",
+    "issue": 241,
+    "pages": [
+        1,
+        39
+    ],
+    "title": "Gold-medalist Performance in Solving Olympiad Geometry with AlphaGeometry2",
+    "volume": 26,
+    "year": 2025
+}

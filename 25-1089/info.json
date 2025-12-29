@@ -1,0 +1,26 @@
+{
+    "abstract": "Recent works exploring the training dynamics of homogeneous neural network weights under gradient flow with small initialization have established that in the early stages of training, the weights remain small and near the origin, but converge in direction. Building on this, the current paper studies the gradient flow dynamics of homogeneous neural networks with locally Lipschitz gradients, after they escape the origin. Insights gained from this analysis are used to characterize the first saddle point encountered by gradient flow after escaping the origin. Also, it is shown that for homogeneous feed-forward neural networks, under certain conditions, the sparsity structure emerging among the weights before the escape is preserved after escaping the origin and until reaching the next saddle point.",
+    "authors": [
+        "Akshay Kumar",
+        "Jarvis Haupt"
+    ],
+    "emails": [
+        "kumar511@umn.edu",
+        "jdhaupt@umn.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/akk0135/beyond_origin_experiments"
+        ]
+    ],
+    "id": "25-1089",
+    "issue": 269,
+    "pages": [
+        1,
+        83
+    ],
+    "title": "Towards Understanding Gradient Flow Dynamics of Homogeneous Neural Networks Beyond the Origin",
+    "volume": 26,
+    "year": 2025
+}

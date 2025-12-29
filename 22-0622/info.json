@@ -1,0 +1,26 @@
+{
+    "abstract": "We study the sequential decision making problem of  maximizing the expected total reward while satisfying a constraint on the expected total utility. We employ the natural policy gradient method to solve the discounted infinite-horizon optimal control problem for Constrained Markov Decision Processes (constrained MDPs). Specifically, we propose a new Natural Policy Gradient Primal-Dual (NPG-PD) method that updates the primal variable via natural policy gradient ascent and the dual variable via projected subgradient descent. Although the underlying maximization involves a nonconcave objective function and a nonconvex constraint set, under the softmax policy parametrization, we prove that our method achieves global convergence with sublinear rates regarding both the optimality gap and the constraint violation. Such convergence is independent of the size of the state-action space, i.e., it is~dimension-free. Furthermore, for log-linear and general smooth policy parametrizations, we establish sublinear convergence rates up to a function approximation error caused by restricted policy parametrization. We also provide convergence and finite-sample complexity guarantees for two sample-based NPG-PD algorithms. We use a set of computational experiments to showcase the effectiveness of our approach.",
+    "authors": [
+        "Dongsheng Ding",
+        "Kaiqing Zhang",
+        "Jiali Duan",
+        "Tamer Basar",
+        "Mihailo R. Jovanovic"
+    ],
+    "emails": [
+        "dongshed@utk.edu",
+        "kaiqing@umd.edu",
+        "jduan24@apple.com",
+        "basar1@illinois.edu",
+        "mihailo@usc.edu"
+    ],
+    "id": "22-0622",
+    "issue": 256,
+    "pages": [
+        1,
+        76
+    ],
+    "title": "Convergence and Sample Complexity of Natural Policy Gradient Primal-Dual Methods for Constrained MDPs",
+    "volume": 26,
+    "year": 2025
+}

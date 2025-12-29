@@ -1,0 +1,20 @@
+{
+    "abstract": "The extraction of filamentary structure from a point cloud is discussed. The filaments are modeled as ridge lines or higher dimensional ridges of an underlying density. We propose two novel algorithms, and provide theoretical guarantees for their convergences, by which we mean that the algorithms can asymptotically recover the full ridge set. We consider the new algorithms as alternatives to the Subspace Constrained Mean Shift (SCMS) algorithm for which no such theoretical guarantees are known.",
+    "authors": [
+        "Wanli Qiao",
+        "Wolfgang Polonik"
+    ],
+    "emails": [
+        "wqiao@gmu.edu",
+        "wpolonik@ucdavis.edu"
+    ],
+    "id": "21-0095",
+    "issue": 227,
+    "pages": [
+        1,
+        50
+    ],
+    "title": "Algorithms for ridge estimation with convergence guarantees",
+    "volume": 26,
+    "year": 2025
+}

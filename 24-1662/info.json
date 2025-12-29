@@ -1,0 +1,26 @@
+{
+    "abstract": "Existing approaches to causal discovery often rely on restrictive modeling assumptions that limit their applicability in real-world settings, particularly when data are heavy-tailed or contain a mixture of discrete and continuous variables. Identifiability of causal graphs has been established under several structural models, including linear non-Gaussian models, post-nonlinear models, and location-scale models. However, these frameworks may not capture the diversity of distributions observed in practice. To address this, we introduce Conditionally Parametric Causal Models (CPCM), a flexible class of models where the conditional distribution of the effect, given its cause, belongs to a known parametric family such as Gaussian, Poisson, Gamma, or Pareto. These models are adaptable to a wide range of practical situations, where the cause influences not only the mean but also the variance or tail behavior of the effect. We demonstrate the identifiability of CPCM by leveraging the concept of sufficient statistics. Furthermore, we propose an algorithm for estimating the causal structure from random samples drawn from CPCM. We evaluate the empirical properties of our methodology on various datasets, demonstrating state-of-the-art performance across multiple benchmarks.",
+    "authors": [
+        "Juraj Bodik",
+        "Val{{\\'e}}rie Chavez-Demoulin"
+    ],
+    "emails": [
+        "juraj.bodik@unil.ch",
+        "valerie.chavez@unil.ch"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/jurobodik/Causal_CPCM.git"
+        ]
+    ],
+    "id": "24-1662",
+    "issue": 264,
+    "pages": [
+        1,
+        55
+    ],
+    "title": "Identifiability of Causal Graphs under Non-Additive Conditionally Parametric Causal Models",
+    "volume": 26,
+    "year": 2025
+}

@@ -1,0 +1,24 @@
+{
+    "abstract": "Real-time prediction plays a vital role in various control systems, such as traffic congestion control and wireless channel resource allocation. In these scenarios, the predictor usually needs to track the evolution of the latent statistical patterns in the modern high-dimensional streaming time series continuously and quickly, which presents new challenges for traditional prediction methods. This paper is the first to propose a novel online algorithm (TOPA) based on tensor factorization to predict streaming tensor time series. The proposed algorithm TOPA updates the predictor in a low-complexity online manner to adapt to the time-evolving data. Additionally, an automatically adaptive version of the algorithm (TOPA-AAW) is presented to mitigate the negative impact of stale data. Simulation results demonstrate that our proposed methods achieve prediction accuracy similar to that of conventional offline tensor prediction methods, while being much faster than them during long-term online prediction. Therefore, TOPA-AAW is an effective and efficient solution method for online prediction of streaming tensor time series.",
+    "authors": [
+        "Zhenting Luan",
+        "Defeng Sun",
+        "Haoning Wang",
+        "Liping Zhang"
+    ],
+    "emails": [
+        "zhenting.luan@polyu.edu.hk",
+        "defeng.sun@polyu.edu.hk",
+        "whn22@mails.tsinghua.edu.cn",
+        "lipingzhang@tsinghua.edu.cn"
+    ],
+    "id": "24-1229",
+    "issue": 261,
+    "pages": [
+        1,
+        30
+    ],
+    "title": "Efficient Online Prediction for High-Dimensional Time Series via Joint Tensor Tucker Decomposition",
+    "volume": 26,
+    "year": 2025
+}

@@ -1,0 +1,28 @@
+{
+    "abstract": "Differentially private (DP) mechanisms protect individual-level information by introducing randomness into the statistical analysis procedure. Despite the availability of numerous DP tools, there remains a lack of general techniques for conducting statistical inference under DP. We examine a DP bootstrap procedure that releases multiple private bootstrap estimates to infer the sampling distribution and construct confidence intervals (CIs). Our privacy analysis presents new results on the privacy cost of a single DP bootstrap estimate, applicable to any DP mechanism, and identifies some misapplications of the bootstrap in the existing literature. For the composition of the DP bootstrap, we present a numerical method to compute the exact privacy cost of releasing multiple DP bootstrap estimates, and using the Gaussian-DP (GDP) framework (Dong et al., 2022) we show that the release of $B$ DP bootstrap estimates from mechanisms satisfying $(\\mu/\\sqrt{(2-2/\\mathrm{e})B})$-GDP asymptotically satisfies $\\mu$-GDP as $B$ goes to infinity. Then, we perform private statistical inference by post-processing the DP bootstrap estimates. We prove that our point estimates are consistent, our standard CIs are asymptotically valid, and both enjoy optimal convergence rates. To further improve the finite performance, we use deconvolution with DP bootstrap estimates to accurately infer the sampling distribution. We derive CIs for tasks such as population mean estimation, logistic regression, and quantile regression, and we compare them to existing methods using simulations and real-world experiments on 2016 Canada Census data. Our private CIs achieve the nominal coverage level and offer the first approach to private inference for quantile regression.",
+    "authors": [
+        "Zhanyu Wang",
+        "Guang Cheng",
+        "Jordan Awan"
+    ],
+    "emails": [
+        "zhanyu.wang.purdue@gmail.com",
+        "guangcheng@ucla.edu",
+        "jaa557@pitt.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/Zhanyu-Wang/Differentially_Private_Bootstrap"
+        ]
+    ],
+    "id": "23-0514",
+    "issue": 257,
+    "pages": [
+        1,
+        57
+    ],
+    "title": "Differentially Private Bootstrap: New Privacy Analysis and Inference Strategies",
+    "volume": 26,
+    "year": 2025
+}

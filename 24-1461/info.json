@@ -1,0 +1,20 @@
+{
+    "abstract": "Dimension reduction algorithms are essential in data science for tasks such as data exploration, feature selection, and denoising. However, many non-linear dimension reduction algorithms are poorly understood from a theoretical perspective. This work considers a generalized version of multidimensional scaling, which seeks to construct a map from high to low dimension which best preserves pairwise inner products or norms. We investigate the variational properties of this problem, leading to the following insights: 1) Particle-wise descent methods implemented in standard libraries can produce non-deterministic embeddings, 2) A probabilistic formulation leads to solutions with interpretable necessary conditions, and 3) The globally optimal solutions to the relaxed, probabilistic problem is only minimized by deterministic embeddings. This progression of results mirrors the classical development of optimal transportation, and in a case relating to the Gromov-Wasserstein distance actually gives explicit insight into the structure of the optimal embeddings, which are parametrically determined and discontinuous on smooth surfaces. Our results also imply that a standard computational implementation for this problem learns sub-optimal mappings, and we discuss how the embeddings learned in that context have highly misleading clustering structure, underscoring the delicate nature of solving this problem computationally.",
+    "authors": [
+        "Ryan Murray",
+        "Adam Pickarski"
+    ],
+    "emails": [
+        "rwmurray@ncsu.edu",
+        "appickar@ncsu.edu"
+    ],
+    "id": "24-1461",
+    "issue": 234,
+    "pages": [
+        1,
+        39
+    ],
+    "title": "On Probabilistic Embeddings in Optimal Dimension Reduction",
+    "volume": 26,
+    "year": 2025
+}

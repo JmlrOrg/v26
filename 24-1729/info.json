@@ -1,0 +1,28 @@
+{
+    "abstract": "We study the problem of bivariate discrete or continuous probability density estimation under low-rank constraints. For discrete distributions, we assume that the two-dimensional array to estimate is a low-rank probability matrix. In the continuous case, we assume that the density with respect to the Lebesgue measure satisfies a generalized multi-view model, meaning that it is $\\beta$-H\u00f6lder and can be decomposed as a sum of $K$ components, each of which is a product of one-dimensional functions. In both settings, we propose estimators that achieve, up to logarithmic factors, the minimax optimal convergence rates under such low-rank constraints. In the discrete case, the proposed estimator is adaptive to the rank $K$. In the continuous case, our estimator converges with the $L_1$ rate $\\min((K/n)^{\\beta/(2\\beta+1)}, n^{-\\beta/(2\\beta+2)})$ up to logarithmic factors, and it is adaptive to the unknown support as well as to the smoothness $\\beta$ and to the unknown number of separable components $K$. We present efficient algorithms to compute our estimators.",
+    "authors": [
+        "Julien Chhor",
+        "Olga Klopp",
+        "Alexandre B. Tsybakov"
+    ],
+    "emails": [
+        "julien.chhor@tse-fr.eu",
+        "klopp@essec.edu",
+        "Alexandre.Tsybakov@ensae.fr"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/hi-paris/Lowrankdensity"
+        ]
+    ],
+    "id": "24-1729",
+    "issue": 236,
+    "pages": [
+        1,
+        52
+    ],
+    "title": "Generalized multi-view model: Adaptive density estimation under low-rank constraints",
+    "volume": 26,
+    "year": 2025
+}

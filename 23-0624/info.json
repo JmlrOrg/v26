@@ -1,0 +1,24 @@
+{
+    "abstract": "Pairwise causal background knowledge about the existence or absence of causal edges and paths is frequently encountered in observational studies. Such constraints allow the shared directed and undirected edges in the constrained subclass of Markov equivalent DAGs to be represented as a causal maximally partially directed acyclic graph (MPDAG). In this paper, we first provide a sound and complete graphical characterization of causal MPDAGs and introduce a minimal representation of a causal MPDAG. Then, we give a unified representation for three types of pairwise causal background knowledge, including direct, ancestral and non-ancestral causal knowledge, by introducing a novel concept called direct causal clause (DCC). Using DCCs, we study the consistency and equivalence of pairwise causal background knowledge and show that any pairwise causal background knowledge set can be uniquely and equivalently decomposed into the causal MPDAG representing the refined Markov equivalence class and a minimal residual set of DCCs. Polynomial-time algorithms are also provided for checking consistency and equivalence, as well as for finding the decomposed MPDAG and the residual DCCs. Finally, with pairwise causal background knowledge, we prove a sufficient and necessary condition to identify causal effects and surprisingly find that the identifiability of causal effects only depends on the decomposed MPDAG. We also develop a local IDA-type algorithm to estimate the possible values of an unidentifiable effect. Simulations suggest that pairwise causal background knowledge can significantly improve the identifiability of causal effects.",
+    "authors": [
+        "Zhuangyan Fang",
+        "Ruiqi Zhao",
+        "Yue Liu",
+        "Yangbo He"
+    ],
+    "emails": [
+        "fangzhuangyan@xiaomi.com",
+        "zhaoruiqi02@inspur.com",
+        "liuyue_stats@ruc.edu.cn",
+        "heyb@math.pku.edu.cn"
+    ],
+    "id": "23-0624",
+    "issue": 229,
+    "pages": [
+        1,
+        73
+    ],
+    "title": "On the Representation of Pairwise Causal Background Knowledge and Its Applications in Causal Inference",
+    "volume": 26,
+    "year": 2025
+}

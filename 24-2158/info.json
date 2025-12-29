@@ -1,0 +1,26 @@
+{
+    "abstract": "Conic optimization plays a crucial role in many machine learning (ML) problems. However, practical algorithms for conic constrained ML problems with large datasets are often limited to specific use cases, as stochastic algorithms for general conic optimization remain underdeveloped. To fill this gap, we introduce a stochastic interior-point method (SIPM) framework for general conic optimization, along with four novel SIPM variants leveraging distinct stochastic gradient estimators. Under mild assumptions, we establish the iteration complexity of our proposed SIPMs, which, up to a polylogarithmic factor, matches the best-known results in stochastic unconstrained optimization. Finally, our numerical experiments on robust linear regression, multi-task relationship learning, and clustering data streams demonstrate the effectiveness and efficiency of our approach.",
+    "authors": [
+        "Chuan He",
+        "Zhanwang Deng"
+    ],
+    "emails": [
+        "chuan.he@liu.se",
+        "dzw_opt2022@stu.pku.edu.cn"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/ChuanH6/SIPM"
+        ]
+    ],
+    "id": "24-2158",
+    "issue": 238,
+    "pages": [
+        1,
+        39
+    ],
+    "title": "Stochastic Interior-Point Methods for Smooth Conic Optimization with Applications",
+    "volume": 26,
+    "year": 2025
+}

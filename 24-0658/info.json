@@ -1,0 +1,28 @@
+{
+    "abstract": "We study the learning problem associated with spiking neural networks. Specifically, we focus on spiking neural networks composed of simple spiking neurons having only positive synaptic weights, equipped with an affine encoder and decoder; we refer to these as affine spiking neural networks. These neural networks are shown to depend continuously on their parameters, which facilitates classical covering number-based generalization statements and supports stable gradient-based training. We demonstrate that the positivity of the weights enables a wide range of expressivity results, including rate-optimal approximation of smooth functions and dimension-independent approximation of Barron regular functions. In particular, we show in theory and simulations that affine spiking neural networks are capable of approximating shallow ReLU neural networks. Furthermore, we apply these affine spiking neural networks to standard machine learning benchmarks and reach competitive results (with respect to deep feedforward networks). Finally, we observe that from a generalization perspective, contrary to feedforward neural networks or previous results for general spiking neural networks, the depth has little to no adverse effect on theoretical guarantees for the generalization capabilities.",
+    "authors": [
+        "A. Martina Neuman",
+        "Dominik Dold",
+        "Philipp Christian Petersen"
+    ],
+    "emails": [
+        "anh.martina.neuman@univie.ac.at",
+        "dominik.dold@univie.ac.at",
+        "philipp.petersen@univie.ac.at"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/dodo47/affineSNN"
+        ]
+    ],
+    "id": "24-0658",
+    "issue": 246,
+    "pages": [
+        1,
+        49
+    ],
+    "title": "Stable learning using spiking neural networks equipped with affine encoders and decoders",
+    "volume": 26,
+    "year": 2025
+}

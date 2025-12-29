@@ -1,0 +1,26 @@
+{
+    "abstract": "In this paper, we establish tight lower bounds for Byzantine-robust distributed first-order stochastic methods in both strongly convex and non-convex stochastic optimization. We reveal that when the distributed nodes have heterogeneous data, the convergence error comprises two components: a non-vanishing Byzantine error and a vanishing optimization error. We establish the lower bounds on the Byzantine error and on the minimum number of queries to a stochastic gradient oracle for achieving an arbitrarily small optimization error. Nevertheless, we also identify significant discrepancies between our established lower bounds and the existing upper bounds. To fill this gap, we leverage the techniques of Nesterov's acceleration and variance reduction to develop novel Byzantine-robust distributed stochastic optimization methods that provably match these lower bounds, up to at most logarithmic factors, implying that our established lower bounds are tight.",
+    "authors": [
+        "Qiankun Shi",
+        "Jie Peng",
+        "Kun Yuan",
+        "Xiao Wang",
+        "Qing Ling"
+    ],
+    "emails": [
+        "shiqk@mail2.sysu.edu.cn",
+        "pengj95@mail2.sysu.edu.cn",
+        "kunyuan@pku.edu.cn",
+        "wangx936@mail.sysu.edu.cn",
+        "lingqing556@mail.sysu.edu.cn"
+    ],
+    "id": "25-0613",
+    "issue": 268,
+    "pages": [
+        1,
+        58
+    ],
+    "title": "Optimal Complexity in Byzantine-Robust Distributed Stochastic Optimization with Data Heterogeneity",
+    "volume": 26,
+    "year": 2025
+}

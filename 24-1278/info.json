@@ -1,0 +1,36 @@
+{
+    "abstract": "Physics-informed neural networks have proven to be a powerful tool for solving differential equations, leveraging the principles of physics to inform the learning process. However, traditional deep neural networks often face challenges in achieving high accuracy without incurring significant computational costs. In this work, we implement the Physics-Informed Kolmogorov-Arnold Neural Networks (PIKAN) through efficient-KAN and WAV-KAN, which utilize the Kolmogorov-Arnold representation theorem. PIKAN demonstrates superior performance compared to conventional deep neural networks, achieving the same level of accuracy with fewer layers and reduced computational overhead. We explore both B-spline and wavelet-based implementations of PIKAN and benchmark their performance across various ordinary and partial differential equations using unsupervised (data-free) and supervised (data-driven) techniques. For certain differential equations, the data-free approach suffices to find accurate solutions, while in more complex scenarios, the data-driven method enhances the PIKAN\u2019s ability to converge to the correct solution. We validate our results against numerical solutions and achieve $99\\%$ accuracy in most scenarios.",
+    "authors": [
+        "Subhajit Patra",
+        "Sonali Panda",
+        "Bikram Keshari Parida",
+        "Mahima Arya",
+        "Kurt Jacobs",
+        "Denys I. Bondar",
+        "Abhijit Sen"
+    ],
+    "emails": [
+        "eey247540@iitd.ac.in",
+        "sp.sonalpanda@gmail.com",
+        "parida.bikram90.bkp@gmail.com",
+        "aryamahima@gmail.com",
+        "dr.kurt.jacobs@gmail.com",
+        "dbondar@tulane.edu",
+        "asen1@tulane.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/AI-and-Quantum-Computing/PIKAN"
+        ]
+    ],
+    "id": "24-1278",
+    "issue": 233,
+    "pages": [
+        1,
+        39
+    ],
+    "title": "Physics Informed Kolmogorov-Arnold Neural Networks for Dynamical Analysis via Efficient-KAN and WAV-KAN",
+    "volume": 26,
+    "year": 2025
+}

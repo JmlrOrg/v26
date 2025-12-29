@@ -1,0 +1,26 @@
+{
+    "abstract": "Sampling from Gibbs distributions and computing their log-partition function are fundamental tasks in statistics, machine learning, and statistical physics. While efficient algorithms are known for log-concave densities, the worst-case non-log-concave setting necessarily suffers from the curse of dimensionality. For many numerical problems, the curse of dimensionality can be alleviated when the target function is smooth, allowing the exponent in the rate to improve linearly with the number of available derivatives. Recently, it has been shown that similarly fast convergence rates can be achieved by efficient optimization algorithms. Since optimization can be seen as the low-temperature limit of sampling from Gibbs distributions, we pose the question of whether similarly fast convergence rates can be achieved for non-log-concave sampling. We first study the information-based complexity of the sampling and log-partition estimation problems and show that the optimal rates for sampling and log-partition computation are sometimes equal and sometimes faster than for optimization. We then analyze various polynomial-time sampling algorithms, including an extension of a recent promising optimization approach, and find that they sometimes exhibit interesting behavior but no near-optimal rates. Our results also give further insights into the relation between sampling, log-partition, and optimization problems.",
+    "authors": [
+        "David Holzm{{\\\"u}}ller",
+        "Francis Bach"
+    ],
+    "emails": [
+        "david.holzmuller@inria.fr",
+        "francis.bach@inria.fr"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/dholzmueller/sampling_experiments"
+        ]
+    ],
+    "id": "24-1494",
+    "issue": 249,
+    "pages": [
+        1,
+        72
+    ],
+    "title": "Convergence Rates for Non-Log-Concave Sampling and Log-Partition Estimation",
+    "volume": 26,
+    "year": 2025
+}

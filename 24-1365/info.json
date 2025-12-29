@@ -1,0 +1,26 @@
+{
+    "abstract": "Goodness-of-fit testing is often criticized for its lack of practical relevance: since \"all models are wrong\", the null hypothesis that the data conform to our model is ultimately always rejected as the sample size grows. Despite this, probabilistic models are still used extensively, raising the more pertinent question of whether the model is good enough for the task at hand. This question can be formalized as a robust goodness-of-fit testing problem by asking whether the data were generated from a distribution that is a mild perturbation of the model. In this paper, we show that existing kernel goodness-of-fit tests are not robust under common notions of robustness including both qualitative and quantitative robustness. We further show that robustification techniques using tilted kernels, while effective in the  parameter estimation literature, are not sufficient to ensure both types of robustness in the testing setting. To address this, we propose the first robust kernel goodness-of-fit test, which resolves this open problem by using kernel Stein discrepancy (KSD) balls. This framework encompasses many well-known perturbation models, such as Huber's contamination and density-band models.",
+    "authors": [
+        "Xing Liu",
+        "Fran{\\c{c}}ois-Xavier Briol"
+    ],
+    "emails": [
+        "xingliu97@outlook.com",
+        "f.briol@ucl.ac.uk"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/XingLLiu/robust-kernel-test"
+        ]
+    ],
+    "id": "24-1365",
+    "issue": 262,
+    "pages": [
+        1,
+        72
+    ],
+    "title": "On the Robustness of Kernel Goodness-of-Fit Tests",
+    "volume": 26,
+    "year": 2025
+}

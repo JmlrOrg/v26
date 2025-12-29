@@ -1,0 +1,22 @@
+{
+    "abstract": "Gradient clipping has long been considered essential for ensuring the convergence of Stochastic Gradient Descent (SGD) in the presence of heavy-tailed gradient noise. In this paper, we revisit this belief and explore whether gradient normalization can serve as an effective alternative or complement. We prove that, under  individual smoothness assumptions, gradient normalization alone is sufficient to guarantee convergence of\r\n the nonconvex SGD. Moreover, when combined with clipping, it yields far better rates of convergence under   more challenging noise distributions. We provide a unifying theory describing normalization-only, clipping-only, and combined approaches. Moving forward, we investigate existing variance-reduced algorithms, establishing that, in such a setting, normalization alone is sufficient for convergence. Finally, we present an accelerated variant that under second-order smoothness improves convergence.\r\nOur results provide theoretical insights and practical guidance for using normalization and clipping in nonconvex optimization with heavy-tailed noise.",
+    "authors": [
+        "Tao Sun",
+        "Xinwang Liu",
+        "Kun Yuan"
+    ],
+    "emails": [
+        "suntao.saltfish@outlook.com",
+        "xinwangliu@nudt.edu.cn",
+        "kunyuan@pku.edu.cn"
+    ],
+    "id": "24-1991",
+    "issue": 237,
+    "pages": [
+        1,
+        42
+    ],
+    "title": "Revisiting Gradient Normalization and Clipping for Nonconvex SGD under Heavy-Tailed Noise: Necessity, Sufficiency, and Acceleration",
+    "volume": 26,
+    "year": 2025
+}

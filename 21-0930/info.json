@@ -1,0 +1,20 @@
+{
+    "abstract": "High-dimensionality is known to be the bottleneck for both nonparametric regression and the Delaunay triangulation. To efficiently exploit the advantage of the Delaunay triangulation in utilizing geometry information for nonparametric regression without conducting the Delaunay triangulation for the entire feature space, we develop the crystallization search for the neighbor Delaunay simplices of the target point similar to crystal growth and estimate the conditional expectation function by fitting a local linear model to the data points of the constructed Delaunay simplices. Because the shapes and volumes of Delaunay simplices are adaptive to the density of feature data points, our method selects neighbor data points more uniformly in all directions in comparison with Euclidean distance based methods and thus it is more robust to the local geometric structure of the data.  We further develop the stochastic approach to hyperparameter selection and the hierarchical crystallization learning under multimodal feature data densities, where an approximate global Delaunay triangulation is obtained by first triangulating the local centers and then constructing local Delaunay triangulations in parallel.  We study the asymptotic properties of our method and conduct numerical experiments on both synthetic and real data to demonstrate the advantages of our method over the existing ones.",
+    "authors": [
+        "Jiaqi Gu",
+        "Guosheng Yin"
+    ],
+    "emails": [
+        "jiaqigu@usf.edu",
+        "gyin@hku.hk"
+    ],
+    "id": "21-0930",
+    "issue": 242,
+    "pages": [
+        1,
+        25
+    ],
+    "title": "Hierarchical and Stochastic Crystallization Learning: Geometrically Leveraged Nonparametric Regression with Delaunay Triangulation",
+    "volume": 26,
+    "year": 2025
+}

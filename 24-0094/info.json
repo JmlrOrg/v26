@@ -1,0 +1,28 @@
+{
+    "abstract": "Stochastic gradient descent (SGD) is an estimation tool for large data employed in machine learning and statistics. Due to the Markovian nature of the SGD process, inference is a challenging problem.  An underlying asymptotic normality of the averaged SGD (ASGD) estimator allows for the construction of a batch-means estimator of the asymptotic covariance matrix. Instead of the usual increasing batch-size strategy, we propose a memory efficient equal batch-size strategy and show that under mild conditions, the batch-means estimator is consistent. A key feature of the proposed batching technique is that it allows for bias-correction of the variance, at no additional cost to memory. Further, since joint inference for large dimensional problems may be undesirable, we present marginal-friendly simultaneous confidence intervals, and show through an example on how covariance estimators of ASGD can be employed for improved predictions.",
+    "authors": [
+        "Rahul Singh",
+        "Abhinek Shukla",
+        "Dootika Vats"
+    ],
+    "emails": [
+        "wrahulsingh@gmail.com",
+        "abhushukla@gmail.com",
+        "dootika@iitk.ac.in"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/Abhinek-Shukla/SGD-EBS"
+        ]
+    ],
+    "id": "24-0094",
+    "issue": 258,
+    "pages": [
+        1,
+        41
+    ],
+    "title": "On the Utility of Equal Batch Sizes for Inference in  Stochastic Gradient Descent",
+    "volume": 26,
+    "year": 2025
+}

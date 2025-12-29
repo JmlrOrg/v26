@@ -1,0 +1,28 @@
+{
+    "abstract": "Given a forward mapping \u03a6 : R^N \u2192 R^M and a point x* \u2208 R^N , the region {x \u2208 R^N , ||\u03a6(x) \u2212 \u03a6(x*)|| \u2264 \u03b5}, where \u03b5 \u2265 0 is a perturbation amplitude, represents the set of all possible inputs x that could have produced the measurement \u03a6(x*) within an acceptable error margin. This set is related to uncertainty analysis, a key challenge in inverse problems. In this work, we develop a numerical algorithm called Jackpot (Jacobian Kernel Projection Optimization) which approximates this set with a low-dimensional adversarial manifold. The proposed algorithm leverages automatic differentation, allowing it to handle complex, high dimensional mappings such as those found when dealing with dynamical systems or neural networks. We demonstrate the effectiveness of our algorithm on various challenging large-scale, non-linear problems including parameter identification in dynamical systems and blind image deblurring.",
+    "authors": [
+        "Nathana{{\\\"e}}l Munier",
+        "Emmanuel Soubies",
+        "Pierre Weiss"
+    ],
+    "emails": [
+        "nathanael.munier@ens-rennes.fr",
+        "emmanuel.soubies@irit.fr",
+        "pierre.weiss@cnrs.fr"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/munnath/jackpot"
+        ]
+    ],
+    "id": "24-1769",
+    "issue": 251,
+    "pages": [
+        1,
+        41
+    ],
+    "title": "Jackpot: Approximating Uncertainty Domains with Adversarial Manifolds",
+    "volume": 26,
+    "year": 2025
+}

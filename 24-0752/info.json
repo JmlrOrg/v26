@@ -1,0 +1,26 @@
+{
+    "abstract": "Superquantiles have recently gained significant interest as a risk-aware metric for addressing fairness and distribution shifts in statistical learning and decision making problems. This paper introduces a fast, scalable and robust second-order computational framework to solve large-scale optimization problems with superquantile-based constraints. Unlike empirical risk minimization, superquantile-based optimization requires ranking random functions evaluated across all scenarios to compute the tail conditional expectation. While this tail-based feature might seem computationally unfriendly, it provides an advantageous setting for a semismooth-Newton-based augmented Lagrangian method. The superquantile operator effectively reduces the dimensions of the Newton systems since the tail expectation involves considerably fewer scenarios. Notably, the extra cost of obtaining relevant second-order information and performing matrix inversions is often comparable to, and sometimes even less than, the effort required for gradient computation. Our developed solver is particularly effective when the number of scenarios substantially exceeds the number of decision variables. In synthetic problems with linear and convex diagonal quadratic objectives, numerical experiments demonstrate that our method outperforms existing approaches by a large margin: It achieves speeds more than 750 times faster for linear and quadratic objectives than the alternating direction method of multipliers as implemented by OSQP for computing low-accuracy solutions. Additionally, it is up to 25 times faster for linear objectives and 70 times faster for quadratic objectives than the commercial solver Gurobi, and 20 times faster for linear objectives and 30 times faster for quadratic objectives than the Portfolio Safeguard optimization suite for high-accuracy solution computations. For the quantile regression problem involving over 30 million scenarios, our method computes solution paths up to 20 times faster than Gurobi. The Julia implementation of the solver is available at https://github.com/jacob-roth/superquantile-opt.",
+    "authors": [
+        "Jake Roth",
+        "Ying Cui"
+    ],
+    "emails": [
+        "roth0674@umn.edu",
+        "yingcui@berkeley.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/jacob-roth/superquantile-opt"
+        ]
+    ],
+    "id": "24-0752",
+    "issue": 260,
+    "pages": [
+        1,
+        34
+    ],
+    "title": "Fast Computation of Superquantile-Constrained Optimization Through Implicit Scenario Reduction",
+    "volume": 26,
+    "year": 2025
+}

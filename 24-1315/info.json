@@ -1,0 +1,30 @@
+{
+    "abstract": "Symmetry is present throughout nature and continues to play an increasingly central role in machine learning. In this paper, we provide a unifying theoretical and methodological framework for incorporating Lie group symmetry into machine learning models in three ways: 1. enforcing known symmetry when training a model; 2. discovering unknown symmetries of a given model or data set; and 3. promoting symmetry during training by learning a model that breaks symmetries within a user-specified candidate group only when the data provide sufficient evidence. We show that these tasks can be cast within a common mathematical framework whose central object is the Lie derivative. We extend and unify several existing results by showing that enforcing and discovering symmetry are linear-algebraic tasks that are dual under the bilinear pairing induced by the Lie derivative. We also propose a novel way to promote symmetry by introducing a class of convex regularizers, built from the Lie derivative with a nuclear-norm relaxation, that penalizes symmetry breaking during training. We explain how these ideas can be applied to a wide range of machine learning models including basis-function regression, dynamical-systems discovery, neural networks, and neural operators acting on fields.",
+    "authors": [
+        "Samuel E. Otto",
+        "Nicholas Zolman",
+        "J. Nathan Kutz",
+        "Steven L. Brunton"
+    ],
+    "emails": [
+        "s.otto@cornell.edu",
+        "nzolman@uw.edu",
+        "kutz@uw.edu",
+        "sbrunton@uw.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/nzolman/unified-symmetry-ml"
+        ]
+    ],
+    "id": "24-1315",
+    "issue": 248,
+    "pages": [
+        1,
+        83
+    ],
+    "title": "A Unified Framework to Enforce, Discover, and Promote Symmetry in Machine Learning",
+    "volume": 26,
+    "year": 2025
+}

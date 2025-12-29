@@ -1,0 +1,28 @@
+{
+    "abstract": "The Mahalanobis distance is a classical tool used to measure the covariance-adjusted distance between points in $\\mathbb{R}^d$. In this work, we extend the concept of Mahalanobis distance to separable Banach spaces by reinterpreting it as a Cameron-Martin norm associated with a probability measure. This approach leads to a basis-free, data-driven notion of anomaly distance through the so-called variance norm, which can naturally be estimated using empirical measures of a sample. Our framework generalizes the classical $\\mathbb{R}^d$, functional $(L^2[0,1])^d$, and kernelized settings; importantly, it incorporates non-injective covariance operators. We prove that the variance norm is invariant under invertible bounded linear transformations of the data, extending previous results which are limited to unitary operators. In the Hilbert space setting, we connect the variance norm to the RKHS of the covariance operator, and establish consistency and convergence results for estimation using empirical measures with Tikhonov regularization. Using the variance norm, we introduce the notion of a kernelized nearest-neighbour Mahalanobis distance, and study some of its finite-sample concentration properties. In an empirical study on 12 real-world data sets, we demonstrate that the kernelized nearest-neighbour Mahalanobis distance outperforms the traditional kernelized Mahalanobis distance for multivariate time series novelty detection, using state-of-the-art time series kernels such as the signature, global alignment, and Volterra reservoir kernels.",
+    "authors": [
+        "Nikita Zozoulenko",
+        "Thomas Cass",
+        "Lukas Gonon"
+    ],
+    "emails": [
+        "n.zozoulenko23@imperial.ac.uk",
+        "thomas.cass@imperial.ac.uk",
+        "lukas.gonon@unisg.ch"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/nikitazozoulenko/kernel-timeseries-anomaly-detection"
+        ]
+    ],
+    "id": "24-1126",
+    "issue": 247,
+    "pages": [
+        1,
+        47
+    ],
+    "title": "Infinite-dimensional Mahalanobis Distance with Applications to Kernelized Novelty Detection",
+    "volume": 26,
+    "year": 2025
+}

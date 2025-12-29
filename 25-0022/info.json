@@ -1,0 +1,22 @@
+{
+    "abstract": "There exists a plethora of parametric models for positive definite kernels in Euclidean spaces, and their use is ubiquitous in statistics, machine learning, numerical analysis, and approximation theory. Usually, the kernel parameters index certain features of an associated process. Amongst those features, smoothness (in the sense of Sobolev spaces, mean square differentiability, and fractal dimensions), compact or global supports, and negative dependencies (hole effects) are of interest to several theoretical and applied disciplines. This paper unifies a wealth of well-known kernels into a single parametric class that encompasses them as special cases, attained either by exact parameterization or through parametric asymptotics. We furthermore find parametric restrictions under which we can characterize the Sobolev space that is norm equivalent to the RKHS associated with the new kernel. As a by-product, we infer the Sobolev spaces that are associated with existing classes of kernels. We illustrate the main properties of the new class, show how this class can switch from compact to global supports, and provide special cases for which the kernel attains negative values over nontrivial intervals. Hence, the proposed class of kernel is the reproducing kernel of a Hilbert space that contains many special cases, including the celebrated Mat\u00e9rn and Wendland kernels, as well as their aliases with hole effects.",
+    "authors": [
+        "Xavier Emery",
+        "Emilio Porcu",
+        "Moreno Bevilacqua"
+    ],
+    "emails": [
+        "xemery@ing.uchile.cl",
+        "emilio.porcu@ku.ac.ae",
+        "moreno.bevilacqua@uai.cl"
+    ],
+    "id": "25-0022",
+    "issue": 267,
+    "pages": [
+        1,
+        35
+    ],
+    "title": "Towards Unified Native Spaces in Kernel Methods",
+    "volume": 26,
+    "year": 2025
+}

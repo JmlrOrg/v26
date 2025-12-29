@@ -1,0 +1,28 @@
+{
+    "abstract": "Statistical tools which satisfy rigorous privacy guarantees are necessary for modern data analysis. It is well-known that robustness against contamination is linked to differential privacy. Despite this fact, using multivariate medians for differentially private and robust multivariate location estimation has not been systematically studied. We develop novel finite-sample performance guarantees for differentially private multivariate depth-based medians, which are essentially sharp. Our results cover commonly used depth functions, such as the halfspace (or Tukey) depth, spatial depth, and the integrated dual depth. We show that under Cauchy marginals, the cost of heavy-tailed location estimation outweighs the cost of privacy. We demonstrate our results numerically using a Gaussian contamination model in dimensions up to d = 100, and compare them to a state-of-the-art private mean estimation algorithm. As a by-product of our investigation, we prove concentration inequalities for the output of the exponential mechanism about the maximizer of the population objective function. This bound applies to objective functions that satisfy a mild regularity condition.",
+    "authors": [
+        "Kelly Ramsay",
+        "Aukosh Jagannath",
+        "Shoja'eddin Chenouri"
+    ],
+    "emails": [
+        "kramsay2@yorku.ca",
+        "a.jagannath@uwaterloo.ca",
+        "schenouri@uwaterloo.ca"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/12ramsake/DP-MVT-Medians"
+        ]
+    ],
+    "id": "25-0763",
+    "issue": 255,
+    "pages": [
+        1,
+        52
+    ],
+    "title": "Differentially Private Multivariate Medians",
+    "volume": 26,
+    "year": 2025
+}

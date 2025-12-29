@@ -1,0 +1,32 @@
+{
+    "abstract": "Group fairness is a central research topic in text classification, where reaching fair treatment between sensitive groups (e.g., women and men) remains an open challenge. We propose an approach that extends the use of the Wasserstein Dependency Measure for learning unbiased neural text classifiers.\r\nGiven the challenge of distinguishing fair from unfair information in a text encoder, we draw inspiration from adversarial training by inducing independence between representations learned for the target label and those for a sensitive attribute. We further show that domain adaptation can be efficiently leveraged to remove the need for access to the sensitive attributes in the data set we cure. We provide both theoretical and empirical evidence that our approach is well-founded.",
+    "authors": [
+        "Thibaud Leteno",
+        "Michael Perrot",
+        "Charlotte Laclau",
+        "Antoine Gourru",
+        "Christophe Gravier"
+    ],
+    "emails": [
+        "thibaud.leteno@univ-st-etienne.fr",
+        "michael.perrot@inria.fr",
+        "charlotte.laclau@telecom-paris.fr",
+        "antoine.gourru@univ-st-etienne.fr",
+        "christophe.gravier@univ-st-etienne.fr"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/LetenoThibaud/wasserstein_fair_classification"
+        ]
+    ],
+    "id": "25-0485",
+    "issue": 239,
+    "pages": [
+        1,
+        47
+    ],
+    "title": "Fair Text Classification via Transferable Representations",
+    "volume": 26,
+    "year": 2025
+}

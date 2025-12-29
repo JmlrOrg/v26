@@ -1,0 +1,26 @@
+{
+    "abstract": "It has become increasingly easy nowadays to collect approximate posterior samples via fast algorithms such as variational Bayes, but concerns exist about the estimation accuracy. It is tempting to build solutions that exploit approximate samples in a canonical Markov chain Monte Carlo framework. As the dimension increases, a major barrier is that the approximate sample tends to have a low Metropolis--Hastings acceptance rate when used as a proposal. In this article, we propose a simple solution named graph-accelerated Markov Chain Monte Carlo. We build a graph with each node assigned to an approximate sample, then run Markov chain Monte Carlo with random walks over the graph. We optimize the graph edges to enforce small differences in posterior density/probability between nodes, while encouraging edges to have large distances in the parameter space. The graph allows us to accelerate a canonical Markov transition kernel through mixing with a large-jump Metropolis-Hastings step. The acceleration is easily applicable to existing Markov chain Monte Carlo algorithms. We theoretically quantify the rate of acceptance as dimension increases, and show the effects on improved mixing time. We demonstrate improved mixing performances for challenging problems, such as those involving multiple modes, non-convex density contour, or large-dimension latent variables.",
+    "authors": [
+        "Leo L. Duan",
+        "Anirban Bhattacharya"
+    ],
+    "emails": [
+        "li.duan@ufl.edu",
+        "anirbanb@stat.tamu.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/leoduan/graph_acc_mcmc"
+        ]
+    ],
+    "id": "24-1024",
+    "issue": 232,
+    "pages": [
+        1,
+        25
+    ],
+    "title": "Graph-accelerated Markov Chain Monte Carlo using Approximate Samples",
+    "volume": 26,
+    "year": 2025
+}

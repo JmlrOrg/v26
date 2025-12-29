@@ -1,0 +1,20 @@
+{
+    "abstract": "Machine unlearning has garnered significant attention due to its ability to selectively erase knowledge obtained from specific training data samples in an already trained machine learning model. This capability enables data holders to adhere strictly to data protection regulations. However, existing unlearning techniques face practical constraints, often causing performance degradation, demanding brief fine-tuning post unlearning, and requiring significant storage. In response, this paper introduces a novel class of layer-wise partial machine unlearning algorithms that enable selective and controlled erasure of targeted knowledge. Of these, partial amnesiac unlearning integrates layer-wise selective pruning with the state-of-the-art amnesiac unlearning. This method selectively prunes and stores updates made to the model during training, enabling the targeted removal of specific data from the trained model. Other methods assimilates layer-wise partial-updates into label-flipping and optimization-based unlearning, thereby mitigating the adverse effects of specific knowledge deletion on model efficacy. Through a detailed experimental evaluation, we showcase the effectiveness of proposed unlearning methods. Experimental results highlight that the partial amnesiac unlearning not only preserves model efficacy but also eliminates the necessity for brief fine-tuning post unlearning, unlike conventional amnesiac unlearning. Further, employing layer-wise partial updates in label-flipping and optimization-based unlearning techniques demonstrates superiority in preserving model efficacy compared to their naive counterparts.",
+    "authors": [
+        "Vinay Chakravarthi Gogineni",
+        "Esmaeil S. Nadimi"
+    ],
+    "emails": [
+        "vigo@mmmi.sdu.dk",
+        "esi@mmmi.sdu.dk"
+    ],
+    "id": "24-0469",
+    "issue": 245,
+    "pages": [
+        1,
+        33
+    ],
+    "title": "Efficient Knowledge Deletion from Trained Models Through Layer-wise Partial Machine Unlearning",
+    "volume": 26,
+    "year": 2025
+}

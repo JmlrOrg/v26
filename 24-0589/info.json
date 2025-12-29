@@ -1,0 +1,22 @@
+{
+    "abstract": "This paper addresses the challenge of integrating sequentially arriving data into the quantile regression framework, where the number of features may increase with the number of observations, the time horizon is unknown, and memory resources are limited. Unlike least squares and robust regression methods, quantile regression models different segments of the conditional distribution, thereby capturing heterogeneous relationships between predictors and responses and providing a more comprehensive view of the underlying stochastic structure. We employ stochastic sub-gradient descent to minimize the empirical check loss and analyze its statistical properties and regret behavior. Our analysis reveals a subtle interplay between updating iterates based on individual observations and on batches of observations, highlighting distinct regularity characteristics in each setting. The proposed method guarantees long-term optimal estimation performance regardless of the chosen update strategy. Our contributions extend existing literature by establishing exponential-type concentration inequalities and by achieving optimal regret and error rates that exhibit only short-term sensitivity to initialization. A key insight from our study lies in the refined statistical analysis showing that properly chosen stepsize schemes substantially mitigate the influence of initial errors on subsequent estimation and regret. This result underscores the robustness of stochastic sub-gradient descent in managing initial uncertainties and affirms its effectiveness in sequential learning settings with unknown horizons and data-dependent sample sizes. Furthermore, when the initial estimation error is well-controlled, our analysis reveals a trade-off between short-term error reduction and long-term optimality. For completeness, we also discuss the squared loss case and outline appropriate update schemes, whose analysis requires additional care. Extensive simulation studies corroborate our theoretical findings.",
+    "authors": [
+        "Yinan Shen",
+        "Dong Xia",
+        "Wen-Xin Zhou"
+    ],
+    "emails": [
+        "yinanshe@usc.edu",
+        "madxia@ust.hk",
+        "wenxinz@uic.edu"
+    ],
+    "id": "24-0589",
+    "issue": 231,
+    "pages": [
+        1,
+        55
+    ],
+    "title": "Online Quantile Regression",
+    "volume": 26,
+    "year": 2025
+}

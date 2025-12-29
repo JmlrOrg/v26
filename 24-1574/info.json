@@ -1,0 +1,28 @@
+{
+    "abstract": "We introduce a (de)-regularization of the Maximum Mean Discrepancy (DrMMD) and its Wasserstein gradient flow. Existing gradient flows that transport samples from source distribution to target distribution with only target samples, either lack tractable numerical implementation ($f$-divergence flows) or require strong assumptions and modifications, such as noise injection, to ensure convergence (Maximum Mean Discrepancy flows). In contrast, DrMMD flow can simultaneously (i) guarantee near-global convergence for a broad class of targets in both continuous and discrete time, and (ii) be implemented in closed form using only samples. The former is achieved by leveraging the connection between the DrMMD and the $\\chi^2$-divergence, while the latter comes by treating DrMMD as MMD with a de-regularized kernel. Our numerical scheme employs an adaptive de-regularization schedule throughout the flow to optimally balance the trade-off between discretization errors and deviations from the $\\chi^2$ regime. The potential application of the DrMMD flow is demonstrated across several numerical experiments, including a large-scale setting of training student/teacher networks.",
+    "authors": [
+        "Zonghao Chen",
+        "Aratrika Mustafi",
+        "Pierre Glaser",
+        "Anna Korba",
+        "Arthur Gretton",
+        "Bharath K. Sriperumbudur"
+    ],
+    "emails": [
+        "zonghao.chen.22@ucl.ac.uk",
+        "abm6733@psu.edu",
+        "pierreglaser@msn.com",
+        "anna.korba@ensae.fr",
+        "arthur.gretton@gmail.com",
+        "bks18@psu.edu"
+    ],
+    "id": "24-1574",
+    "issue": 235,
+    "pages": [
+        1,
+        77
+    ],
+    "title": "(De)-regularized Maximum Mean Discrepancy Gradient Flow",
+    "volume": 26,
+    "year": 2025
+}
