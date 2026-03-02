@@ -2,14 +2,14 @@
     "abstract": "The Gromov-Wasserstein (GW) distance is a powerful tool for comparing metric measure spaces which has found broad applications in data science and machine learning. Driven by the need to analyze data sets whose objects have increasingly complex structure (such as node and edge-attributed graphs), several variants of GW distance have been introduced in the recent literature. With a view toward establishing a general framework for the theory of GW-like distances, this paper considers a vast generalization of the notion of a metric measure space: for an arbitrary metric space $Z$, we define a $Z$-network to be a measure space endowed with a kernel valued in $Z$. We introduce a method for comparing $Z$-networks by defining a generalization of GW distance, which we refer to as $Z$-Gromov-Wasserstein ($Z$-GW) distance. This construction subsumes many previously known metrics and offers a unified approach to understanding their shared properties. This paper demonstrates that the $Z$-GW distance defines a metric on the space of $Z$-networks which retains desirable properties of $Z$, such as separability, completeness, and geodesicity. Many of these properties were unknown for existing variants of GW distance that fall under our framework. Our focus is on foundational theory, but our results also include computable lower bounds and approximations of the distance which will be useful for practical applications.",
     "authors": [
         "Martin Bauer",
-        "Tom Needham",
         "Facundo M{\\'e}moli",
+        "Tom Needham",
         "Mao Nishino"
     ],
     "emails": [
         "mbauer2@fsu.edu",
-        "tneedham@fsu.edu",
         "facundo.memoli@rutgers.edu",
+        "tneedham@fsu.edu",
         "mnishino@fsu.edu"
     ],
     "id": "24-2189",
