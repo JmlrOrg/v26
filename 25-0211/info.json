@@ -1,0 +1,18 @@
+{
+    "abstract": "Bias-variance decompositions are widely used to understand the generalization performance of machine learning models. While the squared error loss permits a straightforward decomposition, other loss functions - such as zero-one loss or $L_1$ loss - either fail to sum bias and variance to the expected loss or rely on definitions that lack the essential properties of meaningful bias and variance. Recent research has shown that clean decompositions can be achieved for the broader class of Bregman divergences, with the cross-entropy loss as a special case. However, the necessary and sufficient conditions for these decompositions remain an open question.\n\nIn this paper, we address this question by studying continuous, nonnegative loss functions that satisfy the identity of indiscernibles (zero loss if and only if the two arguments are identical). We prove that so-called $g$-Bregman or rho-tau divergences are the only such loss functions that have a clean bias-variance decomposition. A $g$-Bregman divergence can be transformed into a standard Bregman divergence through an invertible change of variables. This makes the squared Euclidean distance, up to such a variable transformation, the only symmetric loss function with a clean bias-variance decomposition. Consequently, common metrics such as zero-one and $L_1$ losses cannot admit a clean bias-variance decomposition, explaining why previous attempts have failed. We also examine the impact of relaxing the restrictions on the loss functions and how this affects our results.",
+    "authors": [
+        "Tom Heskes"
+    ],
+    "emails": [
+        "tom.heskes@ru.nl"
+    ],
+    "id": "25-0211",
+    "issue": 279,
+    "pages": [
+        1,
+        30
+    ],
+    "title": "Bias-variance decompositions: the exclusive privilege of Bregman divergences",
+    "volume": 26,
+    "year": 2025
+}

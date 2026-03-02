@@ -1,0 +1,32 @@
+{
+    "abstract": "Machine unlearning focuses on the computationally efficient removal of specific training data from trained models, ensuring that the influence of forgotten data is effectively eliminated without the need for full retraining. Despite advances in low-dimensional settings, where the number of parameters \\( p \\) is much smaller than the sample size \\( n \\), extending similar theoretical guarantees to high-dimensional regimes remains challenging.\nWe study an unlearning algorithm that starts from the original model parameters and performs a theory-guided sequence of Newton steps. After this update, carefully scaled isotropic Laplacian noise is added to the estimate to ensure that any (potential) residual influence of the deletion set is completely removed.\nWe show that when both \\( n, p \\to \\infty \\) with a fixed ratio \\( n/p \\), significant theoretical and computational obstacles arise due to the interplay between the complexity of the model and the finite signal-to-noise ratio. Finally, we show that, unlike in low-dimensional settings where one Newton step suffices, in high-dimensional problems at least two Newton steps are required to effectively unlearn a fixed number of data points, and even more steps are required when the deletion set scales with $n$. We provide numerical experiments to support the theoretical claims of the paper.",
+    "authors": [
+        "Haolin Zou",
+        "Arnab Auddy",
+        "Yongchan Kwon",
+        "Kamiar Rahnama Rad",
+        "Arian Maleki"
+    ],
+    "emails": [
+        "hz2574@columbia.edu",
+        "auddy.1@osu.edu",
+        "ykwon@together.ai",
+        "kamiar.rahnamarad@baruch.cuny.edu",
+        "arian@stat.columbia.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://anonymous.4open.science/r/certified_machine_unlearning-4927"
+        ]
+    ],
+    "id": "25-1751",
+    "issue": 308,
+    "pages": [
+        1,
+        58
+    ],
+    "title": "Certified Machine Unlearning Under High Dimensional Regime",
+    "volume": 26,
+    "year": 2025
+}

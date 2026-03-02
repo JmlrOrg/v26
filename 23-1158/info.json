@@ -1,0 +1,30 @@
+{
+    "abstract": "Probability measures on the sphere form an important class of statistical models and are used, for example, in modeling directional data or shapes. Due to their widespread use, but also as an algorithmic building block, efficient sampling of distributions on the sphere is highly desirable. We propose a shrinkage based and an idealized geodesic slice sampling Markov chain, designed to generate approximate samples from distributions on the sphere. In particular, the shrinkage-based version of the algorithm can be implemented such that it runs efficiently and has no tuning parameters. We verify reversibility and prove that under weak regularity conditions geodesic slice sampling is uniformly ergodic. Numerical\nexperiments show that the proposed slice samplers achieve excellent mixing on challenging targets including distributions arising in rigid-registration problems and mixtures of von Mises-Fisher distributions. In these settings our approach outperforms standard samplers such as random-walk Metropolis-Hastings and Hamiltonian Monte Carlo.",
+    "authors": [
+        "Michael Habeck",
+        "Mareike Hasenpflug",
+        "Shantanu Kodgirwar",
+        "Daniel Rudolf"
+    ],
+    "emails": [
+        "michael.habeck@uni-jena.de",
+        "mareike.hasenpflug@uni-passau.de",
+        "shantanu.kodgirwar@uni-jena.de",
+        "daniel.rudolf@uni-passau.de"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/microscopic-image-analysis/geosss"
+        ]
+    ],
+    "id": "23-1158",
+    "issue": 297,
+    "pages": [
+        1,
+        38
+    ],
+    "title": "Geodesic Slice Sampling on the Sphere",
+    "volume": 26,
+    "year": 2025
+}

@@ -1,0 +1,20 @@
+{
+    "abstract": "We investigate a class of recovery problems for which observations are a noisy combination of continuous and step functions. These problems can be seen as non-injective instances of non-linear ICA with direct applications to image decontamination for magnetic resonance imaging. Alternately, the problem can be viewed as clustering in the presence of structured (smooth) contaminant.\nWe show that a global topological property (graph connectivity) interacts with a local property (the degree of smoothness of the continuous component) to determine conditions under which the components are identifiable.\nAdditionally, a practical estimation algorithm is provided for the case when the contaminant lies in a reproducing kernel Hilbert space of continuous functions. Algorithm effectiveness is demonstrated through a series of simulations and real-world studies.",
+    "authors": [
+        "Luciano Vinas",
+        "Arash A. Amini"
+    ],
+    "emails": [
+        "lucianovinas@g.ucla.edu",
+        "aaamini@stat.ucla.edu"
+    ],
+    "id": "23-1490",
+    "issue": 285,
+    "pages": [
+        1,
+        36
+    ],
+    "title": "Step and Smooth Decompositions as Topological Clustering",
+    "volume": 26,
+    "year": 2025
+}

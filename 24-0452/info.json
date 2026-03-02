@@ -1,0 +1,24 @@
+{
+    "abstract": "This paper studies the problem of post-selection predictive inference in an online fashion. To avoid devoting resources to unimportant units, a preliminary selection of the current individual before reporting its prediction interval is common and meaningful in online predictive tasks. As a result of the temporal multiplicity introduced by the online selection process, it becomes essential to control the real-time false coverage-statement rate (FCR) which measures the overall miscoverage level. We develop a general framework named CAP (Calibration after Adaptive Pick), which performs an adaptive pick rule on historical data to construct a calibration set if the current individual is selected. This is followed by the output of a conformal prediction interval for the unobserved label. We present a series of tractable procedures for the construction of the calibration set for various popular online selection rules. It has been demonstrated that CAP achieves an exact selection-conditional coverage guarantee in the finite-sample and distribution-free regimes. In order to address the issue of the distribution shift in online data, we also embed CAP into some recent dynamic conformal prediction algorithms and prove that the proposed method can deliver long-run FCR control. Numerical results on both synthetic and real data corroborate that CAP can effectively control FCR around the target level and yield narrower prediction intervals than existing baselines across various settings.",
+    "authors": [
+        "Yajie Bao",
+        "Yuyang Huo",
+        "Haojie Ren",
+        "Changliang Zou"
+    ],
+    "emails": [
+        "yajiebao@nankai.edu.cn",
+        "huoyynk@gmail.com",
+        "haojieren@sjtu.edu.cn",
+        "nk.chlzou@gmail.com"
+    ],
+    "id": "24-0452",
+    "issue": 287,
+    "pages": [
+        1,
+        74
+    ],
+    "title": "CAP: A General Algorithm for Online Selective Conformal Prediction with FCR Control",
+    "volume": 26,
+    "year": 2025
+}

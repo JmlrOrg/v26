@@ -1,0 +1,30 @@
+{
+    "abstract": "Scientists continue to develop increasingly complex mechanistic models to reflect their knowledge more realistically. Statistical inference using these models can be challenging since the corresponding likelihood function is often intractable and model simulation may be computationally burdensome. Fortunately, in many of these situations it is possible to adopt a surrogate model or approximate likelihood function. It may be convenient to conduct Bayesian inference directly with a surrogate, but this can result in a posterior with poor uncertainty quantification. In this paper, we propose a new method for adjusting approximate posterior samples to reduce bias and improve posterior coverage properties. We do this by optimizing a transformation of the approximate posterior, the result of which maximizes a scoring rule. Our approach requires only a (fixed) small number of complex model simulations and is numerically stable. We develop supporting theory for our method and demonstrate beneficial corrections to approximate posteriors across several examples of increasing complexity.",
+    "authors": [
+        "Joshua J. Bon",
+        "David J. Warne",
+        "David J. Nott",
+        "Christopher Drovandi"
+    ],
+    "emails": [
+        "joshua.bon@adelaide.edu.au",
+        "david.warne@qut.edu.au",
+        "standj@nus.edu.sg",
+        "c.drovandi@qut.edu.au"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/bonStats/BayesScoreCal.jl"
+        ]
+    ],
+    "id": "24-1179",
+    "issue": 301,
+    "pages": [
+        1,
+        40
+    ],
+    "title": "Bayesian Score Calibration for Approximate Models",
+    "volume": 26,
+    "year": 2025
+}

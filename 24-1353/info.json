@@ -1,0 +1,39 @@
+{
+    "abstract": "Hyperparameter optimization (HPO), as a central paradigm of AutoML, is crucial for leveraging the full potential of machine learning (ML) models; yet its complexity poses challenges in understanding and debugging the optimization process. We present DeepCAVE, a tool for interactive visualization and analysis, providing insights into HPO. Through an interactive dashboard, researchers, data scientists, and ML engineers can explore various aspects of the HPO process and identify issues, untouched potentials, and new insights about the ML model being tuned. By empowering users with actionable insights, DeepCAVE contributes to the interpretability of HPO and ML on a design level and aims to foster the development of more robust and efficient methodologies in the future.",
+    "authors": [
+        "Sarah Segel",
+        "Helena Graf",
+        "Edward Bergman",
+        "Kristina Thieme",
+        "Marcel Wever",
+        "Alexander Tornede",
+        "Frank Hutter",
+        "Marius Lindauer"
+    ],
+    "emails": [
+        "s.segel@ai.uni-hannover.de",
+        "h.graf@ai.uni-hannover.de",
+        "bergmane@cs.uni-freiburg.de",
+        "kristina.thieme@stud.uni-hannover.de",
+        "m.wever@ai.uni-hannover.de",
+        "a.tornede@ai.uni-hannover.de",
+        "fh@cs.uni-freiburg.de",
+        "m.lindauer@ai.uni-hannover.de"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/automl/deepcave"
+        ]
+    ],
+    "id": "24-1353",
+    "issue": 289,
+    "pages": [
+        1,
+        8
+    ],
+    "special_issue": "MLOSS",
+    "title": "DeepCAVE: A Visualization and Analysis Tool for Automated Machine Learning",
+    "volume": 26,
+    "year": 2025
+}

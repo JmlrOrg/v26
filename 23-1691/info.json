@@ -1,0 +1,24 @@
+{
+    "abstract": "Large learning rates, when applied to gradient descent for nonconvex optimization, yield various implicit biases including the edge of stability, balancing, and catapult. These phenomena cannot be well explained by classical optimization theory. Though significant theoretical progress has been made in understanding these implicit biases, it remains unclear for which objective functions they are more likely to occur --- more precisely, for which functions there exists a larger set of initial conditions that lead to these phenomena? This paper provides an initial step in answering this question and also shows that these implicit biases are in fact various tips of the same iceberg. To establish these results, we develop a global convergence theory under large learning rates, for a family of nonconvex functions without globally Lipschitz continuous gradient, which was typically assumed in existing convergence analysis. Specifically, these phenomena are more likely to occur when the optimization objective function has good regularity. This regularity, together with gradient descent using a large learning rate that favors flatter regions, results in these nontrivial dynamical behaviors. Another corollary is the first non-asymptotic convergence rate bound for large-learning-rate gradient descent optimization of nonconvex functions. Although our theory only applies to specific functions so far, the possibility of extrapolating it to neural networks is also experimentally validated, for which different choices of loss, activation functions, and other techniques such as batch normalization can all affect regularity significantly and lead to very different training dynamics.",
+    "authors": [
+        "Yuqing Wang",
+        "Zhenghao Xu",
+        "Tuo Zhao",
+        "Molei Tao"
+    ],
+    "emails": [
+        "ywan1050@jh.edu",
+        "zhenghaoxu@gatech.edu",
+        "tourzhao@gatech.edu",
+        "mtao@gatech.edu"
+    ],
+    "id": "23-1691",
+    "issue": 273,
+    "pages": [
+        1,
+        68
+    ],
+    "title": "Good regularity creates large learning rate implicit biases: edge of stability, balancing, and catapult",
+    "volume": 26,
+    "year": 2025
+}

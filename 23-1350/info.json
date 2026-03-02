@@ -1,0 +1,20 @@
+{
+    "abstract": "We propose a novel hierarchical Bayesian approach to Federated Learning (FL), where our model reasonably describes the generative process of clients' local data via hierarchical Bayesian modeling: constituting random variables of local models for clients that are governed by a higher-level global variate. Interestingly, the variational inference in our Bayesian model leads to an optimisation problem whose block-coordinate descent solution becomes a distributed algorithm that is separable over clients and allows them not to reveal their own private data at all, thus fully compatible with FL. We also highlight that our block-coordinate algorithm has particular forms that subsume the well-known FL algorithms including Fed-Avg and Fed-Prox as special cases. Beyond introducing novel modeling and derivations, we also offer convergence analysis showing that our block-coordinate FL algorithm converges to an (local) optimum of the objective at the rate of $O(1/\\sqrt{t})$, the same rate as regular (centralised) SGD, as well as the generalisation error analysis where we prove that the test error of our model on unseen data is guaranteed to vanish as we increase the training data size, thus asymptotically optimal.",
+    "authors": [
+        "Minyoung Kim",
+        "Timothy Hospedales"
+    ],
+    "emails": [
+        "mikim21@gmail.com",
+        "t.hospedales@ed.ac.uk"
+    ],
+    "id": "23-1350",
+    "issue": 272,
+    "pages": [
+        1,
+        50
+    ],
+    "title": "FedHB: Hierarchical Bayesian Federated Learning",
+    "volume": 26,
+    "year": 2025
+}

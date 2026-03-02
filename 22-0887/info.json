@@ -1,0 +1,20 @@
+{
+    "abstract": "Bayesian computation of high-dimensional linear regression models with popular Gaussian scale mixture prior distributions using Markov Chain Monte Carlo (MCMC) or its variants can be extremely slow or completely prohibitive due to the heavy computational cost that grows in the order of $p^3$, with $p$ as the number of features. Although a few recently developed algorithms allow computational efficiency in presence of a small to moderately\nlarge sample size, the computational issues are considerably less explored when sample size $n$ is also large, except for a few recent articles. In this article we propose a sketching approach to compress the $n$ original samples by a random linear transformation to $m<<n$ samples in $p$ dimensions, and compute Bayesian regression with Gaussian scale mixture prior distributions with the randomly compressed response vector and feature matrix. Our proposed approach yields computational complexity growing in the cubic order of $m$. Our detailed empirical investigation with the Horseshoe prior from the class of Gaussian scale mixture priors shows closely similar inference and a considerable reduction in per iteration computation time of the proposed approach compared to the regression with the full sample. One notable contribution of this article is to derive posterior contraction rate for high-dimensional feature coefficient with a general class of shrinkage priors on the coefficients under data compression/sketching. In particular, we characterize the dimension of the compressed response vector $m$ as a function of the sample size, number of features and sparsity in the regression to guarantee accurate estimation of feature coefficients asymptotically, even after data sketching.",
+    "authors": [
+        "Rajarshi Guhaniyogi",
+        "Aaron Wolfe Scheffler"
+    ],
+    "emails": [
+        "rajguhaniyogi@tamu.edu",
+        "aaron.Scheffler@ucsf.edu"
+    ],
+    "id": "22-0887",
+    "issue": 271,
+    "pages": [
+        1,
+        28
+    ],
+    "title": "Sketching in High-Dimensional Regression With Big Data Using Gaussian Scale Mixture Priors",
+    "volume": 26,
+    "year": 2025
+}

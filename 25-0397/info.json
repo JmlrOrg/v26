@@ -1,0 +1,20 @@
+{
+    "abstract": "This paper concentrates on decentralized composite optimization for strongly convex functions. Specifically, we first study the case where each local objective function $f_i(x)$ held by agent $i$ is $L$-smooth and convex, while the regularization term $g(x)$ is $\\mu$-strongly convex. For this problem class, we propose the first decentralized algorithm that simultaneously achieves the optimal computation and communication complexities. Furthermore, we extend our algorithm to two broader scenarios. In the first extension, when each $f_i(x)$ is $L$-smooth and $\\mu$-strongly convex while $g(x)$ is merely convex, our algorithm continues to attain the optimal complexities. In the second extension, we show that under time-varying communication networks, our algorithm matches the lower bounds on decentralized optimization established in Kovalev et al. (2021). Finally, extensive experiments validate both the computational and communication efficiency of the proposed algorithms.",
+    "authors": [
+        "Haishan Ye",
+        "Xiangyu Chang"
+    ],
+    "emails": [
+        "yehaishan@xjtu.edu.cn",
+        "xiangyuchang@xjtu.edu.cn"
+    ],
+    "id": "25-0397",
+    "issue": 280,
+    "pages": [
+        1,
+        34
+    ],
+    "title": "Optimal Decentralized Composite Optimization for Strongly Convex Functions",
+    "volume": 26,
+    "year": 2025
+}

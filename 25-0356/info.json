@@ -1,0 +1,28 @@
+{
+    "abstract": "We present a new perspective on online learning that we refer to as gradient equilibrium: a sequence of iterates achieves gradient equilibrium if the average of gradients of losses along the sequence converges to zero. In general, this condition is not implied by, nor implies, sublinear regret. It turns out that gradient equilibrium is achievable by standard online learning methods such as gradient descent and mirror descent with constant step sizes (rather than decaying step sizes, as is usually required for no regret). Further, as we show through examples, gradient equilibrium translates into an interpretable and meaningful property in online prediction problems spanning regression, classification, quantile estimation, and others. Notably, we show that the gradient equilibrium framework can be used to develop a debiasing scheme for black-box predictions under arbitrary distribution shift, based on simple post hoc online descent updates. We also show that post hoc gradient updates can be used to calibrate predicted quantiles under distribution shift, and that the framework leads to unbiased Elo scores for pairwise preference prediction.",
+    "authors": [
+        "Anastasios N. Angelopoulos",
+        "Michael I. Jordan",
+        "Ryan J. Tibshirani"
+    ],
+    "emails": [
+        "angelopoulos@berkeley.edu",
+        "jordan@cs.berkeley.edu",
+        "ryantibs@berkeley.edu"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/aangelopoulos/gradient-equilibrium"
+        ]
+    ],
+    "id": "25-0356",
+    "issue": 305,
+    "pages": [
+        1,
+        68
+    ],
+    "title": "Gradient Equilibrium in Online Learning: Theory and Applications",
+    "volume": 26,
+    "year": 2025
+}

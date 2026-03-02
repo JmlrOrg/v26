@@ -1,0 +1,20 @@
+{
+    "abstract": "A fundamental challenge in machine learning is the choice of a loss as it characterizes our learning task, is minimized in the training phase, and serves as an evaluation criterion for estimators. Proper losses are commonly chosen, ensuring minimizers of the full risk match the true probability vector. Estimators induced from a proper loss are widely used to construct forecasters for downstream tasks such as classification and ranking. In this procedure, how does the forecaster based on the obtained estimator perform well under a given downstream task? This question is substantially relevant to the behavior of the $p$-norm between true probability and estimated vectors when the estimator is updated. In the proper loss framework, the suboptimality of the estimated probability vector from the true probability vector is measured by a surrogate regret. First, we analyze a surrogate regret and show that the strict properness of a loss is necessary and sufficient to establish a non-vacuous surrogate regret bound. Second, we tackle an important open question that the order of convergence in $p$-norm cannot be faster than the $1/2$-order of surrogate regrets for a broad class of strictly proper losses. This implies that strongly proper losses asymptotically achieve the optimal convergence rate.",
+    "authors": [
+        "Han Bao",
+        "Asuka Takatsu"
+    ],
+    "emails": [
+        "bao.han@ism.ac.jp",
+        "asuka-takatsu@g.ecc.u-tokyo.ac.jp"
+    ],
+    "id": "24-1112",
+    "issue": 288,
+    "pages": [
+        1,
+        50
+    ],
+    "title": "Proper losses regret at least 1/2-order",
+    "volume": 26,
+    "year": 2025
+}

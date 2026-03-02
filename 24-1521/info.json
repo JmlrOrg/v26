@@ -1,0 +1,22 @@
+{
+    "abstract": "We propose a new reinforcement learning (RL) formulation for training continuous-time score-based diffusion models for generative AI to generate samples that maximize reward functions while keeping the generated distributions close to the unknown target data distributions. Different from most existing studies, ours does not involve any pretrained model for the unknown score functions of the noise-perturbed data distributions, nor does it attempt to learn the score functions. Instead, we formulate the problem as entropy-regularized continuous-time RL and show that the optimal stochastic policy has a Gaussian distribution with a known covariance matrix.\nBased on this result, we parameterize the mean of Gaussian policies and develop an actor--critic type (little) $q$-learning algorithm to solve the RL problem. A key ingredient in our algorithm design is to obtain noisy observations from the unknown score function via a ratio estimator. Our formulation can also be adapted to solve pure score-matching and fine-tuning pretrained models.\nNumerically, we show the effectiveness of our approach by comparing its performance with two state-of-the-art RL methods that fine-tune pretrained models on several generative tasks including high-dimensional image generations. Finally, we discuss extensions of our RL formulation to probability flow ODE implementation of diffusion models and to conditional diffusion models.",
+    "authors": [
+        "Xuefeng Gao",
+        "Jiale Zha",
+        "Xun Yu Zhou"
+    ],
+    "emails": [
+        "xfgao@se.cuhk.edu.hk",
+        "jialezha@link.cuhk.edu.hk",
+        "xz2574@columbia.edu"
+    ],
+    "id": "24-1521",
+    "issue": 302,
+    "pages": [
+        1,
+        46
+    ],
+    "title": "Reward-Directed Score-Based Diffusion Models via q-Learning",
+    "volume": 26,
+    "year": 2025
+}

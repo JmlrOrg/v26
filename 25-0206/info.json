@@ -1,0 +1,22 @@
+{
+    "abstract": "We study the mixing time of the projected Langevin algorithm and the privacy curve of noisy stochastic gradient descent, beyond nonexpansive iterations. Specifically, we derive new mixing time bounds for the projected Langevin algorithm which are, in some important cases, dimension-free and poly-logarithmic in the accuracy, closely matching the existing results in the smooth convex case. Additionally, we establish new upper bounds for the privacy curve of the subsampled noisy stochastic gradient descent algorithm. These bounds show a crucial dependency on the regularity of gradients, and are useful for a wide range of convex losses beyond the smooth case. Our analysis relies on a suitable extension of the privacy amplification by iteration framework to noisy iterations whose gradient map is not necessarily nonexpansive. This extension is achieved by designing an optimization problem which accounts for the best possible R{\\'e}nyi divergence bound obtained by an application of privacy amplification by iteration, where the tractability of the problem is crucially related to the modulus of continuity of the associated gradient mapping. We show that, in several interesting cases, namely the nonsmooth convex, weakly smooth, and strongly dissipative cases, such an optimization problem can be solved exactly and explicitly, yielding the tightest possible privacy amplification by iteration based bounds.",
+    "authors": [
+        "Mario Bravo",
+        "Juan P. Flores-Mella",
+        "Crist{\\'o}bal Guzm{\\'a}n"
+    ],
+    "emails": [
+        "mario.bravo.g@usach.cl",
+        "jpflores1@uc.cl",
+        "crguzmanp@uc.cl"
+    ],
+    "id": "25-0206",
+    "issue": 304,
+    "pages": [
+        1,
+        33
+    ],
+    "title": "Mixing Times and Privacy Analysis for the Projected Langevin Algorithm under a Modulus of Continuity",
+    "volume": 26,
+    "year": 2025
+}

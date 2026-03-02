@@ -1,0 +1,22 @@
+{
+    "abstract": "Developing efficient kernel methods for regression is popular in the past two decades. In this paper, utilizing boosting on kernel-based weak learners, we propose a novel kernel-based learning algorithm called kernel-based re-scaled boosting with truncation, dubbed as KReBooT. The proposed KReBooT benefits in controlling the structure and producing sparse estimators, and is near overfitting resistant. We conduct both theoretical analysis and numerical simulations to illustrate the excellent performance of KReBooT. Theoretically, we prove that KReBooT can achieve the optimal numerical convergence rate for nonlinear approximation. Furthermore, using a variant of Talagrand's concentration inequality, we provide fast learning rates for KReBooT, which is a new record of boosting-type algorithms. Numerically, we carry out several simulations to show the promising performance of KReBooT in terms of its good generalization, near over-fitting resistance and structure constraints.",
+    "authors": [
+        "Yao Wang",
+        "Xin Guo",
+        "Shao-Bo Lin"
+    ],
+    "emails": [
+        "yao.s.wang@gmail.com",
+        "xin.guo@uq.edu.au",
+        "sblin1983@gmail.com"
+    ],
+    "id": "20-593",
+    "issue": 296,
+    "pages": [
+        1,
+        37
+    ],
+    "title": "Kernel-based L_2-Boosting with Structure Constraints",
+    "volume": 26,
+    "year": 2025
+}

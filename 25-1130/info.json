@@ -1,0 +1,26 @@
+{
+    "abstract": "We study smoothing for discrete- and continuous-time stochastic processes on directed acyclic graphs (DAGs) when observations are available only at the leaf nodes, a problem common in phylogenetics, epidemiology, and signal processing. We introduce a unified framework built around guiding (also called twisting): a change-of-measure defined by guiding functions that transforms the original process into a guided process whose distribution approximates the smoothing distribution. The Radon-Nikodym derivative quantifies the discrepancy between the two measures. On directed trees, guiding functions are obtained via a backward-filtering step. By isolating backward filtering and forward guiding as elementary operations, we show that the approach extends beyond traditional state-space models and particle filters. We also generalize guiding to edges governed by continuous-time dynamics, using the change-of-measure construction described by Palmowski and Rolski (2002). The versatility of the framework is illustrated with two numerical examples: (i) a diffusion model for shape deformation on a tree, and (ii) inference in a factorial hidden Markov model.",
+    "authors": [
+        "Frank H. van der Meulen",
+        "S. Sommer"
+    ],
+    "emails": [
+        "f.h.van.der.meulen@vu.nl",
+        "sommer@di.ku.dk"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/computationalevolutionarymorphometry/hyperiax/"
+        ]
+    ],
+    "id": "25-1130",
+    "issue": 281,
+    "pages": [
+        1,
+        51
+    ],
+    "title": "Backward Filtering Forward Guiding",
+    "volume": 26,
+    "year": 2025
+}

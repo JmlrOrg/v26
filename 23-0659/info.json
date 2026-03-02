@@ -1,0 +1,26 @@
+{
+    "abstract": "Recently, deep learning has been widely applied in functional data analysis (FDA) with notable empirical success. However, the infinite dimensionality of functional data necessitates an effective dimension reduction approach for functional learning tasks, particularly in nonlinear functional regression. In this paper, we introduce a functional deep neural network with an adaptive and discretization-invariant dimension reduction method. Our functional network architecture consists of three parts: first, a kernel embedding step that features an integral transformation with an adaptive smooth kernel; next, a projection step that uses eigenfunction bases based on a projection Mercer kernel for the dimension reduction; and finally, a deep ReLU neural network is employed for the prediction. Explicit rates of approximating nonlinear smooth functionals across various input function spaces by our proposed functional network are derived. Additionally, we conduct a generalization analysis for the empirical risk minimization (ERM) algorithm applied to our functional net, by employing a novel two-stage oracle inequality and the established functional approximation results. Ultimately, we conduct numerical experiments on both simulated and real datasets to demonstrate the effectiveness and benefits of our functional net.",
+    "authors": [
+        "Zhongjie Shi",
+        "Jun Fan",
+        "Linhao Song",
+        "Ding-Xuan Zhou",
+        "Johan A.K. Suykens"
+    ],
+    "emails": [
+        "zshi332@gatech.edu",
+        "junfan@hkbu.edu.hk",
+        "songincsu@csu.edu.cn",
+        "dingxuan.zhou@sydney.edu.au",
+        "johan.suykens@esat.kuleuven.be"
+    ],
+    "id": "23-0659",
+    "issue": 284,
+    "pages": [
+        1,
+        49
+    ],
+    "title": "Nonlinear functional regression by functional deep neural network with kernel embedding",
+    "volume": 26,
+    "year": 2025
+}

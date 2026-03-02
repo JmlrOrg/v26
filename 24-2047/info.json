@@ -1,0 +1,22 @@
+{
+    "abstract": "In this paper, we investigate the concentration properties of cumulative reward in Markov Decision Processes (MDPs), focusing on both asymptotic and non-asymptotic settings. We introduce a unified approach to characterize reward concentration in MDPs, covering both infinite-horizon settings (i.e., average and discounted reward frameworks) and finite-horizon setting. Our asymptotic results include the law of large numbers, the central limit theorem, and the law of iterated logarithms, while our non-asymptotic bounds include\nAzuma-Hoeffding-type inequalities and a non-asymptotic version of the law of iterated logarithms. Additionally, we explore two key implications of our results. First, we analyze the sample path behavior of the difference in rewards between any two stationary policies. Second, we show that two alternative definitions of regret for learning policies proposed in the literature are rate-equivalent. Our proof techniques rely on a martingale decomposition of cumulative reward, properties of the solution to the policy evaluation fixed-point equation, and both asymptotic and non-asymptotic concentration results for martingale difference sequences.",
+    "authors": [
+        "Borna Sayedana",
+        "Peter E. Caines",
+        "Aditya Mahajan"
+    ],
+    "emails": [
+        "borna.sayedana@mail.mcgill.ca",
+        "peterc@cim.mcgill.ca",
+        "aditya.mahajan@mcgill.ca"
+    ],
+    "id": "24-2047",
+    "issue": 278,
+    "pages": [
+        1,
+        71
+    ],
+    "title": "Concentration of Cumulative Reward in Markov Decision Processes",
+    "volume": 26,
+    "year": 2025
+}

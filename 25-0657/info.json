@@ -1,0 +1,22 @@
+{
+    "abstract": "We show that, for finite-sum minimization problems, incorporating partial second-order information of the objective function can dramatically improve the robustness to mini-batch size of variance-reduced stochastic gradient methods, making them more scalable while retaining their benefits over traditional Newton-type approaches. We demonstrate this phenomenon on a prototypical stochastic second-order algorithm, called Mini-Batch Stochastic Variance-Reduced Newton ($\\texttt{Mb-SVRN}$), which combines variance-reduced gradient estimates with access to an approximate Hessian oracle. In particular, we show that when the data size $n$ is sufficiently large, i.e., $n\\gg \\alpha^2\\kappa$, where $\\kappa$ is the condition number and $\\alpha$ is the Hessian approximation factor, then $\\texttt{Mb-SVRN}$ achieves a fast linear convergence rate that is independent of the gradient mini-batch size $b$, as long $b$ is in the range between $1$ and $b_{\\max}=O(n/(\\alpha \\log n))$. Only after increasing the mini-batch size past this critical point $b_{\\max}$, the method begins to transition into a standard Newton-type algorithm which is much more sensitive to the Hessian approximation quality. We verify this empirically on benchmark tasks showing that, after tuning the step size, the convergence rate of $\\texttt{Mb-SVRN}$ remains fast for a wide range of mini-batch sizes, and the dependence of the phase transition point $b_{\\max}$ on the Hessian approximation factor $\\alpha$ agrees with our theory.",
+    "authors": [
+        "Sachin Garg",
+        "Albert S. Berahas",
+        "Micha{\\l} Derezi{\\'n}ski"
+    ],
+    "emails": [
+        "sachg@umich.edu",
+        "aberahas@umich.edu",
+        "derezin@umich.edu"
+    ],
+    "id": "25-0657",
+    "issue": 306,
+    "pages": [
+        1,
+        49
+    ],
+    "title": "Second-order Information Promotes Mini-Batch Robustness in Variance-Reduced Gradients",
+    "volume": 26,
+    "year": 2025
+}

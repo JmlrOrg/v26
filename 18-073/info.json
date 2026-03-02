@@ -1,0 +1,24 @@
+{
+    "abstract": "Traditional functional linear regression usually takes a one-dimensional functional predictor as input and estimates the continuous coefficient function. Modern applications often generate two-dimensional covariates, which become matrices when observed at grid points. To avoid the inefficiency of the classical method involving estimation of a two-dimensional coefficient function, we propose a functional bilinear regression model, and introduce an innovative three-term penalty to impose roughness penalty in the estimation. The proposed estimator exhibits minimax optimal property for prediction under the framework of reproducing kernel Hilbert space. An iterative generalized cross-validation approach is developed to choose tuning parameters, which significantly improves the computational efficiency over the traditional cross-validation approach. The statistical and computational advantages of the proposed method over existing methods are further demonstrated via simulated experiments, the Canadian weather data, and a biochemical long-range infrared light detection and ranging data.",
+    "authors": [
+        "Dan Yang",
+        "Jianlong Shao",
+        "Haipeng Shen",
+        "Hongtu Zhu"
+    ],
+    "emails": [
+        "dyanghku@hku.hk",
+        "sjlpku@connect.hku.hk",
+        "haipeng@hku.hk",
+        "htzhu@email.unc.edu"
+    ],
+    "id": "18-073",
+    "issue": 270,
+    "pages": [
+        1,
+        52
+    ],
+    "title": "Optimal Functional Bilinear Regression with Two-dimensional Functional Covariates via Reproducing Kernel Hilbert Space",
+    "volume": 26,
+    "year": 2025
+}

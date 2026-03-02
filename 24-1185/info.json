@@ -1,0 +1,41 @@
+{
+    "abstract": "Kernels are a fundamental technical primitive in machine learning. In recent years, kernel-based methods such as Gaussian processes are becoming increasingly important in applications where quantifying uncertainty is of key interest. In settings that involve structured data defined on graphs, meshes, manifolds, or other related spaces, defining kernels with good uncertainty-quantification behavior, and computing their value numerically, is less straightforward than in the Euclidean setting. To address this difficulty, we present GeometricKernels, a Python software package which implements the geometric analogs of classical Euclidean squared exponential--also known as heat--and Mat{\\'e}rn kernels, which are widely-used in settings where uncertainty is of key interest. As a byproduct, we obtain the ability to compute Fourier-feature-type expansions, which are widely used in their own right, on a wide set of geometric spaces. Our implementation supports automatic differentiation in every major current framework simultaneously via a backend-agnostic design. In this companion paper to the package and its documentation, we outline the capabilities of the package and present an illustrated example of its interface. We also include a brief overview of the theory the package is built upon and provide some historic context in the appendix.",
+    "authors": [
+        "Peter Mostowsky",
+        "Vincent Dutordoir",
+        "Iskander Azangulov",
+        "No{\\'e}mie Jaquier",
+        "Michael John Hutchinson",
+        "Aditya Ravuri",
+        "Leonel Rozo",
+        "Alexander Terenin",
+        "Viacheslav Borovitskiy"
+    ],
+    "emails": [
+        "pmostowsky@gmail.com",
+        "vd309@cam.ac.uk",
+        "iskander.azangulov@spc.ox.ac.uk",
+        "jaquier@kth.se",
+        "michael.hutchinson@univ.ox.ac.uk",
+        "ar847@cam.ac.uk",
+        "leonel.rozo@ai4i.it",
+        "avt28@cornell.edu",
+        "viacheslav.borovitskiy@gmail.com"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/geometric-kernels/GeometricKernels"
+        ]
+    ],
+    "id": "24-1185",
+    "issue": 276,
+    "pages": [
+        1,
+        14
+    ],
+    "special_issue": "MLOSS",
+    "title": "The GeometricKernels Package: Heat and Mat{\\'e}rn Kernels for Geometric Learning on Manifolds, Meshes, and Graphs",
+    "volume": 26,
+    "year": 2025
+}

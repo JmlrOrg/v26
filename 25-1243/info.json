@@ -1,0 +1,39 @@
+{
+    "abstract": "Deep model fusion is an emerging technique that unifies the predictions or parameters of several deep neural networks into a single better-performing model in a cost-effective and data-efficient manner. Although a variety of deep model fusion techniques have been introduced, their evaluations tend to be inconsistent and often inadequate to validate their effectiveness and robustness. We present FusionBench, the first benchmark and a unified library designed specifically for deep model fusion. Our benchmark consists of multiple tasks, each with different settings of models and datasets. This variety allows us to compare fusion methods across different scenarios and model scales. Additionally, FusionBench serves as a unified library for easy implementation and testing of new fusion techniques. FusionBench is open source and actively maintained, with community contributions encouraged.",
+    "authors": [
+        "Anke Tang",
+        "Li Shen",
+        "Yong Luo",
+        "Enneng Yang",
+        "Han Hu",
+        "Lefei Zhang",
+        "Bo Du",
+        "Dacheng Tao"
+    ],
+    "emails": [
+        "anketang@whu.edu.cn",
+        "mathshenli@gmail.com",
+        "yluo180@gmail.com",
+        "ennengyang@gmail.com",
+        "hhu@bit.edu.cn",
+        "zhanglefei@whu.edu.cn",
+        "dubo@whu.edu.cn",
+        "dacheng.tao@ntu.edu.sg"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/tanganke/fusion_bench"
+        ]
+    ],
+    "id": "25-1243",
+    "issue": 307,
+    "pages": [
+        1,
+        38
+    ],
+    "special_issue": "MLOSS",
+    "title": "FusionBench: A Unified Library and Comprehensive Benchmark for Deep Model Fusion",
+    "volume": 26,
+    "year": 2025
+}

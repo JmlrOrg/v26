@@ -1,0 +1,20 @@
+{
+    "abstract": "We investigate the convergence and convergence rate of stochastic training algorithms for Neural Networks (NNs) that have been inspired by Dropout (Hinton et al., 2012). With the goal of avoiding overfitting during training in NNs, dropout algorithms consist in practice of multiplying the weight matrices of a NN componentwise by independently drawn random matrices with $\\{0, 1\\}$-valued entries during each iteration of Stochastic Gradient Descent (SGD). This paper presents a probability theoretical proof that for fully-connected NNs with differentiable, polynomially bounded activation functions, if we project the weights onto a compact set when using a dropout algorithm, then the weights of the NN converge to a unique stationary point of a projected system of Ordinary Differential Equations (ODEs).\nAfter this general convergence guarantee, we go on to investigate the convergence rate of dropout. Firstly, we obtain generic sample complexity bounds for finding $\\epsilon$-stationary points of smooth nonconvex functions using SGD with dropout that explicitly depend on the dropout probability. Secondly, we obtain an upper bound on the rate of convergence of Gradient Descent (GD) on the limiting ODEs of dropout algorithms for NNs with the shape of an arborescence of arbitrary depth and with linear activation functions. The latter bound shows that for an algorithm such as Dropout or Dropconnect (Wan et al., 2013), the convergence rate can be impaired exponentially by the depth of the arborescence.\nIn contrast, we experimentally observe no such dependence for wide NNs with just a few dropout layers. We also provide a heuristic argument for this observation. Our results suggest that there is a change of scale of the effect of the dropout probability in the convergence rate that depends on the relative size of the width of the NN compared to its depth.",
+    "authors": [
+        "Albert Senen--Cerda",
+        "Jaron Sanders"
+    ],
+    "emails": [
+        "albert.senen-cerda@posteo.net",
+        "jaron.sanders@tue.nl"
+    ],
+    "id": "20-1396",
+    "issue": 283,
+    "pages": [
+        1,
+        53
+    ],
+    "title": "Almost Sure Convergence of Dropout Algorithms for Neural Networks",
+    "volume": 26,
+    "year": 2025
+}

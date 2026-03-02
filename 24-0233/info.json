@@ -1,0 +1,26 @@
+{
+    "abstract": "The development of Policy Iteration (PI) has inspired many recent algorithms for Reinforcement Learning (RL), including several policy gradient methods that gained both theoretical soundness and empirical success on a variety of tasks. The theory of PI is rich in the context of centralized learning, but its study under the federated setting is still in the infant stage. This paper investigates the federated version of Approximate PI (API) and derives its error bound, taking into account the approximation error introduced by environment heterogeneity. We theoretically prove that a proper client selection scheme can reduce this error bound. Based on the theoretical result, we propose a client selection algorithm to alleviate the additional approximation error caused by environment heterogeneity. Experiment results show that the proposed algorithm outperforms other biased and unbiased client selection methods on the federated mountain car problem, the MuJoCo Hopper problem, and the SUMO-based autonomous vehicle training problem by effectively selecting clients with a lower level of heterogeneity from the population distribution.",
+    "authors": [
+        "Zhijie Xie",
+        "Shenghui Song"
+    ],
+    "emails": [
+        "zhijie.xie@connect.ust.hk",
+        "eeshsong@ust.hk"
+    ],
+    "extra_links": [
+        [
+            "code",
+            "https://github.com/ShiehShieh/FedPOHCS"
+        ]
+    ],
+    "id": "24-0233",
+    "issue": 286,
+    "pages": [
+        1,
+        45
+    ],
+    "title": "Client Selection for Federated Policy Optimization with Environment Heterogeneity",
+    "volume": 26,
+    "year": 2025
+}

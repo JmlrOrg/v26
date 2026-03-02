@@ -1,0 +1,22 @@
+{
+    "abstract": "We consider inverse problems where the forward model, that is the conditional distribution of the observation ${\\bf y}\\in\\mathbb{R}^{d_y}$ given the latent variable of interest ${\\bf x}\\in\\mathbb{R}^{d_x}$ is known, and access is given to a data set in which multiple instances of $({\\bf x},{\\bf y})$ are observed. In this context, algorithm unrolling has become a very popular approach for designing state-of-the-art deep neural network architectures that effectively exploit the forward model. We analyze the statistical properties of the gradient descent network (GDN), a well-known architecture driven by proximal gradient descent that epitomizes unrolling learning. Under some regularity conditions, we show that when $d_y\\geq d_x$, the GDN estimator solves the inverse problem at a statistical rate faster than the nonparametric minimax rate achievable while ignoring the forward model. Furthermore, when the negative log-density of the latent variable ${\\bf x}$ has a simple proximal operator, we show that GDN achieves the parametric rate $O(1/\\sqrt{n})$. Furthermore, our results are explicit in the unrolling depth of the network and suggest that unrolling models are typically prone to overfitting as the unrolling depth increases, and careful tuning as function of the sample size is required for best performances. We provide several examples to illustrate these results.",
+    "authors": [
+        "Yves Atchade",
+        "Xinru Liu",
+        "Qiuyun Zhu"
+    ],
+    "emails": [
+        "atchade@bu.edu",
+        "xinruliu@bu.edu",
+        "qiuyun-zhu@uiowa.edu"
+    ],
+    "id": "23-1512",
+    "issue": 298,
+    "pages": [
+        1,
+        47
+    ],
+    "title": "A statistical perspective on algorithm unrolling models for inverse problems",
+    "volume": 26,
+    "year": 2025
+}
