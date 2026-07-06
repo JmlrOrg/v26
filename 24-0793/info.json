@@ -1,0 +1,20 @@
+{
+    "abstract": "Variational inference, such as the mean-field (MF) approximation, requires certain conjugacy structures for efficient computation. These can impose unnecessary restrictions on the viable prior distribution family and further constraints on the variational approximation family. In this work, we introduce a general computational framework to implement MF variational inference for Bayesian models, with or without latent variables, using the Wasserstein gradient flow (WGF), a modern mathematical technique for realizing a gradient flow over the space of probability measures. Theoretically, we analyze the algorithmic convergence of the proposed approaches, providing an explicit expression for the contraction factor. We also strengthen existing results on MF variational posterior concentration from a polynomial to an exponential contraction, by utilizing the fixed point equation of the time-discretized WGF. Computationally, we propose a new constraint-free function approximation method using neural networks to numerically realize our algorithm. This method is shown to be more precise and efficient than traditional particle approximation methods based on Langevin dynamics.",
+    "authors": [
+        "Rentian Yao",
+        "Yun Yang"
+    ],
+    "emails": [
+        "rentian2@math.ubc.ca",
+        "yy84@umd.edu"
+    ],
+    "id": "24-0793",
+    "issue": 309,
+    "pages": [
+        1,
+        46
+    ],
+    "title": "Mean-Field Variational Inference via Wasserstein Gradient Flow",
+    "volume": 26,
+    "year": 2025
+}
